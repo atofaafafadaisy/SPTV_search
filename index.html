@@ -33,13 +33,18 @@
             })
             .catch(error => console.error('Error loading the JSON data:', error));
 
-        // Improved search function
+        // Improved search function with error handling
         function searchComments(author, keyword) {
             console.log('Searching for author:', author, 'and keyword:', keyword);
             const results = comments.filter(comment => {
-                const authorMatch = !author || (comment.Author && comment.Author.toLowerCase().includes(author.toLowerCase()));
-                const keywordMatch = !keyword || (comment.Message && comment.Message.toLowerCase().includes(keyword.toLowerCase()));
-                return authorMatch && keywordMatch;
+                try {
+                    const authorMatch = !author || (comment.Author && comment.Author.toString().toLowerCase().includes(author.toLowerCase()));
+                    const keywordMatch = !keyword || (comment.Message && comment.Message.toString().toLowerCase().includes(keyword.toLowerCase()));
+                    return authorMatch && keywordMatch;
+                } catch (error) {
+                    console.error('Error processing comment:', comment, error);
+                    return false;
+                }
             });
             console.log('Number of results:', results.length);
             return results;
