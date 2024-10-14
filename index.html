@@ -29,23 +29,38 @@
                 comments = data;
                 console.log('Data loaded successfully');
                 console.log('Number of comments loaded:', comments.length);
-                console.log('First comment:', comments[0]);
+                console.log('First comment:', JSON.stringify(comments[0], null, 2));
             })
             .catch(error => console.error('Error loading the JSON data:', error));
 
-        // Improved search function with error handling
+        // Improved search function with detailed logging
         function searchComments(author, keyword) {
             console.log('Searching for author:', author, 'and keyword:', keyword);
+            console.log('Total comments before filtering:', comments.length);
+            
             const results = comments.filter(comment => {
-                try {
-                    const authorMatch = !author || (comment.Author && comment.Author.toString().toLowerCase().includes(author.toLowerCase()));
-                    const keywordMatch = !keyword || (comment.Message && comment.Message.toString().toLowerCase().includes(keyword.toLowerCase()));
-                    return authorMatch && keywordMatch;
-                } catch (error) {
-                    console.error('Error processing comment:', comment, error);
-                    return false;
+                console.log('Processing comment:', JSON.stringify(comment, null, 2));
+                
+                let authorMatch = false;
+                let keywordMatch = false;
+
+                if (author) {
+                    authorMatch = comment.author && comment.author.toString().toLowerCase().includes(author.toLowerCase());
+                    console.log('Author match:', authorMatch, 'for', comment.author);
+                } else {
+                    authorMatch = true;
                 }
+
+                if (keyword) {
+                    keywordMatch = comment.message && comment.message.toString().toLowerCase().includes(keyword.toLowerCase());
+                    console.log('Keyword match:', keywordMatch, 'for', comment.message);
+                } else {
+                    keywordMatch = true;
+                }
+
+                return authorMatch && keywordMatch;
             });
+
             console.log('Number of results:', results.length);
             return results;
         }
@@ -64,9 +79,9 @@
                 const commentDiv = document.createElement('div');
                 commentDiv.className = 'comment';
                 commentDiv.innerHTML = `
-                    <p><strong>Author:</strong> ${comment.Author || 'N/A'}</p>
-                    <p><strong>Message:</strong> ${comment.Message || 'N/A'}</p>
-                    <p><strong>Timestamp:</strong> ${comment.Timestamp || 'N/A'}</p>
+                    <p><strong>Author:</strong> ${comment.author || 'N/A'}</p>
+                    <p><strong>Message:</strong> ${comment.message || 'N/A'}</p>
+                    <p><strong>Timestamp:</strong> ${comment.timestamp || 'N/A'}</p>
                 `;
                 resultsDiv.appendChild(commentDiv);
             });
