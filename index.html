@@ -48,6 +48,13 @@
             margin-bottom: 10px;
             border-radius: 5px;
         }
+        #pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+        #pagination button {
+            margin: 0 5px;
+        }
     </style>
 </head>
 <body>
@@ -59,59 +66,91 @@
             <button type="submit">Search</button>
         </form>
         <div id="results"></div>
+        <div id="pagination"></div>
     </div>
 
     <script>
-        let comments = [];
+        let authorIndex = {};
+        let keywordIndex = {};
+        let dataChunks = {};
+        let currentPage = 1;
+        const pageSize = 10;
+        let currentSearchParams = {};
 
-        // Load the JSON data
-        fetch('data_chunk_1.json')
+        // Load initial index
+        fetch('index.json')
             .then(response => response.json())
-            .then(data => {
-                comments = data;
-                console.log(`Data loaded successfully. Number of comments: ${comments.length}`);
+            .then(index => {
+                authorIndex = index.authorIndex;
+                keywordIndex = index.keywordIndex;
+                console.log('Index loaded successfully');
             })
-            .catch(error => console.error('Error loading the JSON data:', error));
+            .catch(error => console.error('Error loading the index:', error));
 
-        // Enhanced search function with exact and partial matching
-        function searchComments(author, keyword) {
+        async function loadAndIndexChunk(chunkId) {
+            if (dataChunks[chunkId]) return;  // Already loaded
+
+            try {
+                const response = await fetch(`data_chunk_${chunkId}.json`);
+                const data = await response.json();
+                dataChunks[chunkId] = data;
+                console.log(`Chunk ${chunkId} loaded successfully`);
+            } catch (error) {
+                console.error(`Error loading chunk ${chunkId}:`, error);
+            }
+        }
+
+        async function searchComments(author, keyword, page = 1, pageSize = 10) {
+            let results = [];
+
             const isExactAuthorMatch = /^".*"$/.test(author);
             const isExactKeywordMatch = /^".*"$/.test(keyword);
             
             author = author.replace(/^"|"$/g, '').trim().toLowerCase();
             keyword = keyword.replace(/^"|"$/g, '').trim().toLowerCase();
 
-            return comments.filter(comment => {
-                let authorMatch = true;
-                let keywordMatch = true;
+            if (author) {
+                results = Object.keys(authorIndex)
+                    .filter(key => isExactAuthorMatch ? key === author : key.includes(author))
+                    .flatMap(key => authorIndex[key]);
+            }
 
-                if (author) {
-                    authorMatch = comment.author && (isExactAuthorMatch 
-                        ? comment.author.toString().toLowerCase() === author
-                        : comment.author.toString().toLowerCase().includes(author));
-                }
+            if (keyword) {
+                const keywordResults = Object.keys(keywordIndex)
+                    .filter(key => isExactKeywordMatch ? key === keyword : key.includes(keyword))
+                    .flatMap(key => keywordIndex[key]);
+                
+                results = author ? results.filter(r => 
+                    keywordResults.some(kr => kr.chunkId === r.chunkId && kr.index === r.index)
+                ) : keywordResults;
+            }
 
-                if (keyword) {
-                    keywordMatch = comment.message && (isExactKeywordMatch
-                        ? comment.message.toString().toLowerCase() === keyword
-                        : comment.message.toString().toLowerCase().includes(keyword));
-                }
+            const startIndex = (page - 1) * pageSize;
+            const paginatedResults = results.slice(startIndex, startIndex + pageSize);
 
-                return authorMatch && keywordMatch;
-            });
+            const comments = await Promise.all(paginatedResults.map(async r => {
+                await loadAndIndexChunk(r.chunkId);
+                return dataChunks[r.chunkId][r.index];
+            }));
+
+            return {
+                comments,
+                totalResults: results.length,
+                currentPage: page,
+                totalPages: Math.ceil(results.length / pageSize)
+            };
         }
 
-        // Display results
-        function displayResults(results) {
+        function displayResults(comments) {
             const resultsDiv = document.getElementById('results');
             resultsDiv.innerHTML = '';
 
-            if (results.length === 0) {
+            if (comments.length === 0) {
                 resultsDiv.innerHTML = '<p>No results found.</p>';
                 return;
             }
 
-            results.forEach(comment => {
+            comments.forEach(comment => {
                 const commentDiv = document.createElement('div');
                 commentDiv.className = 'comment';
                 commentDiv.innerHTML = `
@@ -123,13 +162,48 @@
             });
         }
 
+        function updatePagination(currentPage, totalPages) {
+            const paginationDiv = document.getElementById('pagination');
+            paginationDiv.innerHTML = '';
+
+            if (totalPages > 1) {
+                if (currentPage > 1) {
+                    const prevButton = document.createElement('button');
+                    prevButton.textContent = 'Previous';
+                    prevButton.onclick = () => changePage(currentPage - 1);
+                    paginationDiv.appendChild(prevButton);
+                }
+
+                const pageInfo = document.createElement('span');
+                pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
+                paginationDiv.appendChild(pageInfo);
+
+                if (currentPage < totalPages) {
+                    const nextButton = document.createElement('button');
+                    nextButton.textContent = 'Next';
+                    nextButton.onclick = () => changePage(currentPage + 1);
+                    paginationDiv.appendChild(nextButton);
+                }
+            }
+        }
+
+        async function changePage(newPage) {
+            currentPage = newPage;
+            const result = await searchComments(currentSearchParams.author, currentSearchParams.keyword, currentPage, pageSize);
+            displayResults(result.comments);
+            updatePagination(result.currentPage, result.totalPages);
+        }
+
         // Event listener for form submission
-        document.getElementById('searchForm').addEventListener('submit', function(e) {
+        document.getElementById('searchForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             const author = document.getElementById('authorInput').value.trim();
             const keyword = document.getElementById('keywordInput').value.trim();
-            const results = searchComments(author, keyword);
-            displayResults(results);
+            currentSearchParams = { author, keyword };
+            currentPage = 1;
+            const result = await searchComments(author, keyword, currentPage, pageSize);
+            displayResults(result.comments);
+            updatePagination(result.currentPage, result.totalPages);
         });
     </script>
 </body>
