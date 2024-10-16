@@ -30,8 +30,14 @@
             flex-wrap: wrap;
             gap: 10px;
         }
+        .input-row {
+            display: flex;
+            width: 100%;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
         input[type="text"], input[type="date"] {
-            flex: 1 0 200px;
+            flex: 1;
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
@@ -63,11 +69,15 @@
     <div class="container">
         <h1>YouTube Comments Search</h1>
         <form id="searchForm">
-            <input type="text" id="authorInput" placeholder='Filter by author (use quotes for exact match)...'>
-            <input type="text" id="keywordInput" placeholder='Filter by keyword in message (use quotes for exact match)...'>
-            <input type="date" id="startDateInput" placeholder="Start Date">
-            <input type="date" id="endDateInput" placeholder="End Date">
-            <button type="submit">Search</button>
+            <div class="input-row">
+                <input type="text" id="authorInput" placeholder='Filter by author (use quotes for exact match)...'>
+                <input type="text" id="keywordInput" placeholder='Filter by keyword in message (use quotes for exact match)...'>
+            </div>
+            <div class="input-row">
+                <input type="date" id="startDateInput" placeholder="Start Date">
+                <input type="date" id="endDateInput" placeholder="End Date">
+                <button type="submit">Search</button>
+            </div>
         </form>
         <div id="results"></div>
     </div>
@@ -116,7 +126,7 @@
                 if (keyword) {
                     keywordMatch = comment.message && (isExactKeywordMatch
                         ? comment.message.toString().toLowerCase() === keyword
-                        : message.toString().toLowerCase().includes(keyword));
+                        : comment.message.toString().toLowerCase().includes(keyword));
                 }
 
                 if (start || end) {
@@ -124,7 +134,7 @@
                     dateMatch = (!start || commentDate >= start) && (!end || commentDate <= end);
                 }
 
-                return authorMatch && keywordMatch && dateMatch;
+                return (author || keyword) ? (authorMatch && keywordMatch && dateMatch) : dateMatch;
             });
 
             // Remove duplicates
