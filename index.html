@@ -48,59 +48,40 @@
             margin-bottom: 10px;
             border-radius: 5px;
         }
-        .comment p {
-            margin: 5px 0;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>YouTube Comments Search (Debug)</h1>
+        <h1>YouTube Comments Search</h1>
         <form id="searchForm">
             <input type="text" id="authorInput" placeholder='Filter by author (use quotes for exact match)...'>
             <input type="text" id="keywordInput" placeholder='Filter by keyword in message (use quotes for exact match)...'>
             <button type="submit">Search</button>
         </form>
         <div id="results"></div>
-        <div id="debug"></div>
     </div>
 
     <script>
         let comments = [];
-        const debugElement = document.getElementById('debug');
-
-        function log(message) {
-            console.log(message);
-            debugElement.innerHTML += message + '<br>';
-        }
 
         // Load the JSON data
         fetch('data_chunk_1.json')
             .then(response => response.json())
             .then(data => {
                 comments = data;
-                log(`Data loaded successfully. Number of comments: ${comments.length}`);
-                log(`First comment: ${JSON.stringify(comments[0], null, 2)}`);
+                console.log(`Data loaded successfully. Number of comments: ${comments.length}`);
             })
-            .catch(error => {
-                log(`Error loading the JSON data: ${error}`);
-                debugElement.style.color = 'red';
-            });
+            .catch(error => console.error('Error loading the JSON data:', error));
 
         // Enhanced search function with exact and partial matching
         function searchComments(author, keyword) {
-            log(`Searching for author: "${author}" and keyword: "${keyword}"`);
-            log(`Total comments before filtering: ${comments.length}`);
-            
             const isExactAuthorMatch = /^".*"$/.test(author);
             const isExactKeywordMatch = /^".*"$/.test(keyword);
             
             author = author.replace(/^"|"$/g, '').trim().toLowerCase();
             keyword = keyword.replace(/^"|"$/g, '').trim().toLowerCase();
 
-            log(`Processed search terms - Author: "${author}" (Exact: ${isExactAuthorMatch}), Keyword: "${keyword}" (Exact: ${isExactKeywordMatch})`);
-
-            const results = comments.filter(comment => {
+            return comments.filter(comment => {
                 let authorMatch = true;
                 let keywordMatch = true;
 
@@ -116,15 +97,8 @@
                         : comment.message.toString().toLowerCase().includes(keyword));
                 }
 
-                if (authorMatch && keywordMatch) {
-                    log(`Match found - Author: ${comment.author}, Message: ${comment.message}`);
-                }
-
                 return authorMatch && keywordMatch;
             });
-
-            log(`Number of results: ${results.length}`);
-            return results;
         }
 
         // Display results
@@ -155,10 +129,8 @@
         // Event listener for form submission
         document.getElementById('searchForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            debugElement.innerHTML = ''; // Clear previous debug output
             const author = document.getElementById('authorInput').value.trim();
             const keyword = document.getElementById('keywordInput').value.trim();
-            log(`Form submitted with author: "${author}" and keyword: "${keyword}"`);
             const results = searchComments(author, keyword);
             displayResults(results);
         });
