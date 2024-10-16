@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Comments Search</title>
+    <title>Keyboard Warriors Search</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,6 +11,7 @@
             margin: 0;
             padding: 20px;
             background-color: #f4f4f4;
+            text-align: center;
         }
         .container {
             max-width: 800px;
@@ -22,7 +23,12 @@
         }
         h1 {
             color: #333;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #666;
             margin-bottom: 20px;
+            font-style: italic;
         }
         #searchForm {
             margin-bottom: 20px;
@@ -35,6 +41,7 @@
             width: 100%;
             gap: 10px;
             margin-bottom: 10px;
+            justify-content: center;
         }
         input[type="text"], input[type="date"] {
             flex: 1;
@@ -53,21 +60,34 @@
         button:hover {
             background-color: #0056b3;
         }
+        #clearButton {
+            background-color: #dc3545;
+        }
+        #clearButton:hover {
+            background-color: #c82333;
+        }
         .comment {
             background-color: #f9f9f9;
             border: 1px solid #ddd;
             padding: 15px;
             margin-bottom: 15px;
             border-radius: 5px;
+            text-align: left;
         }
         .comment p {
             margin: 5px 0;
+        }
+        #monkeyImage {
+            max-width: 200px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>YouTube Comments Search</h1>
+        <img src="monkey.png" alt="Monkey" id="monkeyImage">
+        <h1>Keyboard Warriors</h1>
+        <h2>Are you one? Search and find out!</h2>
         <form id="searchForm">
             <div class="input-row">
                 <input type="text" id="authorInput" placeholder='Filter by author (use quotes for exact match)...'>
@@ -76,7 +96,10 @@
             <div class="input-row">
                 <input type="date" id="startDateInput" placeholder="Start Date">
                 <input type="date" id="endDateInput" placeholder="End Date">
+            </div>
+            <div class="input-row">
                 <button type="submit">Search</button>
+                <button type="button" id="clearButton">Clear</button>
             </div>
         </form>
         <div id="results"></div>
