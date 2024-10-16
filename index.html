@@ -30,7 +30,7 @@
             flex-wrap: wrap;
             gap: 10px;
         }
-        input[type="text"] {
+        input[type="text"], input[type="date"] {
             flex: 1 0 200px;
             padding: 10px;
             border: 1px solid #ddd;
@@ -65,6 +65,8 @@
         <form id="searchForm">
             <input type="text" id="authorInput" placeholder='Filter by author (use quotes for exact match)...'>
             <input type="text" id="keywordInput" placeholder='Filter by keyword in message (use quotes for exact match)...'>
+            <input type="date" id="startDateInput" placeholder="Start Date">
+            <input type="date" id="endDateInput" placeholder="End Date">
             <button type="submit">Search</button>
         </form>
         <div id="results"></div>
@@ -82,17 +84,28 @@
             })
             .catch(error => console.error('Error loading the JSON data:', error));
 
-        // Enhanced search function with exact and partial matching
-        function searchComments(author, keyword) {
+        // Set default end date to today
+        document.addEventListener('DOMContentLoaded', function() {
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('endDateInput').value = today;
+        });
+
+        // Enhanced search function with exact and partial matching, and date filtering
+        function searchComments(author, keyword, startDate, endDate) {
             const isExactAuthorMatch = /^".*"$/.test(author);
             const isExactKeywordMatch = /^".*"$/.test(keyword);
             
             author = author.replace(/^"|"$/g, '').trim().toLowerCase();
             keyword = keyword.replace(/^"|"$/g, '').trim().toLowerCase();
 
+            // Convert input dates to Date objects
+            const start = startDate ? new Date(startDate) : null;
+            const end = endDate ? new Date(endDate) : new Date(); // Use current date if end date is not provided
+
             const results = comments.filter(comment => {
                 let authorMatch = true;
                 let keywordMatch = true;
+                let dateMatch = true;
 
                 if (author) {
                     authorMatch = comment.author && (isExactAuthorMatch 
@@ -103,10 +116,15 @@
                 if (keyword) {
                     keywordMatch = comment.message && (isExactKeywordMatch
                         ? comment.message.toString().toLowerCase() === keyword
-                        : comment.message.toString().toLowerCase().includes(keyword));
+                        : message.toString().toLowerCase().includes(keyword));
                 }
 
-                return (author && keyword) ? (authorMatch && keywordMatch) : (authorMatch || keywordMatch);
+                if (start || end) {
+                    const commentDate = new Date(comment.timestamp);
+                    dateMatch = (!start || commentDate >= start) && (!end || commentDate <= end);
+                }
+
+                return authorMatch && keywordMatch && dateMatch;
             });
 
             // Remove duplicates
@@ -146,7 +164,9 @@
             e.preventDefault();
             const author = document.getElementById('authorInput').value.trim();
             const keyword = document.getElementById('keywordInput').value.trim();
-            const results = searchComments(author, keyword);
+            const startDate = document.getElementById('startDateInput').value;
+            const endDate = document.getElementById('endDateInput').value;
+            const results = searchComments(author, keyword, startDate, endDate);
             displayResults(results);
         });
     </script>
