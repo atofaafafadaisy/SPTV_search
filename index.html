@@ -202,6 +202,22 @@
             const results = searchComments(author, keyword, startDate, endDate);
             displayResults(results);
         });
+
+            // Clear button functionality - Replace this entire block
+        document.getElementById('clearButton').addEventListener('click', function() {
+            // Clear input fields
+            document.getElementById('authorInput').value = '';
+            document.getElementById('keywordInput').value = '';
+            document.getElementById('startDateInput').value = '';
+            document.getElementById('endDateInput').value = '';
+
+            // Clear search results
+            document.getElementById('results').innerHTML = '';
+
+            // Reset the end date to today's date
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('endDateInput').value = today;
+        });
     </script>
 </body>
 </html>
