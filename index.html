@@ -3,89 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Comments Search</title>
+    <title>YouTube Comments Search (Debug)</title>
     <style>
         /* ... (keep the existing styles) ... */
+        #debug {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            white-space: pre-wrap;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>YouTube Comments Search</h1>
+        <h1>YouTube Comments Search (Debug)</h1>
         <form id="searchForm">
             <input type="text" id="authorInput" placeholder='Filter by author (use quotes for exact match)...'>
             <input type="text" id="keywordInput" placeholder='Filter by keyword in message (use quotes for exact match)...'>
             <button type="submit">Search</button>
         </form>
         <div id="results"></div>
+        <div id="debug"></div>
     </div>
 
     <script>
         let comments = [];
+        const debugElement = document.getElementById('debug');
+
+        function log(message) {
+            console.log(message);
+            debugElement.textContent += message + '\n';
+        }
 
         // Load the JSON data
         fetch('data_chunk_1.json')
             .then(response => response.json())
             .then(data => {
                 comments = data;
-                console.log('Data loaded successfully');
-                console.log('Number of comments loaded:', comments.length);
-                console.log('First comment:', JSON.stringify(comments[0], null, 2));
+                log(`Data loaded successfully. Number of comments: ${comments.length}`);
+                log(`First comment: ${JSON.stringify(comments[0], null, 2)}`);
             })
-            .catch(error => console.error('Error loading the JSON data:', error));
+            .catch(error => {
+                log(`Error loading the JSON data: ${error}`);
+                debugElement.style.color = 'red';
+            });
 
         // Enhanced search function with exact and partial matching
         function searchComments(author, keyword) {
-            console.log('Searching for author:', author, 'and keyword:', keyword);
-            console.log('Total comments before filtering:', comments.length);
+            log(`Searching for author: "${author}" and keyword: "${keyword}"`);
+            log(`Total comments before filtering: ${comments.length}`);
             
+            if (comments.length === 0) {
+                log('Error: No comments loaded. Please check if the data file is accessible.');
+                return [];
+            }
+
             const isExactAuthorMatch = /^".*"$/.test(author);
             const isExactKeywordMatch = /^".*"$/.test(keyword);
             
             author = author.replace(/^"|"$/g, '').trim().toLowerCase();
             keyword = keyword.replace(/^"|"$/g, '').trim().toLowerCase();
 
+            log(`Processed search terms - Author: "${author}" (Exact: ${isExactAuthorMatch}), Keyword: "${keyword}" (Exact: ${isExactKeywordMatch})`);
+
             const results = comments.filter(comment => {
-                console.log('Processing comment:', JSON.stringify(comment, null, 2));
-                
-                let authorMatch = false;
-                let keywordMatch = false;
+                let authorMatch = true;
+                let keywordMatch = true;
 
                 if (author) {
                     authorMatch = comment.author && (isExactAuthorMatch 
                         ? comment.author.toString().toLowerCase() === author
                         : comment.author.toString().toLowerCase().includes(author));
-                    console.log('Author match:', authorMatch, 'for', comment.author);
-                } else {
-                    authorMatch = true;
                 }
 
                 if (keyword) {
                     keywordMatch = comment.message && (isExactKeywordMatch
                         ? comment.message.toString().toLowerCase() === keyword
                         : comment.message.toString().toLowerCase().includes(keyword));
-                    console.log('Keyword match:', keywordMatch, 'for', comment.message);
-                } else {
-                    keywordMatch = true;
+                }
+
+                if (authorMatch || keywordMatch) {
+                    log(`Match found - Author: ${comment.author}, Message: ${comment.message}`);
                 }
 
                 return authorMatch && keywordMatch;
             });
 
-            console.log('Number of results:', results.length);
+            log(`Number of results: ${results.length}`);
             return results;
         }
 
-        // Display results (keep your existing function)
+        // Display results
         function displayResults(results) {
-            // ... (keep the existing displayResults function)
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+
+            if (results.length === 0) {
+                resultsDiv.innerHTML = '<p>No results found.</p>';
+                return;
+            }
+
+            results.forEach(comment => {
+                const commentDiv = document.createElement('div');
+                commentDiv.className = 'comment';
+                commentDiv.innerHTML = `
+                    <p><strong>Author:</strong> ${comment.author || 'N/A'}</p>
+                    <p><strong>Message:</strong> ${comment.message || 'N/A'}</p>
+                    <p><strong>Timestamp:</strong> ${comment.timestamp || 'N/A'}</p>
+                `;
+                resultsDiv.appendChild(commentDiv);
+            });
         }
 
         // Event listener for form submission
         document.getElementById('searchForm').addEventListener('submit', function(e) {
             e.preventDefault();
+            debugElement.textContent = ''; // Clear previous debug output
             const author = document.getElementById('authorInput').value.trim();
             const keyword = document.getElementById('keywordInput').value.trim();
-            console.log('Form submitted with author:', author, 'and keyword:', keyword);
+            log(`Form submitted with author: "${author}" and keyword: "${keyword}"`);
             const results = searchComments(author, keyword);
             displayResults(results);
         });
