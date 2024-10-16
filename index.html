@@ -84,32 +84,35 @@
 
         // Enhanced search function with exact and partial matching
         function searchComments(author, keyword) {
-    const isExactAuthorMatch = /^".*"$/.test(author);
-    const isExactKeywordMatch = /^".*"$/.test(keyword);
-    
-    author = author.replace(/^"|"$/g, '').trim().toLowerCase();
-    keyword = keyword.replace(/^"|"$/g, '').trim().toLowerCase();
+            const isExactAuthorMatch = /^".*"$/.test(author);
+            const isExactKeywordMatch = /^".*"$/.test(keyword);
+            
+            author = author.replace(/^"|"$/g, '').trim().toLowerCase();
+            keyword = keyword.replace(/^"|"$/g, '').trim().toLowerCase();
 
-    return comments.filter(comment => {
-        let authorMatch = true;
-        let keywordMatch = true;
+            const results = comments.filter(comment => {
+                let authorMatch = true;
+                let keywordMatch = true;
 
-        if (author) {
-            authorMatch = comment.author && (isExactAuthorMatch 
-                ? comment.author.toString().toLowerCase() === author
-                : comment.author.toString().toLowerCase().includes(author));
+                if (author) {
+                    authorMatch = comment.author && (isExactAuthorMatch 
+                        ? comment.author.toString().toLowerCase() === author
+                        : comment.author.toString().toLowerCase().includes(author));
+                }
+
+                if (keyword) {
+                    keywordMatch = comment.message && (isExactKeywordMatch
+                        ? comment.message.toString().toLowerCase() === keyword
+                        : comment.message.toString().toLowerCase().includes(keyword));
+                }
+
+                return (author && keyword) ? (authorMatch && keywordMatch) : (authorMatch || keywordMatch);
+            });
+
+            // Remove duplicates
+            const uniqueResults = Array.from(new Set(results.map(JSON.stringify))).map(JSON.parse);
+            return uniqueResults;
         }
-
-        if (keyword) {
-            keywordMatch = comment.message && (isExactKeywordMatch
-                ? comment.message.toString().toLowerCase() === keyword
-                : comment.message.toString().toLowerCase().includes(keyword));
-        }
-
-        // Only return true if both conditions are met when both inputs are provided
-        return (author && keyword) ? (authorMatch && keywordMatch) : (authorMatch || keywordMatch);
-    });
-}
 
         // Display results
         function displayResults(results) {
@@ -134,6 +137,8 @@
                 `;
                 resultsDiv.appendChild(commentDiv);
             });
+
+            resultsDiv.innerHTML += `<p><strong>Total unique results:</strong> ${results.length}</p>`;
         }
 
         // Event listener for form submission
