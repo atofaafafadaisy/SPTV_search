@@ -7,79 +7,60 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #f4f4f4;
-            text-align: center;
+            background-color: #f0f0f0;
         }
         .container {
             max-width: 800px;
-            margin: auto;
-            background: white;
+            margin: 0 auto;
+            background-color: white;
             padding: 20px;
-            border-radius: 5px;
+            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h1 {
+        #monkeyImage {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            text-align: center;
             color: #333;
-            margin-bottom: 10px;
-        }
-        h2 {
-            color: #666;
-            margin-bottom: 20px;
-            font-style: italic;
-        }
-        #searchForm {
-            margin-bottom: 20px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
         }
         .input-row {
-            display: flex;
-            width: 100%;
-            gap: 10px;
             margin-bottom: 10px;
-            justify-content: center;
+            display: flex;
+            justify-content: space-between;
         }
-        input[type="text"], input[type="date"] {
-            flex: 1;
-            padding: 10px;
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-right: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
         }
         button {
-            padding: 10px 20px;
-            background-color: #007bff;
+            padding: 8px 16px;
+            background-color: #4CAF50;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: #45a049;
         }
-        #clearButton {
-            background-color: #dc3545;
+        #results {
+            margin-top: 20px;
         }
-        #clearButton:hover {
-            background-color: #c82333;
-        }
-        .comment {
+        .result-item {
             background-color: #f9f9f9;
             border: 1px solid #ddd;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            text-align: left;
-        }
-        .comment p {
-            margin: 5px 0;
-        }
-        #monkeyImage {
-            max-width: 200px;
-            margin-bottom: 20px;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
         }
     </style>
 </head>
@@ -88,136 +69,122 @@
         <img src="monkey.png" alt="Monkey" id="monkeyImage">
         <h1>Keyboard Warriors</h1>
         <h2>Are you one? Search and find out!</h2>
-        <form id="searchForm">
-            <div class="input-row">
-                <input type="text" id="authorInput" placeholder='Filter by author (use quotes for exact match)...'>
-                <input type="text" id="keywordInput" placeholder='Filter by keyword in message (use quotes for exact match)...'>
-            </div>
-            <div class="input-row">
-                <input type="date" id="startDateInput" placeholder="Start Date">
-                <input type="date" id="endDateInput" placeholder="End Date">
-            </div>
-            <div class="input-row">
-                <button type="submit">Search</button>
-                <button type="button" id="clearButton">Clear</button>
-            </div>
-        </form>
+        <div class="input-row">
+            <input type="text" id="authorInput" placeholder="Search by author">
+            <input type="text" id="messageInput" placeholder="Search in messages">
+        </div>
+        <div class="input-row">
+            <select id="channelSelect">
+                <option value="">All Channels</option>
+            </select>
+            <input type="date" id="dateInput">
+        </div>
+        <div class="input-row">
+            <button onclick="search()">Search</button>
+            <button onclick="clearResults()">Clear</button>
+        </div>
         <div id="results"></div>
     </div>
 
     <script>
-        let comments = [];
+        const totalChunks = 258; // Update this with the total number of chunk files you have
+        let allData = [];
+        let isLoading = false;
+        let channels = new Set();
 
-        // Load the JSON data
-        fetch('data_chunk_1.json')
-            .then(response => response.json())
-            .then(data => {
-                comments = data;
-                console.log(`Data loaded successfully. Number of comments: ${comments.length}`);
-            })
-            .catch(error => console.error('Error loading the JSON data:', error));
+        async function loadAllData() {
+            if (isLoading) return;
+            isLoading = true;
+            document.getElementById('results').innerHTML = 'Loading data...';
 
-        // Set default end date to today
-        document.addEventListener('DOMContentLoaded', function() {
-            const today = new Date().toISOString().split('T')[0];
-            document.getElementById('endDateInput').value = today;
-        });
-
-        // Enhanced search function with exact and partial matching, and date filtering
-        function searchComments(author, keyword, startDate, endDate) {
-            const isExactAuthorMatch = /^".*"$/.test(author);
-            const isExactKeywordMatch = /^".*"$/.test(keyword);
-            
-            author = author.replace(/^"|"$/g, '').trim().toLowerCase();
-            keyword = keyword.replace(/^"|"$/g, '').trim().toLowerCase();
-
-            // Convert input dates to Date objects
-            const start = startDate ? new Date(startDate) : null;
-            const end = endDate ? new Date(endDate) : new Date(); // Use current date if end date is not provided
-
-            const results = comments.filter(comment => {
-                let authorMatch = true;
-                let keywordMatch = true;
-                let dateMatch = true;
-
-                if (author) {
-                    authorMatch = comment.author && (isExactAuthorMatch 
-                        ? comment.author.toString().toLowerCase() === author
-                        : comment.author.toString().toLowerCase().includes(author));
+            for (let i = 1; i <= totalChunks; i++) {
+                try {
+                    const response = await fetch(`processed_chunks/processed_data_chunk_${i}.json`);
+                    const data = await response.json();
+                    allData = allData.concat(data);
+                    data.forEach(item => channels.add(item.channel));
+                } catch (error) {
+                    console.error(`Error loading chunk ${i}:`, error);
                 }
+            }
 
-                if (keyword) {
-                    keywordMatch = comment.message && (isExactKeywordMatch
-                        ? comment.message.toString().toLowerCase() === keyword
-                        : comment.message.toString().toLowerCase().includes(keyword));
-                }
-
-                if (start || end) {
-                    const commentDate = new Date(comment.timestamp);
-                    dateMatch = (!start || commentDate >= start) && (!end || commentDate <= end);
-                }
-
-                return (author || keyword) ? (authorMatch && keywordMatch && dateMatch) : dateMatch;
-            });
-
-            // Remove duplicates
-            const uniqueResults = Array.from(new Set(results.map(JSON.stringify))).map(JSON.parse);
-            return uniqueResults;
+            populateChannelSelect();
+            isLoading = false;
+            document.getElementById('results').innerHTML = 'Data loaded. Ready to search.';
         }
 
-        // Display results
-        function displayResults(results) {
-            const resultsDiv = document.getElementById('results');
-            resultsDiv.innerHTML = '';
+        function populateChannelSelect() {
+            const select = document.getElementById('channelSelect');
+            channels.forEach(channel => {
+                const option = document.createElement('option');
+                option.value = channel;
+                option.textContent = channel;
+                select.appendChild(option);
+            });
+        }
 
-            if (results.length === 0) {
-                resultsDiv.innerHTML = '<p>No results found.</p>';
+        function search() {
+            if (isLoading) {
+                alert('Data is still loading. Please wait.');
                 return;
             }
 
-            results.forEach(comment => {
-                const commentDiv = document.createElement('div');
-                commentDiv.className = 'comment';
-                commentDiv.innerHTML = `
-                    <p><strong>Video Title:</strong> ${comment.video_title || 'N/A'}</p>
-                    <p><strong>Upload Date:</strong> ${comment.upload_date || 'N/A'}</p>
-                    <p><strong>Channel:</strong> ${comment.channel || 'N/A'}</p>
-                    <p><strong>Author:</strong> ${comment.author || 'N/A'}</p>
-                    <p><strong>Message:</strong> ${comment.message || 'N/A'}</p>
-                    <p><strong>Timestamp:</strong> ${comment.timestamp || 'N/A'}</p>
-                `;
-                resultsDiv.appendChild(commentDiv);
-            });
+            const authorTerm = document.getElementById('authorInput').value.toLowerCase();
+            const messageTerm = document.getElementById('messageInput').value.toLowerCase();
+            const channelTerm = document.getElementById('channelSelect').value;
+            const dateTerm = document.getElementById('dateInput').value;
 
-            resultsDiv.innerHTML += `<p><strong>Total unique results:</strong> ${results.length}</p>`;
+            const results = allData.filter(item => 
+                (authorTerm === '' || item.author.toLowerCase().includes(authorTerm)) &&
+                (messageTerm === '' || item.message.toLowerCase().includes(messageTerm)) &&
+                (channelTerm === '' || item.channel === channelTerm) &&
+                (dateTerm === '' || item.upload_date === dateTerm)
+            );
+
+            displayResults(results);
         }
 
-        // Event listener for form submission
-        document.getElementById('searchForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const author = document.getElementById('authorInput').value.trim();
-            const keyword = document.getElementById('keywordInput').value.trim();
-            const startDate = document.getElementById('startDateInput').value;
-            const endDate = document.getElementById('endDateInput').value;
-            const results = searchComments(author, keyword, startDate, endDate);
-            displayResults(results);
-        });
+        function displayResults(results) {
+            const resultsDiv = document.getElementById('results');
+            if (results.length === 0) {
+                resultsDiv.innerHTML = 'No results found.';
+                return;
+            }
 
-            // Clear button functionality - Replace this entire block
-        document.getElementById('clearButton').addEventListener('click', function() {
-            // Clear input fields
+            let html = `<h3>Search Results (${results.length} found):</h3>`;
+            results.forEach(item => {
+                html += `
+                    <div class="result-item">
+                        <p><strong>${escapeHtml(item.author)}</strong> (${escapeHtml(item.timestamp)})</p>
+                        <p>Channel: ${escapeHtml(item.channel)}</p>
+                        <p>Message: ${escapeHtml(item.message)}</p>
+                        <p>Superchat Value: $${item.superchat_value.toFixed(2)}</p>
+                    </div>
+                `;
+            });
+
+            resultsDiv.innerHTML = html;
+        }
+
+        function clearResults() {
             document.getElementById('authorInput').value = '';
-            document.getElementById('keywordInput').value = '';
-            document.getElementById('startDateInput').value = '';
-            document.getElementById('endDateInput').value = '';
-
-            // Clear search results
+            document.getElementById('messageInput').value = '';
+            document.getElementById('channelSelect').value = '';
+            document.getElementById('dateInput').value = '';
             document.getElementById('results').innerHTML = '';
+        }
 
-            // Reset the end date to today's date
-            const today = new Date().toISOString().split('T')[0];
-            document.getElementById('endDateInput').value = today;
-        });
+        function escapeHtml(unsafe) {
+            return unsafe
+                 .replace(/&/g, "&amp;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/'/g, "&#039;");
+        }
+
+        // Load data when the page loads
+        window.onload = loadAllData;
     </script>
 </body>
 </html>
