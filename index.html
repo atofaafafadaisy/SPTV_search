@@ -93,6 +93,12 @@
         let isLoading = false;
         let channels = new Set();
     
+        function safeString(value) {
+            if (typeof value === 'string') return value;
+            if (value === null || value === undefined) return '';
+            return String(value);
+        }
+    
         async function loadAllData() {
             if (isLoading) return;
             isLoading = true;
@@ -111,14 +117,14 @@
                     
                     const validData = data.filter(item => {
                         return item && typeof item === 'object' &&
-                               typeof item.author === 'string' &&
-                               typeof item.message === 'string' &&
-                               typeof item.channel === 'string';
+                               item.hasOwnProperty('author') &&
+                               item.hasOwnProperty('message') &&
+                               item.hasOwnProperty('channel');
                     });
     
                     allData = allData.concat(validData);
                     validData.forEach(item => {
-                        if (item.channel) channels.add(item.channel);
+                        if (item.channel) channels.add(safeString(item.channel));
                     });
                     console.log(`Loaded ${validData.length} valid items from chunk ${i}`);
                 } catch (error) {
@@ -157,11 +163,16 @@
             console.log(`Filtering ${allData.length} total items`);
     
             const results = allData.filter(item => {
-                return (authorTerm === '' || (item.author && item.author.toLowerCase().includes(authorTerm))) &&
-                       (messageTerm === '' || (item.message && item.message.toLowerCase().includes(messageTerm))) &&
-                       (channelTerm === '' || item.channel === channelTerm) &&
-                       (fromDate === '' || (item.upload_date && item.upload_date >= fromDate)) &&
-                       (toDate === '' || (item.upload_date && item.upload_date <= toDate));
+                const itemAuthor = safeString(item.author).toLowerCase();
+                const itemMessage = safeString(item.message).toLowerCase();
+                const itemChannel = safeString(item.channel);
+                const itemDate = safeString(item.upload_date);
+    
+                return (authorTerm === '' || itemAuthor.includes(authorTerm)) &&
+                       (messageTerm === '' || itemMessage.includes(messageTerm)) &&
+                       (channelTerm === '' || itemChannel === channelTerm) &&
+                       (fromDate === '' || itemDate >= fromDate) &&
+                       (toDate === '' || itemDate <= toDate);
             });
     
             console.log(`Found ${results.length} results`);
@@ -179,9 +190,9 @@
             results.forEach(item => {
                 html += `
                     <div class="result-item">
-                        <p><strong>${escapeHtml(item.author || '')}</strong> (${escapeHtml(item.timestamp || '')})</p>
-                        <p>Channel: ${escapeHtml(item.channel || '')}</p>
-                        <p>Message: ${escapeHtml(item.message || '')}</p>
+                        <p><strong>${escapeHtml(safeString(item.author))}</strong> (${escapeHtml(safeString(item.timestamp))})</p>
+                        <p>Channel: ${escapeHtml(safeString(item.channel))}</p>
+                        <p>Message: ${escapeHtml(safeString(item.message))}</p>
                         <p>Superchat Value: $${(parseFloat(item.superchat_value) || 0).toFixed(2)}</p>
                     </div>
                 `;
@@ -200,8 +211,7 @@
         }
     
         function escapeHtml(unsafe) {
-            if (typeof unsafe !== 'string') return '';
-            return unsafe
+            return safeString(unsafe)
                  .replace(/&/g, "&amp;")
                  .replace(/</g, "&lt;")
                  .replace(/>/g, "&gt;")
