@@ -77,7 +77,8 @@
             <select id="channelSelect">
                 <option value="">All Channels</option>
             </select>
-            <input type="date" id="dateInput">
+            <input type="date" id="fromDate">
+            <input type="date" id="toDate">
         </div>
         <div class="input-row">
             <button onclick="search()">Search</button>
@@ -100,6 +101,9 @@
             for (let i = 1; i <= totalChunks; i++) {
                 try {
                     const response = await fetch(`processed_chunks/processed_data_chunk_${i}.json`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
                     const data = await response.json();
                     allData = allData.concat(data);
                     data.forEach(item => channels.add(item.channel));
@@ -132,14 +136,17 @@
             const authorTerm = document.getElementById('authorInput').value.toLowerCase();
             const messageTerm = document.getElementById('messageInput').value.toLowerCase();
             const channelTerm = document.getElementById('channelSelect').value;
-            const dateTerm = document.getElementById('dateInput').value;
+            const fromDate = document.getElementById('fromDate').value;
+            const toDate = document.getElementById('toDate').value;
 
-            const results = allData.filter(item => 
-                (authorTerm === '' || item.author.toLowerCase().includes(authorTerm)) &&
-                (messageTerm === '' || item.message.toLowerCase().includes(messageTerm)) &&
-                (channelTerm === '' || item.channel === channelTerm) &&
-                (dateTerm === '' || item.upload_date === dateTerm)
-            );
+            const results = allData.filter(item => {
+                const itemDate = item.upload_date;
+                return (authorTerm === '' || item.author.toLowerCase().includes(authorTerm)) &&
+                       (messageTerm === '' || item.message.toLowerCase().includes(messageTerm)) &&
+                       (channelTerm === '' || item.channel === channelTerm) &&
+                       (fromDate === '' || itemDate >= fromDate) &&
+                       (toDate === '' || itemDate <= toDate);
+            });
 
             displayResults(results);
         }
@@ -170,7 +177,8 @@
             document.getElementById('authorInput').value = '';
             document.getElementById('messageInput').value = '';
             document.getElementById('channelSelect').value = '';
-            document.getElementById('dateInput').value = '';
+            document.getElementById('fromDate').value = '';
+            document.getElementById('toDate').value = '';
             document.getElementById('results').innerHTML = '';
         }
 
