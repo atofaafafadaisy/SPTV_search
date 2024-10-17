@@ -45,7 +45,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Retired Red",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:35:03",
     "superchat_value": 0.0
   },
@@ -85,7 +85,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Marcia",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:35:14",
     "superchat_value": 0.0
   },
@@ -315,7 +315,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "killy billy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:36:13",
     "superchat_value": 0.0
   },
@@ -425,7 +425,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "A Time to Change",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:36:32",
     "superchat_value": 0.0
   },
@@ -915,7 +915,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Vixen ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:37:46",
     "superchat_value": 0.0
   },
@@ -1185,7 +1185,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "amanda beaumont",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:38:29",
     "superchat_value": 0.0
   },
@@ -1355,7 +1355,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "KFick89",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:38:58",
     "superchat_value": 0.0
   },
@@ -1415,7 +1415,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Yvonne",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:39:10",
     "superchat_value": 0.0
   },
@@ -1575,7 +1575,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "A Time to Change",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:39:45",
     "superchat_value": 0.0
   },
@@ -1625,7 +1625,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "KornFreakDBSC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:39:46",
     "superchat_value": 0.0
   },
@@ -2495,7 +2495,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:43:00",
     "superchat_value": 0.0
   },
@@ -3835,7 +3835,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:47:52",
     "superchat_value": 0.0
   },
@@ -5155,7 +5155,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "amanda beaumont",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:52:33",
     "superchat_value": 0.0
   },
@@ -5655,7 +5655,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kenya",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:54:18",
     "superchat_value": 0.0
   },
@@ -5745,7 +5745,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:54:38",
     "superchat_value": 0.0
   },
@@ -5785,7 +5785,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:54:45",
     "superchat_value": 0.0
   },
@@ -6415,7 +6415,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Rhonda Mcneal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 00:57:41",
     "superchat_value": 0.0
   },
@@ -7145,7 +7145,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "shamBOT",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:00:50",
     "superchat_value": 0.0
   },
@@ -7835,7 +7835,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kenya",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:03:45",
     "superchat_value": 0.0
   },
@@ -10655,7 +10655,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Dawn Pariseau",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:14:28",
     "superchat_value": 0.0
   },
@@ -10705,7 +10705,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "SGaux (Sandra) ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:14:43",
     "superchat_value": 0.0
   },
@@ -11885,7 +11885,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kathleen Champ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:19:14",
     "superchat_value": 0.0
   },
@@ -12555,7 +12555,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Sierra Teri",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:22:43",
     "superchat_value": 0.0
   },
@@ -13615,7 +13615,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "A Time to Change",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:27:30",
     "superchat_value": 0.0
   },
@@ -13645,7 +13645,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:27:34",
     "superchat_value": 0.0
   },
@@ -14325,7 +14325,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "A Time to Change",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:30:37",
     "superchat_value": 0.0
   },
@@ -14865,7 +14865,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "A Time to Change",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:34:18",
     "superchat_value": 0.0
   },
@@ -15385,7 +15385,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kenya",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:36:41",
     "superchat_value": 0.0
   },
@@ -16585,7 +16585,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "A Time to Change",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:40:56",
     "superchat_value": 0.0
   },
@@ -16605,7 +16605,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Yvonne",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:41:03",
     "superchat_value": 0.0
   },
@@ -16625,7 +16625,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Miss Vicki Mae",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:41:08",
     "superchat_value": 0.0
   },
@@ -16665,7 +16665,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:41:13",
     "superchat_value": 0.0
   },
@@ -16805,7 +16805,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "A Time to Change",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:41:39",
     "superchat_value": 0.0
   },
@@ -16935,7 +16935,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Verboboss",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:41:54",
     "superchat_value": 0.0
   },
@@ -17205,7 +17205,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Dark Sarcasm",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:42:33",
     "superchat_value": 0.0
   },
@@ -17375,7 +17375,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "ScorchingScorpio",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:43:11",
     "superchat_value": 10.0
   },
@@ -17555,7 +17555,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:43:41",
     "superchat_value": 0.0
   },
@@ -17575,7 +17575,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jennifer Hachiya, PhD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:43:44",
     "superchat_value": 0.0
   },
@@ -17765,7 +17765,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "The Pouting Pooch",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:44:33",
     "superchat_value": 0.0
   },
@@ -17905,7 +17905,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "maggot1227",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:45:00",
     "superchat_value": 0.0
   },
@@ -18005,7 +18005,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jennifer Hachiya, PhD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:45:25",
     "superchat_value": 0.0
   },
@@ -18815,7 +18815,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Keilah McDonald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:48:21",
     "superchat_value": 0.0
   },
@@ -18915,7 +18915,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jennifer Hachiya, PhD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:48:52",
     "superchat_value": 0.0
   },
@@ -19195,7 +19195,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jennifer Hachiya, PhD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:50:13",
     "superchat_value": 0.0
   },
@@ -19345,7 +19345,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Keilah McDonald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:51:00",
     "superchat_value": 0.0
   },
@@ -19565,7 +19565,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Keilah McDonald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:51:51",
     "superchat_value": 0.0
   },
@@ -19735,7 +19735,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jenni M.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:52:11",
     "superchat_value": 0.0
   },
@@ -19995,7 +19995,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kathy Anne",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:53:14",
     "superchat_value": 0.0
   },
@@ -20105,7 +20105,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Keilah McDonald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:53:33",
     "superchat_value": 0.0
   },
@@ -20355,7 +20355,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kathleen Champ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:54:10",
     "superchat_value": 0.0
   },
@@ -20575,7 +20575,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kenya",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:54:49",
     "superchat_value": 0.0
   },
@@ -20585,7 +20585,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jamjam #VictimsMatter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:54:55",
     "superchat_value": 0.0
   },
@@ -20675,7 +20675,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jenni M.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:55:10",
     "superchat_value": 0.0
   },
@@ -20775,7 +20775,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jenni M.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:55:33",
     "superchat_value": 0.0
   },
@@ -20815,7 +20815,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Yvonne",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:55:38",
     "superchat_value": 0.0
   },
@@ -21145,7 +21145,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kenya",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 01:56:38",
     "superchat_value": 0.0
   },
@@ -22485,7 +22485,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kathy Anne",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:02:38",
     "superchat_value": 0.0
   },
@@ -22545,7 +22545,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "A Time to Change",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:02:52",
     "superchat_value": 0.0
   },
@@ -24055,7 +24055,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:09:20",
     "superchat_value": 0.0
   },
@@ -24245,7 +24245,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kiki Cookerson",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:10:28",
     "superchat_value": 0.0
   },
@@ -24365,7 +24365,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "SJ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:03",
     "superchat_value": 0.0
   },
@@ -24535,7 +24535,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Lacey Silver",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:30",
     "superchat_value": 0.0
   },
@@ -24635,7 +24635,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:43",
     "superchat_value": 0.0
   },
@@ -24675,7 +24675,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:46",
     "superchat_value": 0.0
   },
@@ -24705,7 +24705,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:49",
     "superchat_value": 0.0
   },
@@ -24725,7 +24725,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Gunnawundai ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:50",
     "superchat_value": 0.0
   },
@@ -24795,7 +24795,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:54",
     "superchat_value": 0.0
   },
@@ -24825,7 +24825,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:57",
     "superchat_value": 0.0
   },
@@ -24835,7 +24835,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Ev Barney",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:11:57",
     "superchat_value": 0.0
   },
@@ -24905,7 +24905,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "AuntieB.B.96",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:03",
     "superchat_value": 0.0
   },
@@ -24995,7 +24995,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Marian Calabro",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:11",
     "superchat_value": 0.0
   },
@@ -25035,7 +25035,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Tiffany Krieger",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:12",
     "superchat_value": 0.0
   },
@@ -25055,7 +25055,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Pat O",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:13",
     "superchat_value": 0.0
   },
@@ -25095,7 +25095,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Lumin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:18",
     "superchat_value": 0.0
   },
@@ -25175,7 +25175,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Miss Vicki Mae",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:27",
     "superchat_value": 0.0
   },
@@ -25225,7 +25225,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:28",
     "superchat_value": 0.0
   },
@@ -25305,7 +25305,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jennifer Hachiya, PhD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:40",
     "superchat_value": 0.0
   },
@@ -25335,7 +25335,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Mary Heicher",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:43",
     "superchat_value": 0.0
   },
@@ -25365,7 +25365,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Cindy Funke",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:12:45",
     "superchat_value": 0.0
   },
@@ -25605,7 +25605,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:13:19",
     "superchat_value": 0.0
   },
@@ -25995,7 +25995,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Lacey Silver",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:14:31",
     "superchat_value": 0.0
   },
@@ -26125,7 +26125,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Jennifer Hachiya, PhD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:14:44",
     "superchat_value": 0.0
   },
@@ -26135,7 +26135,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Laura Boatright",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:14:47",
     "superchat_value": 0.0
   },
@@ -26285,7 +26285,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Kathy Anne",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:15:14",
     "superchat_value": 0.0
   },
@@ -26295,7 +26295,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Gunnawundai ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:15:15",
     "superchat_value": 0.0
   },
@@ -26315,7 +26315,7 @@
     "upload_date": "2023-12-13",
     "channel": "Relatable Reese",
     "author": "Katy did-it ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-13 02:15:19",
     "superchat_value": 0.0
   },
@@ -26475,7 +26475,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:02:58",
     "superchat_value": 0.0
   },
@@ -26515,7 +26515,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:03:43",
     "superchat_value": 0.0
   },
@@ -26545,7 +26545,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Arianna Rose",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:04:03",
     "superchat_value": 0.0
   },
@@ -26555,7 +26555,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Cheryl Neal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:04:18",
     "superchat_value": 0.0
   },
@@ -26865,7 +26865,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Regina Smith",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:06:53",
     "superchat_value": 0.0
   },
@@ -27605,7 +27605,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Malvakai Paine",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:10:07",
     "superchat_value": 0.0
   },
@@ -28985,7 +28985,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Louloubaru",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:18:32",
     "superchat_value": 0.0
   },
@@ -29315,7 +29315,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "AbDazzle",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:19:04",
     "superchat_value": 0.0
   },
@@ -29515,7 +29515,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "TN TreasureFinder",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:19:14",
     "superchat_value": 0.0
   },
@@ -29615,7 +29615,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "shamBOT",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:19:23",
     "superchat_value": 0.0
   },
@@ -29835,7 +29835,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Cheryl Neal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:20:43",
     "superchat_value": 0.0
   },
@@ -29935,7 +29935,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Lim Lee",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:21:32",
     "superchat_value": 0.0
   },
@@ -29955,7 +29955,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "AbDazzle",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:21:33",
     "superchat_value": 0.0
   },
@@ -30095,7 +30095,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:22:22",
     "superchat_value": 0.0
   },
@@ -30185,7 +30185,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Rhonda Mcneal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:23:11",
     "superchat_value": 0.0
   },
@@ -30315,7 +30315,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:24:05",
     "superchat_value": 0.0
   },
@@ -31285,7 +31285,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Jamjam #VictimsMatter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:30:37",
     "superchat_value": 0.0
   },
@@ -31485,7 +31485,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "April Frye",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:33:19",
     "superchat_value": 0.0
   },
@@ -31905,7 +31905,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Kristin FROST Lazerbeams",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:36:27",
     "superchat_value": 0.0
   },
@@ -32425,7 +32425,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "SimplyCheryl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:40:17",
     "superchat_value": 0.0
   },
@@ -32675,7 +32675,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Lisa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 01:42:43",
     "superchat_value": 0.0
   },
@@ -36005,7 +36005,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:05:29",
     "superchat_value": 0.0
   },
@@ -36155,7 +36155,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "SimplyCheryl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:06:11",
     "superchat_value": 0.0
   },
@@ -36215,7 +36215,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "What Say Lew",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:06:12",
     "superchat_value": 0.0
   },
@@ -36285,7 +36285,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Mirily",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:06:27",
     "superchat_value": 0.0
   },
@@ -36345,7 +36345,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Kristin FROST Lazerbeams",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:06:43",
     "superchat_value": 0.0
   },
@@ -36745,7 +36745,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "KFick89",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:08:30",
     "superchat_value": 0.0
   },
@@ -37615,7 +37615,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "katskillz20",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:14:53",
     "superchat_value": 0.0
   },
@@ -38055,7 +38055,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "SimplyCheryl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:17:53",
     "superchat_value": 0.0
   },
@@ -38545,7 +38545,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Louloubaru",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:20:51",
     "superchat_value": 0.0
   },
@@ -39705,7 +39705,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Hollie Everett",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:29:33",
     "superchat_value": 0.0
   },
@@ -40145,7 +40145,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Hollie Everett",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:31:28",
     "superchat_value": 0.0
   },
@@ -40555,7 +40555,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "toots",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:33:11",
     "superchat_value": 0.0
   },
@@ -41575,7 +41575,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "SimplyCheryl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:42:54",
     "superchat_value": 0.0
   },
@@ -41865,7 +41865,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Verboboss",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:47:47",
     "superchat_value": 0.0
   },
@@ -42255,7 +42255,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:52:34",
     "superchat_value": 0.0
   },
@@ -42475,7 +42475,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "toots",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:54:53",
     "superchat_value": 0.0
   },
@@ -42775,7 +42775,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Rhonda Mcneal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 02:58:15",
     "superchat_value": 0.0
   },
@@ -42895,7 +42895,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Tampa BMan",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:00:05",
     "superchat_value": 0.0
   },
@@ -43245,7 +43245,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Erika Russell",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:03:06",
     "superchat_value": 9.99
   },
@@ -43335,7 +43335,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:03:44",
     "superchat_value": 0.0
   },
@@ -43395,7 +43395,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:04:29",
     "superchat_value": 0.0
   },
@@ -43435,7 +43435,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Rhonda Mcneal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:04:52",
     "superchat_value": 0.0
   },
@@ -43845,7 +43845,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Literally Lisa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:07:56",
     "superchat_value": 0.0
   },
@@ -43875,7 +43875,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Ceedar Duvall",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:08:19",
     "superchat_value": 0.0
   },
@@ -43945,7 +43945,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Regina Smith",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:08:32",
     "superchat_value": 0.0
   },
@@ -43975,7 +43975,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Gunnawundai ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:08:45",
     "superchat_value": 0.0
   },
@@ -44005,7 +44005,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "toots",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:08:52",
     "superchat_value": 0.0
   },
@@ -44025,7 +44025,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "CelticRainDrop67",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:08:54",
     "superchat_value": 0.0
   },
@@ -44135,7 +44135,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Make_it_make_Sense_ (Lisa from Jersey)",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:09:08",
     "superchat_value": 0.0
   },
@@ -44355,7 +44355,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "PatriotMilitaryMom",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:09:54",
     "superchat_value": 0.0
   },
@@ -44375,7 +44375,7 @@
     "upload_date": "2023-10-19",
     "channel": "Relatable Reese",
     "author": "Literally Lisa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-19 03:09:58",
     "superchat_value": 0.0
   },
@@ -44905,7 +44905,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "MamaSmurf062",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 16:37:36",
     "superchat_value": 0.0
   },
@@ -44945,7 +44945,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Hollie Everett",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 16:37:52",
     "superchat_value": 0.0
   },
@@ -45325,7 +45325,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "MyMindWentAWOL2006",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 16:41:04",
     "superchat_value": 0.0
   },
@@ -45885,7 +45885,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "LauriPlays, B.A. summe cum laude",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 16:44:59",
     "superchat_value": 0.0
   },
@@ -45965,7 +45965,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "davlin88",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 16:45:26",
     "superchat_value": 0.0
   },
@@ -47265,7 +47265,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "What Say Lew",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 16:52:47",
     "superchat_value": 0.0
   },
@@ -48785,7 +48785,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 16:59:11",
     "superchat_value": 0.0
   },
@@ -48995,7 +48995,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 16:59:52",
     "superchat_value": 0.0
   },
@@ -49695,7 +49695,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Duchess Diana",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:02:12",
     "superchat_value": 0.0
   },
@@ -49825,7 +49825,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Smrmndn",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:02:53",
     "superchat_value": 0.0
   },
@@ -50765,7 +50765,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:08:06",
     "superchat_value": 0.0
   },
@@ -51795,7 +51795,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Ev Barney",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:13:27",
     "superchat_value": 0.0
   },
@@ -51875,7 +51875,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Goldie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:13:50",
     "superchat_value": 0.0
   },
@@ -52015,7 +52015,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "jennifer HUESTIS",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:14:21",
     "superchat_value": 0.0
   },
@@ -53815,7 +53815,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Keilah McDonald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:01",
     "superchat_value": 0.0
   },
@@ -53835,7 +53835,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Dirty Mouse",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:02",
     "superchat_value": 0.0
   },
@@ -53845,7 +53845,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "loveit",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:04",
     "superchat_value": 0.0
   },
@@ -53865,7 +53865,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "sine",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:05",
     "superchat_value": 0.0
   },
@@ -53875,7 +53875,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Donna Maher",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:05",
     "superchat_value": 0.0
   },
@@ -53895,7 +53895,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "ASAP LIZZIE ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:08",
     "superchat_value": 0.0
   },
@@ -53905,7 +53905,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Stephanie C",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:09",
     "superchat_value": 0.0
   },
@@ -53915,7 +53915,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Abita",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:09",
     "superchat_value": 0.0
   },
@@ -53925,7 +53925,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Paula Puffer",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:09",
     "superchat_value": 0.0
   },
@@ -53935,7 +53935,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Ronda W.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:10",
     "superchat_value": 0.0
   },
@@ -53945,7 +53945,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:11",
     "superchat_value": 0.0
   },
@@ -53955,7 +53955,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Mrs_Valentine ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:11",
     "superchat_value": 0.0
   },
@@ -53965,7 +53965,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Laura Font",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:11",
     "superchat_value": 0.0
   },
@@ -53975,7 +53975,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "davlin88",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:11",
     "superchat_value": 0.0
   },
@@ -53985,7 +53985,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Bakes with butter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:11",
     "superchat_value": 0.0
   },
@@ -53995,7 +53995,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "MandyMe",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:13",
     "superchat_value": 0.0
   },
@@ -54015,7 +54015,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Ambers Glass",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:13",
     "superchat_value": 0.0
   },
@@ -54035,7 +54035,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Duck Doodlz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:16",
     "superchat_value": 0.0
   },
@@ -54045,7 +54045,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "AltheaRose71",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:17",
     "superchat_value": 0.0
   },
@@ -54065,7 +54065,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "K O",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:18",
     "superchat_value": 0.0
   },
@@ -54075,7 +54075,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "NerdosaurusJules",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:18",
     "superchat_value": 0.0
   },
@@ -54095,7 +54095,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "ASAP LIZZIE ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:20",
     "superchat_value": 0.0
   },
@@ -54105,7 +54105,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Rose Kay",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:20",
     "superchat_value": 0.0
   },
@@ -54115,7 +54115,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Marie Marion",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:21",
     "superchat_value": 0.0
   },
@@ -54135,7 +54135,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Tanith",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:22",
     "superchat_value": 0.0
   },
@@ -54145,7 +54145,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Tampa BMan",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:22",
     "superchat_value": 0.0
   },
@@ -54165,7 +54165,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Erin F",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:23",
     "superchat_value": 0.0
   },
@@ -54195,7 +54195,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Donald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:24",
     "superchat_value": 0.0
   },
@@ -54215,7 +54215,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Michele Ann",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:26",
     "superchat_value": 0.0
   },
@@ -54225,7 +54225,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "PurpleGroovy69",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:26",
     "superchat_value": 0.0
   },
@@ -54245,7 +54245,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Sharona ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:28",
     "superchat_value": 0.0
   },
@@ -54255,7 +54255,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Maya - aka Alice in art supply hoarderland",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:28",
     "superchat_value": 0.0
   },
@@ -54265,7 +54265,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Hezaa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:28",
     "superchat_value": 0.0
   },
@@ -54275,7 +54275,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Smrmndn",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:29",
     "superchat_value": 0.0
   },
@@ -54285,7 +54285,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Robbins Nest",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:30",
     "superchat_value": 0.0
   },
@@ -54295,7 +54295,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Michelle & Reece",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:30",
     "superchat_value": 0.0
   },
@@ -54305,7 +54305,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Frida",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:30",
     "superchat_value": 0.0
   },
@@ -54315,7 +54315,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Kris10 M",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:31",
     "superchat_value": 0.0
   },
@@ -54325,7 +54325,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Susan Miller",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:33",
     "superchat_value": 0.0
   },
@@ -54335,7 +54335,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Machtmirdochegal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:33",
     "superchat_value": 0.0
   },
@@ -54355,7 +54355,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Shelly_Kelly",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:34",
     "superchat_value": 0.0
   },
@@ -54365,7 +54365,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Ewa Fredriksson",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:35",
     "superchat_value": 0.0
   },
@@ -54375,7 +54375,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Sai",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:37",
     "superchat_value": 0.0
   },
@@ -54395,7 +54395,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Artflicker",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:37",
     "superchat_value": 0.0
   },
@@ -54405,7 +54405,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "ASAP LIZZIE ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:37",
     "superchat_value": 0.0
   },
@@ -54425,7 +54425,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Gil Threethirtyfour",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:40",
     "superchat_value": 0.0
   },
@@ -54435,7 +54435,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Seashel",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:42",
     "superchat_value": 0.0
   },
@@ -54455,7 +54455,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "ThePeaceLady",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:44",
     "superchat_value": 0.0
   },
@@ -54465,7 +54465,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Lisa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:44",
     "superchat_value": 0.0
   },
@@ -54475,7 +54475,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Karlee05",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:45",
     "superchat_value": 0.0
   },
@@ -54485,7 +54485,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Ann from MA",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:46",
     "superchat_value": 0.0
   },
@@ -54495,7 +54495,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "toots",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:46",
     "superchat_value": 0.0
   },
@@ -54515,7 +54515,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "celticsailor7",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:48",
     "superchat_value": 0.0
   },
@@ -54525,7 +54525,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Candy's Life©",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:48",
     "superchat_value": 0.0
   },
@@ -54535,7 +54535,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "4havenandgrimm",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:49",
     "superchat_value": 0.0
   },
@@ -54545,7 +54545,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "The Screen Addict",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:52",
     "superchat_value": 0.0
   },
@@ -54565,7 +54565,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Ivan Magee",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:52",
     "superchat_value": 0.0
   },
@@ -54575,7 +54575,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Smrmndn",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:53",
     "superchat_value": 0.0
   },
@@ -54585,7 +54585,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Melly Dramatic",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:56",
     "superchat_value": 0.0
   },
@@ -54615,7 +54615,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Terri Sue",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:27:58",
     "superchat_value": 0.0
   },
@@ -54645,7 +54645,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Dee Marie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:02",
     "superchat_value": 0.0
   },
@@ -54655,7 +54655,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "LauriPlays, B.A. summe cum laude",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:05",
     "superchat_value": 0.0
   },
@@ -54665,7 +54665,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Snake",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:11",
     "superchat_value": 0.0
   },
@@ -54695,7 +54695,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Erin P",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:19",
     "superchat_value": 0.0
   },
@@ -54715,7 +54715,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "WisconsinBarb ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:23",
     "superchat_value": 0.0
   },
@@ -54735,7 +54735,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Erin P",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:25",
     "superchat_value": 0.0
   },
@@ -54745,7 +54745,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "TINATALKS",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:25",
     "superchat_value": 0.0
   },
@@ -54755,7 +54755,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Duchess Diana",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:25",
     "superchat_value": 0.0
   },
@@ -54765,7 +54765,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "What Say Lew",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:28",
     "superchat_value": 0.0
   },
@@ -54785,7 +54785,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Duck Doodlz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:32",
     "superchat_value": 0.0
   },
@@ -54795,7 +54795,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Milly The Dandy Lion",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:35",
     "superchat_value": 0.0
   },
@@ -54805,7 +54805,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Jane Harris",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:38",
     "superchat_value": 0.0
   },
@@ -54835,7 +54835,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Kirsten in Copenhagen",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:28:52",
     "superchat_value": 0.0
   },
@@ -54955,7 +54955,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "jennifer HUESTIS",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:29:56",
     "superchat_value": 0.0
   },
@@ -55005,7 +55005,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Crafty Come Lately",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:30:10",
     "superchat_value": 0.0
   },
@@ -55085,7 +55085,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Crafty Come Lately",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:30:29",
     "superchat_value": 0.0
   },
@@ -55355,7 +55355,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "jennifer HUESTIS",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:31:22",
     "superchat_value": 0.0
   },
@@ -55365,7 +55365,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Lara",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:31:22",
     "superchat_value": 0.0
   },
@@ -55575,7 +55575,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Jeff Quibell",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:32:22",
     "superchat_value": 0.0
   },
@@ -55585,7 +55585,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Ursina Z",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:32:22",
     "superchat_value": 0.0
   },
@@ -55745,7 +55745,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Diana B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:33:02",
     "superchat_value": 0.0
   },
@@ -55755,7 +55755,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "LauriPlays, B.A. summe cum laude",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:33:06",
     "superchat_value": 0.0
   },
@@ -55795,7 +55795,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "NewtofNewt&Gus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:33:11",
     "superchat_value": 0.0
   },
@@ -56335,7 +56335,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "davlin88",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:38:27",
     "superchat_value": 0.0
   },
@@ -56845,7 +56845,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Melanie Stanford",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:41:44",
     "superchat_value": 0.0
   },
@@ -58045,7 +58045,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "toots",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:48:57",
     "superchat_value": 0.0
   },
@@ -59005,7 +59005,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:54:36",
     "superchat_value": 0.0
   },
@@ -59535,7 +59535,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Keilah McDonald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 17:58:55",
     "superchat_value": 0.0
   },
@@ -59655,7 +59655,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Ronda W.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 18:00:13",
     "superchat_value": 0.0
   },
@@ -60175,7 +60175,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 18:06:16",
     "superchat_value": 0.0
   },
@@ -60865,7 +60865,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Colleen B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 18:12:36",
     "superchat_value": 0.0
   },
@@ -60935,7 +60935,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 18:13:09",
     "superchat_value": 0.0
   },
@@ -61015,7 +61015,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Daria Smeh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 18:13:35",
     "superchat_value": 0.0
   },
@@ -61105,7 +61105,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Diane - The Canning Nana",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 18:14:06",
     "superchat_value": 0.0
   },
@@ -62055,7 +62055,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 18:20:01",
     "superchat_value": 0.0
   },
@@ -62705,7 +62705,7 @@
     "upload_date": "2023-10-05",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-05 18:23:25",
     "superchat_value": 0.0
   },
@@ -63155,7 +63155,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": " Patty L. Collins",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:01:10",
     "superchat_value": 0.0
   },
@@ -63745,7 +63745,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Aerial Cereal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:02:08",
     "superchat_value": 0.0
   },
@@ -64305,7 +64305,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "ASAP LIZZIE ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:03:31",
     "superchat_value": 0.0
   },
@@ -65235,7 +65235,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Anne Casillas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:07:20",
     "superchat_value": 0.0
   },
@@ -66515,7 +66515,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "The Pawsitive Life",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:13:22",
     "superchat_value": 0.0
   },
@@ -66635,7 +66635,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:13:37",
     "superchat_value": 0.0
   },
@@ -66665,7 +66665,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Spicy Cat Foster",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:13:42",
     "superchat_value": 0.0
   },
@@ -66695,7 +66695,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Duchess Diana",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:13:45",
     "superchat_value": 0.0
   },
@@ -66965,7 +66965,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "The Pawsitive Life",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:14:37",
     "superchat_value": 0.0
   },
@@ -67235,7 +67235,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:15:52",
     "superchat_value": 0.0
   },
@@ -67615,7 +67615,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Philip Wright",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:18:26",
     "superchat_value": 0.0
   },
@@ -68605,7 +68605,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Shelly",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:23:46",
     "superchat_value": 0.0
   },
@@ -68885,7 +68885,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Spicy Cat Foster",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:24:59",
     "superchat_value": 0.0
   },
@@ -69365,7 +69365,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Rhonda Mcneal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:27:21",
     "superchat_value": 0.0
   },
@@ -70205,7 +70205,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Anna Witt",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:30:19",
     "superchat_value": 0.0
   },
@@ -71185,7 +71185,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Verboboss",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:32:58",
     "superchat_value": 0.0
   },
@@ -71375,7 +71375,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:33:39",
     "superchat_value": 0.0
   },
@@ -71895,7 +71895,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "loveit",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:37:06",
     "superchat_value": 0.0
   },
@@ -72145,7 +72145,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Duchess Diana",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:38:20",
     "superchat_value": 0.0
   },
@@ -72355,7 +72355,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:39:25",
     "superchat_value": 0.0
   },
@@ -72575,7 +72575,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:40:06",
     "superchat_value": 0.0
   },
@@ -74195,7 +74195,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Corinne Mercer",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 22:49:50",
     "superchat_value": 0.0
   },
@@ -77535,7 +77535,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Deborah Magnuson",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:09:47",
     "superchat_value": 0.0
   },
@@ -79535,7 +79535,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yvonne",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:22:52",
     "superchat_value": 0.0
   },
@@ -79865,7 +79865,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:24:30",
     "superchat_value": 0.0
   },
@@ -80445,7 +80445,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Anne walsh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:27:20",
     "superchat_value": 0.0
   },
@@ -80575,7 +80575,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:27:47",
     "superchat_value": 0.0
   },
@@ -80615,7 +80615,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Kathy Santoni",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:27:57",
     "superchat_value": 0.0
   },
@@ -80925,7 +80925,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Spicy Cat Foster",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:29:02",
     "superchat_value": 0.0
   },
@@ -80945,7 +80945,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Katy did-it ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:29:10",
     "superchat_value": 0.0
   },
@@ -82715,7 +82715,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Kayce429",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:34:26",
     "superchat_value": 0.0
   },
@@ -83245,7 +83245,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Treasure Rescue aka queenbean",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:36:29",
     "superchat_value": 0.0
   },
@@ -83375,7 +83375,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:36:55",
     "superchat_value": 0.0
   },
@@ -83695,7 +83695,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:37:50",
     "superchat_value": 0.0
   },
@@ -83835,7 +83835,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "KFick89",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:38:11",
     "superchat_value": 0.0
   },
@@ -84085,7 +84085,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "PurpleGroovy69",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:39:00",
     "superchat_value": 0.0
   },
@@ -84255,7 +84255,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:39:16",
     "superchat_value": 0.0
   },
@@ -84305,7 +84305,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "༺TRACY༻",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:39:23",
     "superchat_value": 0.0
   },
@@ -84335,7 +84335,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:39:26",
     "superchat_value": 0.0
   },
@@ -84595,7 +84595,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:40:08",
     "superchat_value": 0.0
   },
@@ -84705,7 +84705,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "GrammyJen",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:40:37",
     "superchat_value": 0.0
   },
@@ -85695,7 +85695,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Itchy Thetans",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:44:23",
     "superchat_value": 0.0
   },
@@ -86485,7 +86485,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Anne Casillas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:47:01",
     "superchat_value": 0.0
   },
@@ -87125,7 +87125,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "TriByte",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:50:12",
     "superchat_value": 0.0
   },
@@ -87165,7 +87165,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:50:24",
     "superchat_value": 0.0
   },
@@ -87345,7 +87345,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Katie Fulton",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:51:12",
     "superchat_value": 0.0
   },
@@ -87485,7 +87485,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Janette Rexford",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:51:58",
     "superchat_value": 0.0
   },
@@ -87495,7 +87495,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:52:00",
     "superchat_value": 0.0
   },
@@ -87535,7 +87535,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Lumin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:52:19",
     "superchat_value": 0.0
   },
@@ -87555,7 +87555,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:52:21",
     "superchat_value": 0.0
   },
@@ -87775,7 +87775,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Duchess Diana",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:53:18",
     "superchat_value": 0.0
   },
@@ -87795,7 +87795,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:53:19",
     "superchat_value": 0.0
   },
@@ -87865,7 +87865,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "MissSunriseDawn",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:53:37",
     "superchat_value": 0.0
   },
@@ -87935,7 +87935,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Evie M",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:53:55",
     "superchat_value": 0.0
   },
@@ -87945,7 +87945,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:53:57",
     "superchat_value": 0.0
   },
@@ -87965,7 +87965,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:54:00",
     "superchat_value": 0.0
   },
@@ -88005,7 +88005,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:54:09",
     "superchat_value": 0.0
   },
@@ -88015,7 +88015,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "LoveMaddie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:54:13",
     "superchat_value": 0.0
   },
@@ -88045,7 +88045,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Ursina Z",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:54:31",
     "superchat_value": 0.0
   },
@@ -88215,7 +88215,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": " Patty L. Collins",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:55:20",
     "superchat_value": 0.0
   },
@@ -88315,7 +88315,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Anne Casillas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 23:56:02",
     "superchat_value": 0.0
   },
@@ -89725,7 +89725,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Ursina Z",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:08:16",
     "superchat_value": 0.0
   },
@@ -89835,7 +89835,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Dip Me in Glitter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:09:23",
     "superchat_value": 0.0
   },
@@ -89985,7 +89985,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Jazzygirl Sarah",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:10:54",
     "superchat_value": 0.0
   },
@@ -90805,7 +90805,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:20:52",
     "superchat_value": 0.0
   },
@@ -91095,7 +91095,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Dip Me in Glitter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:23:07",
     "superchat_value": 0.0
   },
@@ -91335,7 +91335,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:24:30",
     "superchat_value": 0.0
   },
@@ -91455,7 +91455,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Dip Me in Glitter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:25:15",
     "superchat_value": 0.0
   },
@@ -92695,7 +92695,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yvonne",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:36:03",
     "superchat_value": 0.0
   },
@@ -92825,7 +92825,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Dip Me in Glitter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:37:12",
     "superchat_value": 0.0
   },
@@ -93105,7 +93105,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:38:54",
     "superchat_value": 0.0
   },
@@ -93265,7 +93265,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Anne Casillas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:39:31",
     "superchat_value": 0.0
   },
@@ -93385,7 +93385,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:40:00",
     "superchat_value": 0.0
   },
@@ -93455,7 +93455,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "TriByte",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:40:20",
     "superchat_value": 0.0
   },
@@ -93545,7 +93545,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:40:39",
     "superchat_value": 0.0
   },
@@ -93625,7 +93625,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "JenJenPookie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:40:47",
     "superchat_value": 0.0
   },
@@ -93705,7 +93705,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Anne Casillas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:40:56",
     "superchat_value": 0.0
   },
@@ -93835,7 +93835,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:41:15",
     "superchat_value": 0.0
   },
@@ -93885,7 +93885,7 @@
     "upload_date": "2024-01-24",
     "channel": "Relatable Reese",
     "author": "Dip Me in Glitter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-24 00:41:25",
     "superchat_value": 0.0
   },
@@ -94135,7 +94135,7 @@
     "upload_date": "2023-08-03",
     "channel": "Relatable Reese",
     "author": "kk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-03 22:09:47",
     "superchat_value": 0.0
   },
@@ -94925,7 +94925,7 @@
     "upload_date": "2023-08-03",
     "channel": "Relatable Reese",
     "author": "Susanne 🩷",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-03 22:36:32",
     "superchat_value": 0.0
   },
@@ -94945,7 +94945,7 @@
     "upload_date": "2023-08-03",
     "channel": "Relatable Reese",
     "author": "URLoved",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-03 22:36:49",
     "superchat_value": 0.0
   },
@@ -95365,7 +95365,7 @@
     "upload_date": "2023-08-03",
     "channel": "Relatable Reese",
     "author": "Susanne 🩷",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-03 22:46:28",
     "superchat_value": 0.0
   },
@@ -95665,7 +95665,7 @@
     "upload_date": "2023-08-03",
     "channel": "Relatable Reese",
     "author": "Keilah McDonald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-03 22:53:12",
     "superchat_value": 0.0
   },
@@ -96865,7 +96865,7 @@
     "upload_date": "2023-08-03",
     "channel": "Relatable Reese",
     "author": "Keilah McDonald",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-03 23:17:31",
     "superchat_value": 0.0
   },
@@ -97475,7 +97475,7 @@
     "upload_date": "2024-05-15",
     "channel": "Relatable Reese",
     "author": "RHarman21",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:52:18",
     "superchat_value": 0.0
   },
@@ -97805,7 +97805,7 @@
     "upload_date": "2024-05-15",
     "channel": "Relatable Reese",
     "author": "Kings Kid",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:53:51",
     "superchat_value": 0.0
   },
@@ -98475,7 +98475,7 @@
     "upload_date": "2024-05-15",
     "channel": "Relatable Reese",
     "author": "Rhonda Mcneal",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:59:24",
     "superchat_value": 0.0
   },
@@ -98575,7 +98575,7 @@
     "upload_date": "2024-05-15",
     "channel": "Relatable Reese",
     "author": "Deb S",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:59:37",
     "superchat_value": 0.0
   },

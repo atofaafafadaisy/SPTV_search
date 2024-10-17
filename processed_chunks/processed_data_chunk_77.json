@@ -665,7 +665,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "PurpleHaze",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:21:14",
     "superchat_value": 1.0
   },
@@ -855,7 +855,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Casey Bottaro",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:21:50",
     "superchat_value": 5.0
   },
@@ -985,7 +985,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "PurpleHaze",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:22:35",
     "superchat_value": 1.0
   },
@@ -1015,7 +1015,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Gary Shields",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:22:41",
     "superchat_value": 0.0
   },
@@ -1025,7 +1025,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Stacy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:22:43",
     "superchat_value": 0.0
   },
@@ -1325,7 +1325,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Stacy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:23:38",
     "superchat_value": 0.0
   },
@@ -1375,7 +1375,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Debbie Johnston",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:23:48",
     "superchat_value": 0.0
   },
@@ -1445,7 +1445,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Ana Phylaxis ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:23:57",
     "superchat_value": 0.0
   },
@@ -1545,7 +1545,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Jess Kozak",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:24:19",
     "superchat_value": 0.0
   },
@@ -1565,7 +1565,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Loz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:24:24",
     "superchat_value": 0.0
   },
@@ -1835,7 +1835,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Stacy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:25:05",
     "superchat_value": 0.0
   },
@@ -2905,7 +2905,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Tina Mrazik",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:28:53",
     "superchat_value": 2.0
   },
@@ -3085,7 +3085,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Stacy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:44",
     "superchat_value": 0.0
   },
@@ -3095,7 +3095,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Rebecca",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:45",
     "superchat_value": 0.0
   },
@@ -3105,7 +3105,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Erin Z",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:46",
     "superchat_value": 0.0
   },
@@ -3115,7 +3115,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "K S",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:46",
     "superchat_value": 0.0
   },
@@ -3125,7 +3125,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Eryn Morgan",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:46",
     "superchat_value": 0.0
   },
@@ -3145,7 +3145,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Ana Phylaxis ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:47",
     "superchat_value": 0.0
   },
@@ -3155,7 +3155,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Julianne Pitzele",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:47",
     "superchat_value": 0.0
   },
@@ -3185,7 +3185,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Rhombohedral",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:49",
     "superchat_value": 0.0
   },
@@ -3205,7 +3205,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "swedishlina",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:29:50",
     "superchat_value": 0.0
   },
@@ -3335,7 +3335,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "NIQOLE",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:30:18",
     "superchat_value": 0.0
   },
@@ -3725,7 +3725,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Goldie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:32:07",
     "superchat_value": 0.0
   },
@@ -3895,7 +3895,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Loz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:32:53",
     "superchat_value": 0.0
   },
@@ -4015,7 +4015,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Loz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:33:14",
     "superchat_value": 0.0
   },
@@ -4695,7 +4695,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "INNA",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:35:33",
     "superchat_value": 0.0
   },
@@ -4705,7 +4705,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Gary Shields",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:35:34",
     "superchat_value": 0.0
   },
@@ -4725,7 +4725,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Kreepyb5",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:35:36",
     "superchat_value": 0.0
   },
@@ -4775,7 +4775,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Kreepyb5",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:35:59",
     "superchat_value": 0.0
   },
@@ -5075,7 +5075,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Stacy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:37:07",
     "superchat_value": 0.0
   },
@@ -5285,7 +5285,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Clay Miller",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:38:15",
     "superchat_value": 0.0
   },
@@ -5525,7 +5525,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Smiglett",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:38:59",
     "superchat_value": 0.0
   },
@@ -5995,7 +5995,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Goldie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:40:45",
     "superchat_value": 0.0
   },
@@ -6145,7 +6145,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "JustBrowsingThankyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:41:34",
     "superchat_value": 2.99
   },
@@ -6505,7 +6505,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Erin Z",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:43:42",
     "superchat_value": 0.0
   },
@@ -6595,7 +6595,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Theresa Komes",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:43:51",
     "superchat_value": 0.0
   },
@@ -6725,7 +6725,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Hezaa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:44:14",
     "superchat_value": 0.0
   },
@@ -6875,7 +6875,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Erin Z",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:44:44",
     "superchat_value": 0.0
   },
@@ -7375,7 +7375,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Debbie Johnston",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:47:04",
     "superchat_value": 0.0
   },
@@ -7385,7 +7385,7 @@
     "upload_date": "2023-01-17",
     "channel": "Growing Up In Scientology",
     "author": "Tracy Seniuk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-17 00:47:07",
     "superchat_value": 0.0
   },
@@ -7485,7 +7485,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "PopsiclePeople",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:10:24",
     "superchat_value": 0.0
   },
@@ -7595,7 +7595,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "PopsiclePeople",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:13:12",
     "superchat_value": 0.0
   },
@@ -7865,7 +7865,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Tämy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:16:41",
     "superchat_value": 0.0
   },
@@ -7885,7 +7885,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Happy Puffin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:16:45",
     "superchat_value": 0.0
   },
@@ -8015,7 +8015,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "ninpolite",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:17:14",
     "superchat_value": 0.0
   },
@@ -8115,7 +8115,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "The Fat Hipster",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:18:00",
     "superchat_value": 0.0
   },
@@ -8175,7 +8175,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Vixen ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:18:34",
     "superchat_value": 0.0
   },
@@ -8835,7 +8835,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "care4jc YT",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:26:22",
     "superchat_value": 0.0
   },
@@ -8935,7 +8935,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Nikki B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:27:59",
     "superchat_value": 0.0
   },
@@ -9715,7 +9715,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Simon Superstar (Kathy DeVaney Simon) ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:32:08",
     "superchat_value": 0.0
   },
@@ -10905,7 +10905,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Imsooutofspoonsimforked",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:41:21",
     "superchat_value": 0.0
   },
@@ -11745,7 +11745,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Wiedźma nie niewiasta",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:46:47",
     "superchat_value": 0.0
   },
@@ -11995,7 +11995,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Imsooutofspoonsimforked",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:48:44",
     "superchat_value": 0.0
   },
@@ -13265,7 +13265,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "LenaOn_Me",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 20:56:02",
     "superchat_value": 0.0
   },
@@ -14135,7 +14135,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "LenaOn_Me",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:02:10",
     "superchat_value": 0.0
   },
@@ -14365,7 +14365,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "LenaOn_Me",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:04:01",
     "superchat_value": 0.0
   },
@@ -14445,7 +14445,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Kirstin Disney",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:04:35",
     "superchat_value": 0.0
   },
@@ -15405,7 +15405,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Rhombohedral",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:12:16",
     "superchat_value": 0.0
   },
@@ -17215,7 +17215,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "stephanie cepeda",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:27:49",
     "superchat_value": 0.0
   },
@@ -17245,7 +17245,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "stephanie cepeda",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:28:09",
     "superchat_value": 0.0
   },
@@ -17325,7 +17325,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Suzy Q ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:28:36",
     "superchat_value": 0.0
   },
@@ -17365,7 +17365,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Beach Comber BA Econ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:28:55",
     "superchat_value": 0.0
   },
@@ -18275,7 +18275,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:36:19",
     "superchat_value": 0.0
   },
@@ -18305,7 +18305,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Clearwater Cheryl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:36:33",
     "superchat_value": 0.0
   },
@@ -18825,7 +18825,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Suzy Q ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:38:57",
     "superchat_value": 0.0
   },
@@ -18945,7 +18945,7 @@
     "upload_date": "2023-10-20",
     "channel": "Growing Up In Scientology",
     "author": "Tazzie D",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-10-20 21:39:10",
     "superchat_value": 0.0
   },
@@ -19145,7 +19145,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Stella Bella",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:17:45",
     "superchat_value": 0.0
   },
@@ -19335,7 +19335,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Moni",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:18:32",
     "superchat_value": 0.0
   },
@@ -19535,7 +19535,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Familiar Bot",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:19:39",
     "superchat_value": 0.0
   },
@@ -19825,7 +19825,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Christina Lembo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:22:51",
     "superchat_value": 0.0
   },
@@ -19915,7 +19915,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Ms. Foxy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:23:00",
     "superchat_value": 0.0
   },
@@ -20815,7 +20815,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Terri VG",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:28:40",
     "superchat_value": 0.0
   },
@@ -20925,7 +20925,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Big Joe Grizzly",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:30:08",
     "superchat_value": 0.0
   },
@@ -21125,7 +21125,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Dr. Sammy Munchkin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:31:13",
     "superchat_value": 0.0
   },
@@ -21995,7 +21995,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Jenna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:34:32",
     "superchat_value": 0.0
   },
@@ -23645,7 +23645,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Aimee",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:39:25",
     "superchat_value": 0.0
   },
@@ -23735,7 +23735,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Jenn Hack",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:39:40",
     "superchat_value": 0.0
   },
@@ -23785,7 +23785,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "AC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:39:46",
     "superchat_value": 0.0
   },
@@ -24115,7 +24115,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Morticia",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:40:39",
     "superchat_value": 0.0
   },
@@ -24315,7 +24315,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Morticia",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:41:16",
     "superchat_value": 0.0
   },
@@ -24945,7 +24945,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Power Lies To Paralyze",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:42:56",
     "superchat_value": 0.0
   },
@@ -24985,7 +24985,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "AbDazzle",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:42:59",
     "superchat_value": 0.0
   },
@@ -24995,7 +24995,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Duchess Diana",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:00",
     "superchat_value": 0.0
   },
@@ -25015,7 +25015,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Ms. Foxy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:01",
     "superchat_value": 0.0
   },
@@ -25095,7 +25095,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Floss Tycoon",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:09",
     "superchat_value": 0.0
   },
@@ -25145,7 +25145,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Karine_C",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:13",
     "superchat_value": 0.0
   },
@@ -25185,7 +25185,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Destonie Salazar",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:16",
     "superchat_value": 0.0
   },
@@ -25205,7 +25205,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "AvadaKadaver ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:18",
     "superchat_value": 0.0
   },
@@ -25215,7 +25215,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Ingeborg Swieten",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:18",
     "superchat_value": 0.0
   },
@@ -25225,7 +25225,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "KD214_🦋",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:19",
     "superchat_value": 0.0
   },
@@ -25275,7 +25275,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "KD214_🦋",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:43:22",
     "superchat_value": 0.0
   },
@@ -25815,7 +25815,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Floss Tycoon",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:44:25",
     "superchat_value": 0.0
   },
@@ -25925,7 +25925,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Karine_C",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:44:39",
     "superchat_value": 0.0
   },
@@ -26485,7 +26485,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "lori Lorilori",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:46:03",
     "superchat_value": 0.0
   },
@@ -26695,7 +26695,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "AbDazzle",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:46:40",
     "superchat_value": 0.0
   },
@@ -26765,7 +26765,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Ms. Foxy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:46:50",
     "superchat_value": 0.0
   },
@@ -27255,7 +27255,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Brian Thatcher",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:48:12",
     "superchat_value": 4.99
   },
@@ -27415,7 +27415,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Wills_PickleJar_Scar (Crystal)",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:48:38",
     "superchat_value": 0.0
   },
@@ -28525,7 +28525,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Chino Xoj",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:53:14",
     "superchat_value": 0.0
   },
@@ -28555,7 +28555,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Helios 2425",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:53:18",
     "superchat_value": 0.0
   },
@@ -29105,7 +29105,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Paula Candiloro",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:55:40",
     "superchat_value": 0.0
   },
@@ -29785,7 +29785,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Cvs 230",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:57:46",
     "superchat_value": 0.0
   },
@@ -29975,7 +29975,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Erin McAlister",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:58:27",
     "superchat_value": 10.0
   },
@@ -30155,7 +30155,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Stacy's So Called Life",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 01:59:05",
     "superchat_value": 0.0
   },
@@ -31645,7 +31645,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 02:04:38",
     "superchat_value": 0.0
   },
@@ -33425,7 +33425,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "Duchess Diana",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 02:12:14",
     "superchat_value": 0.0
   },
@@ -33565,7 +33565,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "TJ Tampa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 02:12:35",
     "superchat_value": 0.0
   },
@@ -33845,7 +33845,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "TJ Tampa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 02:13:09",
     "superchat_value": 0.0
   },
@@ -33865,7 +33865,7 @@
     "upload_date": "2024-01-23",
     "channel": "Growing Up In Scientology",
     "author": "LoveMaddie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-23 02:13:09",
     "superchat_value": 0.0
   },
@@ -34115,7 +34115,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "Danny Crook",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 00:54:44",
     "superchat_value": 0.0
   },
@@ -34555,7 +34555,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "Children Of Scientology",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:02:37",
     "superchat_value": 0.0
   },
@@ -34835,7 +34835,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "Julia for JUSTICE",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:05:19",
     "superchat_value": 0.0
   },
@@ -35245,7 +35245,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "Annie Kirts",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:08:52",
     "superchat_value": 0.0
   },
@@ -35385,7 +35385,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "Eat More Pizza... Now!",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:11:39",
     "superchat_value": 0.0
   },
@@ -35505,7 +35505,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "Linda P Golan",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:14:45",
     "superchat_value": 0.0
   },
@@ -35655,7 +35655,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "racine2006",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:17:30",
     "superchat_value": 0.0
   },
@@ -36055,7 +36055,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "In Theta",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:22:39",
     "superchat_value": 0.0
   },
@@ -36685,7 +36685,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "Stephanie Estabrook",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:31:13",
     "superchat_value": 0.0
   },
@@ -36785,7 +36785,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "In Theta",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:32:26",
     "superchat_value": 0.0
   },
@@ -36955,7 +36955,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "FreeXenuProject (of Farsec)",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:34:37",
     "superchat_value": 0.0
   },
@@ -38675,7 +38675,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "In Theta",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 01:55:52",
     "superchat_value": 0.0
   },
@@ -39665,7 +39665,7 @@
     "upload_date": "2023-07-02",
     "channel": "Growing Up In Scientology",
     "author": "Namaste Nadine",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 02:07:11",
     "superchat_value": 0.0
   },
@@ -39825,7 +39825,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Clearwater CHAD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:05:27",
     "superchat_value": 0.0
   },
@@ -39935,7 +39935,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Clearwater CHAD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:06:42",
     "superchat_value": 0.0
   },
@@ -40175,7 +40175,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Laura Font",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:07:40",
     "superchat_value": 0.0
   },
@@ -40245,7 +40245,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Hippie Soul",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:07:53",
     "superchat_value": 0.0
   },
@@ -40275,7 +40275,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "*Helen*",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:07:57",
     "superchat_value": 0.0
   },
@@ -41325,7 +41325,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Clearwater CHAD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:12:37",
     "superchat_value": 0.0
   },
@@ -44435,7 +44435,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "W rizz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:29:35",
     "superchat_value": 4.99
   },
@@ -45105,7 +45105,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Urma Webb",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:32:52",
     "superchat_value": 0.0
   },
@@ -45805,7 +45805,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Annie Kirts",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:37:39",
     "superchat_value": 0.0
   },
@@ -46005,7 +46005,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Aimee",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:39:44",
     "superchat_value": 0.0
   },
@@ -46325,7 +46325,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Jill Anderson",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:42:05",
     "superchat_value": 0.0
   },
@@ -46675,7 +46675,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "ExJW Born-in",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:44:49",
     "superchat_value": 0.0
   },
@@ -47335,7 +47335,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Sandy Bowers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:49:46",
     "superchat_value": 0.0
   },
@@ -47795,7 +47795,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Gary Shields",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:53:42",
     "superchat_value": 2.0
   },
@@ -47925,7 +47925,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Sandy Bowers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:54:28",
     "superchat_value": 0.0
   },
@@ -48375,7 +48375,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Gary Shields",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 02:57:17",
     "superchat_value": 10.0
   },
@@ -49005,7 +49005,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Hollie Everett",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:01:40",
     "superchat_value": 0.0
   },
@@ -49275,7 +49275,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "MedicOnTheMove",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:02:59",
     "superchat_value": 0.0
   },
@@ -49565,7 +49565,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "S H",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:05:14",
     "superchat_value": 0.0
   },
@@ -49655,7 +49655,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Hippie Soul",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:05:56",
     "superchat_value": 0.0
   },
@@ -50045,7 +50045,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "FancyFace",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:09:11",
     "superchat_value": 0.0
   },
@@ -50705,7 +50705,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Luna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:13:56",
     "superchat_value": 0.0
   },
@@ -50805,7 +50805,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Stephanie Estabrook",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:14:16",
     "superchat_value": 0.0
   },
@@ -51075,7 +51075,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Sandy Bowers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:15:17",
     "superchat_value": 0.0
   },
@@ -51885,7 +51885,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "i'l B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:20:15",
     "superchat_value": 0.0
   },
@@ -51895,7 +51895,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "MamaKari",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:20:18",
     "superchat_value": 0.0
   },
@@ -52345,7 +52345,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "JenWrites",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:24:09",
     "superchat_value": 0.0
   },
@@ -52385,7 +52385,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Hippie Soul",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:24:29",
     "superchat_value": 0.0
   },
@@ -52515,7 +52515,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Sandy Bowers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:25:50",
     "superchat_value": 0.0
   },
@@ -53775,7 +53775,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "i'l B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:36:06",
     "superchat_value": 0.0
   },
@@ -54365,7 +54365,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "i'l B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:39:37",
     "superchat_value": 0.0
   },
@@ -54805,7 +54805,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Clearwater Cheryl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:41:55",
     "superchat_value": 0.0
   },
@@ -54815,7 +54815,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "MamaKari",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:42:05",
     "superchat_value": 0.0
   },
@@ -54835,7 +54835,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "catandmaggie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:42:12",
     "superchat_value": 0.0
   },
@@ -54845,7 +54845,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Itzel Olivera",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:42:12",
     "superchat_value": 0.0
   },
@@ -54855,7 +54855,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "MamaKari",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:42:23",
     "superchat_value": 0.0
   },
@@ -54915,7 +54915,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Hippie Soul",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:42:38",
     "superchat_value": 0.0
   },
@@ -54925,7 +54925,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:42:40",
     "superchat_value": 0.0
   },
@@ -54935,7 +54935,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "J Dice",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:42:43",
     "superchat_value": 0.0
   },
@@ -55025,7 +55025,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Lesalikespink",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:43:36",
     "superchat_value": 0.0
   },
@@ -55045,7 +55045,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Hippie Soul",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:43:38",
     "superchat_value": 0.0
   },
@@ -55065,7 +55065,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "MamaKari",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:43:47",
     "superchat_value": 0.0
   },
@@ -55085,7 +55085,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Cate Bligh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:43:53",
     "superchat_value": 0.0
   },
@@ -55095,7 +55095,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "MaxwellEdisonsmum",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:43:55",
     "superchat_value": 0.0
   },
@@ -55135,7 +55135,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Janette Rexford",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:44:02",
     "superchat_value": 0.0
   },
@@ -55245,7 +55245,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Tiff420🫶 ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:44:38",
     "superchat_value": 0.0
   },
@@ -55325,7 +55325,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Janette Rexford",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:45:44",
     "superchat_value": 0.0
   },
@@ -55685,7 +55685,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Hippie Soul",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:49:52",
     "superchat_value": 0.0
   },
@@ -55915,7 +55915,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Cate Bligh",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:52:09",
     "superchat_value": 0.0
   },
@@ -56065,7 +56065,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "i'l B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:53:28",
     "superchat_value": 0.0
   },
@@ -56495,7 +56495,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "i'l B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:55:32",
     "superchat_value": 0.0
   },
@@ -56555,7 +56555,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "ExJW Born-in",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 03:56:00",
     "superchat_value": 0.0
   },
@@ -57225,7 +57225,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "i'l B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 04:00:11",
     "superchat_value": 0.0
   },
@@ -57745,7 +57745,7 @@
     "upload_date": "2023-04-12",
     "channel": "Growing Up In Scientology",
     "author": "Tazzie D",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-12 04:01:04",
     "superchat_value": 0.0
   },
@@ -58055,7 +58055,7 @@
     "upload_date": "2024-04-13",
     "channel": "Growing Up In Scientology",
     "author": "Just-do-it-zr",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-13 17:45:25",
     "superchat_value": 0.0
   },
@@ -58225,7 +58225,7 @@
     "upload_date": "2024-04-13",
     "channel": "Growing Up In Scientology",
     "author": "H.R. Nitemare",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-13 17:45:50",
     "superchat_value": 0.0
   },
@@ -58765,7 +58765,7 @@
     "upload_date": "2023-04-01",
     "channel": "Growing Up In Scientology",
     "author": "LydiaVonStretchClaw",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-01 18:14:45",
     "superchat_value": 0.0
   },
@@ -59275,7 +59275,7 @@
     "upload_date": "2023-04-01",
     "channel": "Growing Up In Scientology",
     "author": "Hollie Everett",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-01 18:19:26",
     "superchat_value": 0.0
   },
@@ -59705,7 +59705,7 @@
     "upload_date": "2023-04-01",
     "channel": "Growing Up In Scientology",
     "author": "tazz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-01 18:20:55",
     "superchat_value": 0.0
   },
@@ -60945,7 +60945,7 @@
     "upload_date": "2023-04-01",
     "channel": "Growing Up In Scientology",
     "author": "Miss_Anonymoose",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-01 18:31:19",
     "superchat_value": 0.0
   },
@@ -61145,7 +61145,7 @@
     "upload_date": "2023-04-01",
     "channel": "Growing Up In Scientology",
     "author": "Beach Comber BA Econ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-01 18:32:12",
     "superchat_value": 0.0
   },
@@ -61615,7 +61615,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Donna Cooper",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 00:44:51",
     "superchat_value": 0.0
   },
@@ -61975,7 +61975,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Jeanne Haupt",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:01:35",
     "superchat_value": 9.99
   },
@@ -62225,7 +62225,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Doyle Jodi",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:03:10",
     "superchat_value": 6.99
   },
@@ -62275,7 +62275,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Frogman",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:03:35",
     "superchat_value": 0.0
   },
@@ -62785,7 +62785,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Frogman",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:06:57",
     "superchat_value": 0.0
   },
@@ -63005,7 +63005,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Frogman",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:09:34",
     "superchat_value": 0.0
   },
@@ -63255,7 +63255,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "kk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:12:53",
     "superchat_value": 0.0
   },
@@ -63475,7 +63475,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Frogman",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:14:37",
     "superchat_value": 0.0
   },
@@ -63595,7 +63595,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Tricia M. B.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:15:11",
     "superchat_value": 0.0
   },
@@ -64165,7 +64165,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Toni Lynn Pakus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:21:10",
     "superchat_value": 0.0
   },
@@ -64225,7 +64225,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Frogman",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:21:30",
     "superchat_value": 0.0
   },
@@ -64395,7 +64395,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "bgirlsquirrel",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:23:48",
     "superchat_value": 0.0
   },
@@ -64745,7 +64745,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "GamingFire",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:26:24",
     "superchat_value": 0.0
   },
@@ -64795,7 +64795,7 @@
     "upload_date": "2023-08-24",
     "channel": "Growing Up In Scientology",
     "author": "Toni Lynn Pakus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-08-24 01:26:30",
     "superchat_value": 0.0
   },
@@ -64965,7 +64965,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "ninpolite",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:21:59",
     "superchat_value": 0.0
   },
@@ -65105,7 +65105,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "LoveMaddie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:22:25",
     "superchat_value": 0.0
   },
@@ -65125,7 +65125,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:22:25",
     "superchat_value": 0.0
   },
@@ -65225,7 +65225,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "K N",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:22:33",
     "superchat_value": 0.0
   },
@@ -65245,7 +65245,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:22:33",
     "superchat_value": 0.0
   },
@@ -65285,7 +65285,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "LVC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:22:37",
     "superchat_value": 0.0
   },
@@ -65305,7 +65305,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Nuda Truth",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:22:38",
     "superchat_value": 0.0
   },
@@ -65425,7 +65425,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Tyrana Villanueva",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:22:56",
     "superchat_value": 0.0
   },
@@ -65495,7 +65495,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Katie Fulton",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:23:03",
     "superchat_value": 0.0
   },
@@ -65525,7 +65525,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "RS",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:23:07",
     "superchat_value": 0.0
   },
@@ -65765,7 +65765,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Tyrana Villanueva",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:23:37",
     "superchat_value": 0.0
   },
@@ -65865,7 +65865,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:23:48",
     "superchat_value": 0.0
   },
@@ -65905,7 +65905,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Nuda Truth",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:23:53",
     "superchat_value": 0.0
   },
@@ -65915,7 +65915,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "huntncrew",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:23:56",
     "superchat_value": 0.0
   },
@@ -65965,7 +65965,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Rach Beth Huff",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:24:05",
     "superchat_value": 0.0
   },
@@ -66055,7 +66055,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Tashawna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:24:19",
     "superchat_value": 0.0
   },
@@ -66165,7 +66165,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Retired Red",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:24:35",
     "superchat_value": 0.0
   },
@@ -66175,7 +66175,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:24:39",
     "superchat_value": 0.0
   },
@@ -66335,7 +66335,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "TJ Tampa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:25:00",
     "superchat_value": 0.0
   },
@@ -66665,7 +66665,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:25:28",
     "superchat_value": 0.0
   },
@@ -66895,7 +66895,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:26:11",
     "superchat_value": 0.0
   },
@@ -67145,7 +67145,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Kraken Studio—The Real Booty! ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:26:53",
     "superchat_value": 0.0
   },
@@ -67255,7 +67255,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "UNSTOPPABLE_SP",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:27:07",
     "superchat_value": 0.0
   },
@@ -67405,7 +67405,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Swed_ISH_Andrea",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:27:23",
     "superchat_value": 0.0
   },
@@ -67645,7 +67645,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:27:51",
     "superchat_value": 0.0
   },
@@ -68585,7 +68585,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "HeidiBrayinMaine",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:29:26",
     "superchat_value": 0.0
   },
@@ -68795,7 +68795,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Vanessa Vasquez",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:29:52",
     "superchat_value": 0.0
   },
@@ -68925,7 +68925,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Lady_Rowdy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:29:59",
     "superchat_value": 0.0
   },
@@ -69365,7 +69365,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "moenoep",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:30:21",
     "superchat_value": 0.0
   },
@@ -69815,7 +69815,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "The Gude-est Girl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:31:08",
     "superchat_value": 0.0
   },
@@ -70685,7 +70685,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "HeidiBrayinMaine",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:32:43",
     "superchat_value": 0.0
   },
@@ -71105,7 +71105,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Liz Brauer",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:33:43",
     "superchat_value": 0.0
   },
@@ -71215,7 +71215,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Rose",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:33:56",
     "superchat_value": 0.0
   },
@@ -71665,7 +71665,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "TJ Tampa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:34:40",
     "superchat_value": 0.0
   },
@@ -71775,7 +71775,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "She’s a valley girl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:34:52",
     "superchat_value": 0.0
   },
@@ -71805,7 +71805,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "More Fun Than Sitting At Home",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:34:54",
     "superchat_value": 0.0
   },
@@ -71815,7 +71815,7 @@
     "upload_date": "2024-02-06",
     "channel": "Growing Up In Scientology",
     "author": "Christina Lembo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-06 06:34:55",
     "superchat_value": 0.0
   },
@@ -72135,7 +72135,7 @@
     "upload_date": "2024-01-10",
     "channel": "Growing Up In Scientology",
     "author": "Vixen ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-10 01:23:38",
     "superchat_value": 0.0
   },
@@ -72425,7 +72425,7 @@
     "upload_date": "2024-01-10",
     "channel": "Growing Up In Scientology",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-10 01:25:00",
     "superchat_value": 0.0
   },
@@ -72535,7 +72535,7 @@
     "upload_date": "2024-01-10",
     "channel": "Growing Up In Scientology",
     "author": "Bev",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-10 01:25:25",
     "superchat_value": 0.0
   },
@@ -74655,7 +74655,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Tiffany B.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 00:26:09",
     "superchat_value": 0.0
   },
@@ -75005,7 +75005,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "@SISSACATGIRL ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 00:31:03",
     "superchat_value": 0.0
   },
@@ -76635,7 +76635,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Goldie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 00:49:01",
     "superchat_value": 0.0
   },
@@ -76905,7 +76905,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Annie Kirts",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 00:53:07",
     "superchat_value": 0.0
   },
@@ -77115,7 +77115,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Rhombohedral",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 00:56:13",
     "superchat_value": 0.0
   },
@@ -77495,7 +77495,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Goldie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 01:00:31",
     "superchat_value": 0.0
   },
@@ -77515,7 +77515,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Kevin Morgan",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 01:00:59",
     "superchat_value": 0.0
   },
@@ -77655,7 +77655,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Goldie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 01:02:59",
     "superchat_value": 0.0
   },
@@ -77745,7 +77745,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "thomkatt 33",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 01:04:04",
     "superchat_value": 0.0
   },
@@ -78715,7 +78715,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Anything Goes",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 01:20:54",
     "superchat_value": 0.0
   },
@@ -79555,7 +79555,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Annie Kirts",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 01:30:45",
     "superchat_value": 0.0
   },
@@ -80605,7 +80605,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Annie Kirts",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 01:46:30",
     "superchat_value": 0.0
   },
@@ -81125,7 +81125,7 @@
     "upload_date": "2022-12-27",
     "channel": "Growing Up In Scientology",
     "author": "Rhombohedral",
-    "message": NaN,
+    "message": null,
     "timestamp": "2022-12-27 01:51:23",
     "superchat_value": 0.0
   },
@@ -81265,7 +81265,7 @@
     "upload_date": "2024-02-22",
     "channel": "Growing Up In Scientology",
     "author": "Vixen ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-22 21:24:36",
     "superchat_value": 0.0
   },
@@ -81905,7 +81905,7 @@
     "upload_date": "2024-02-22",
     "channel": "Growing Up In Scientology",
     "author": "Human",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-22 21:28:11",
     "superchat_value": 0.0
   },
@@ -82015,7 +82015,7 @@
     "upload_date": "2024-02-22",
     "channel": "Growing Up In Scientology",
     "author": "Farah Khalil",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-22 21:28:23",
     "superchat_value": 0.0
   },
@@ -82175,7 +82175,7 @@
     "upload_date": "2024-02-22",
     "channel": "Growing Up In Scientology",
     "author": "Snoozeroni",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-22 21:28:40",
     "superchat_value": 0.0
   },
@@ -82305,7 +82305,7 @@
     "upload_date": "2024-02-22",
     "channel": "Growing Up In Scientology",
     "author": "KS",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-22 21:28:52",
     "superchat_value": 0.0
   },
@@ -83195,7 +83195,7 @@
     "upload_date": "2024-02-22",
     "channel": "Growing Up In Scientology",
     "author": "Simon Superstar (Kathy DeVaney Simon) ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-22 21:32:01",
     "superchat_value": 0.0
   },
@@ -84225,7 +84225,7 @@
     "upload_date": "2024-02-22",
     "channel": "Growing Up In Scientology",
     "author": "General Boa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-22 21:35:07",
     "superchat_value": 0.0
   },
@@ -84365,7 +84365,7 @@
     "upload_date": "2024-02-22",
     "channel": "Growing Up In Scientology",
     "author": "Vortex X ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-02-22 21:35:34",
     "superchat_value": 0.0
   },
@@ -85015,7 +85015,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Hezaa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:02:35",
     "superchat_value": 0.0
   },
@@ -85025,7 +85025,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Snoozeroni",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:02:46",
     "superchat_value": 0.0
   },
@@ -85595,7 +85595,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Annie Kirts",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:05:33",
     "superchat_value": 0.0
   },
@@ -86085,7 +86085,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Linda Smith",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:08:02",
     "superchat_value": 0.0
   },
@@ -86955,7 +86955,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Hippie Soul",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:13:16",
     "superchat_value": 0.0
   },
@@ -87215,7 +87215,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Kreepyb5",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:14:12",
     "superchat_value": 0.0
   },
@@ -88155,7 +88155,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Annie Kirts",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:19:00",
     "superchat_value": 0.0
   },
@@ -89555,7 +89555,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Mac D",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:29:35",
     "superchat_value": 5.0
   },
@@ -90005,7 +90005,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Snoozeroni",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:31:17",
     "superchat_value": 0.0
   },
@@ -90025,7 +90025,7 @@
     "upload_date": "2023-02-28",
     "channel": "Growing Up In Scientology",
     "author": "Annie Kirts",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-02-28 21:31:18",
     "superchat_value": 0.0
   },
@@ -90185,7 +90185,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Tiffany B.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 21:49:57",
     "superchat_value": 0.0
   },
@@ -90335,7 +90335,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Hezaa",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 21:50:59",
     "superchat_value": 0.0
   },
@@ -90365,7 +90365,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 21:51:11",
     "superchat_value": 0.0
   },
@@ -90585,7 +90585,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Tiffany B.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 21:53:12",
     "superchat_value": 0.0
   },
@@ -90995,7 +90995,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Elisabeth",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 21:57:45",
     "superchat_value": 2.0
   },
@@ -91085,7 +91085,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 21:58:51",
     "superchat_value": 0.0
   },
@@ -91275,7 +91275,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 22:00:08",
     "superchat_value": 0.0
   },
@@ -91935,7 +91935,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Goldie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 22:05:05",
     "superchat_value": 0.0
   },
@@ -91965,7 +91965,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Moz Art",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 22:05:14",
     "superchat_value": 0.0
   },
@@ -91975,7 +91975,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 22:05:14",
     "superchat_value": 0.0
   },
@@ -92705,7 +92705,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 22:10:42",
     "superchat_value": 0.0
   },
@@ -92795,7 +92795,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Moz Art",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 22:10:59",
     "superchat_value": 0.0
   },
@@ -92845,7 +92845,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Tiffany B.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 22:11:10",
     "superchat_value": 0.0
   },
@@ -92895,7 +92895,7 @@
     "upload_date": "2023-01-07",
     "channel": "Growing Up In Scientology",
     "author": "Goldie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-01-07 22:11:16",
     "superchat_value": 0.0
   },
@@ -92955,7 +92955,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Eat More Pizza... Now!",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:24:23",
     "superchat_value": 0.0
   },
@@ -93015,7 +93015,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Eat More Pizza... Now!",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:25:35",
     "superchat_value": 0.0
   },
@@ -93115,7 +93115,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Panda_Kelli",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:27:17",
     "superchat_value": 0.0
   },
@@ -93275,7 +93275,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Happy Puffin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:30:11",
     "superchat_value": 0.0
   },
@@ -93355,7 +93355,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Christian B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:30:51",
     "superchat_value": 0.0
   },
@@ -93635,7 +93635,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Christian B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:37:59",
     "superchat_value": 0.0
   },
@@ -93715,7 +93715,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Erin Cooper",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:39:10",
     "superchat_value": 0.0
   },
@@ -93835,7 +93835,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "MT Buildings",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:41:32",
     "superchat_value": 0.0
   },
@@ -93965,7 +93965,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Ren_listens",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:44:48",
     "superchat_value": 0.0
   },
@@ -94145,7 +94145,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "KornFreakDBSC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:46:10",
     "superchat_value": 0.0
   },
@@ -94165,7 +94165,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "MacMeister Toronto ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:46:13",
     "superchat_value": 0.0
   },
@@ -94185,7 +94185,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Ren_listens",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:46:19",
     "superchat_value": 0.0
   },
@@ -94195,7 +94195,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Debbie Johnston",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:46:23",
     "superchat_value": 0.0
   },
@@ -94205,7 +94205,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Pink Skies",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:46:23",
     "superchat_value": 0.0
   },
@@ -94275,7 +94275,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "AcuPunk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:46:42",
     "superchat_value": 0.0
   },
@@ -94515,7 +94515,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Matt Elliott MAA SPTV Canada",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:49:09",
     "superchat_value": 0.0
   },
@@ -94525,7 +94525,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Pink Skies",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:49:14",
     "superchat_value": 0.0
   },
@@ -94535,7 +94535,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "MELISSA LAPINSKI",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:49:21",
     "superchat_value": 0.0
   },
@@ -94545,7 +94545,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Ren_listens",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:49:26",
     "superchat_value": 0.0
   },
@@ -94575,7 +94575,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "House_Mouse420",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:49:32",
     "superchat_value": 0.0
   },
@@ -94625,7 +94625,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Danya B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:49:50",
     "superchat_value": 0.0
   },
@@ -94915,7 +94915,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Country Girl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:51:52",
     "superchat_value": 0.0
   },
@@ -94945,7 +94945,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Grace.AllOverThePlace🩰",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:51:58",
     "superchat_value": 0.0
   },
@@ -95115,7 +95115,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Ooshy Bermi",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:52:56",
     "superchat_value": 0.0
   },
@@ -95335,7 +95335,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:55:21",
     "superchat_value": 0.0
   },
@@ -95515,7 +95515,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "KornFreakDBSC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:56:19",
     "superchat_value": 0.0
   },
@@ -95555,7 +95555,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:56:33",
     "superchat_value": 0.0
   },
@@ -95625,7 +95625,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "The-Witchee-Woman (Nan)",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:57:15",
     "superchat_value": 0.0
   },
@@ -95675,7 +95675,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Kelly Huff",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:57:37",
     "superchat_value": 0.0
   },
@@ -95725,7 +95725,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:58:27",
     "superchat_value": 0.0
   },
@@ -95735,7 +95735,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:58:55",
     "superchat_value": 0.0
   },
@@ -95825,7 +95825,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 00:59:46",
     "superchat_value": 0.0
   },
@@ -95975,7 +95975,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:01:21",
     "superchat_value": 0.0
   },
@@ -96045,7 +96045,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Grace.AllOverThePlace🩰",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:02:12",
     "superchat_value": 0.0
   },
@@ -96205,7 +96205,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "No One",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:04:32",
     "superchat_value": 0.0
   },
@@ -96215,7 +96215,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:04:36",
     "superchat_value": 0.0
   },
@@ -96255,7 +96255,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "The Faded Line",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:05:13",
     "superchat_value": 0.0
   },
@@ -96835,7 +96835,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:11:57",
     "superchat_value": 0.0
   },
@@ -96945,7 +96945,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "NicoYEG",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:13:35",
     "superchat_value": 0.0
   },
@@ -97005,7 +97005,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Grace.AllOverThePlace🩰",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:13:57",
     "superchat_value": 0.0
   },
@@ -97065,7 +97065,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Bodyillusion",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:15:03",
     "superchat_value": 0.0
   },
@@ -97085,7 +97085,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "J Rambo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:15:42",
     "superchat_value": 0.0
   },
@@ -97135,7 +97135,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Christian B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:15:59",
     "superchat_value": 0.0
   },
@@ -97315,7 +97315,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "The Faded Line",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:17:49",
     "superchat_value": 0.0
   },
@@ -97345,7 +97345,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "MacMeister Toronto ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:18:00",
     "superchat_value": 0.0
   },
@@ -97385,7 +97385,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Boudica Boo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:18:20",
     "superchat_value": 0.0
   },
@@ -97945,7 +97945,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Short stack",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:24:00",
     "superchat_value": 0.0
   },
@@ -98455,7 +98455,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Frogman",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:31:10",
     "superchat_value": 0.0
   },
@@ -98535,7 +98535,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Frogman",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:31:34",
     "superchat_value": 0.0
   },
@@ -98625,7 +98625,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Sovereign Brehon",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:32:55",
     "superchat_value": 0.0
   },
@@ -98635,7 +98635,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Christian B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:33:00",
     "superchat_value": 0.0
   },
@@ -99095,7 +99095,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Frogman",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:38:02",
     "superchat_value": 0.0
   },
@@ -99205,7 +99205,7 @@
     "upload_date": "2024-04-27",
     "channel": "Growing Up In Scientology",
     "author": "Anon",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-27 01:39:22",
     "superchat_value": 0.0
   },
@@ -99345,7 +99345,7 @@
     "upload_date": "2023-04-08",
     "channel": "Growing Up In Scientology",
     "author": "N",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-08 19:11:50",
     "superchat_value": 0.0
   },
@@ -99365,7 +99365,7 @@
     "upload_date": "2023-04-08",
     "channel": "Growing Up In Scientology",
     "author": "N",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-08 19:12:46",
     "superchat_value": 0.0
   },
@@ -99445,7 +99445,7 @@
     "upload_date": "2023-04-08",
     "channel": "Growing Up In Scientology",
     "author": "Amanda Heck",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-04-08 19:14:20",
     "superchat_value": 0.0
   },

@@ -365,7 +365,7 @@
     "upload_date": "2024-05-24",
     "channel": "Oh No Nora",
     "author": "CricketCinema",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-25 00:22:22",
     "superchat_value": 1.99
   },
@@ -375,7 +375,7 @@
     "upload_date": "2024-05-24",
     "channel": "Oh No Nora",
     "author": "Brick Mama FF",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-25 00:22:26",
     "superchat_value": 0.0
   },
@@ -655,7 +655,7 @@
     "upload_date": "2024-05-24",
     "channel": "Oh No Nora",
     "author": "CapriciousCaroline",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-25 00:24:31",
     "superchat_value": 0.0
   },
@@ -675,7 +675,7 @@
     "upload_date": "2024-05-24",
     "channel": "Oh No Nora",
     "author": "Merrilee H",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-25 00:25:02",
     "superchat_value": 0.0
   },
@@ -1355,7 +1355,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Siobhan T",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:09:31",
     "superchat_value": 0.0
   },
@@ -1915,7 +1915,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Siobhan T",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:26:28",
     "superchat_value": 0.0
   },
@@ -2475,7 +2475,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Siobhan T",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:43:25",
     "superchat_value": 0.0
   },
@@ -2485,7 +2485,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "whitness",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:43:34",
     "superchat_value": 0.0
   },
@@ -2495,7 +2495,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Selena Caemawr",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:43:38",
     "superchat_value": 0.0
   },
@@ -2505,7 +2505,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:43:53",
     "superchat_value": 0.0
   },
@@ -2515,7 +2515,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Tawny C",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:44:02",
     "superchat_value": 0.0
   },
@@ -2525,7 +2525,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Linda P Golan",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:44:07",
     "superchat_value": 0.0
   },
@@ -2555,7 +2555,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:44:21",
     "superchat_value": 0.0
   },
@@ -2605,7 +2605,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "New name",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:45:23",
     "superchat_value": 0.0
   },
@@ -2615,7 +2615,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:45:38",
     "superchat_value": 0.0
   },
@@ -2675,7 +2675,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Siobhan T",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:48:10",
     "superchat_value": 0.0
   },
@@ -2685,7 +2685,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:48:31",
     "superchat_value": 0.0
   },
@@ -2825,7 +2825,7 @@
     "upload_date": "2023-07-02",
     "channel": "Oh No Nora",
     "author": "Siobhan T",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-02 21:53:20",
     "superchat_value": 0.0
   },
@@ -3335,7 +3335,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Heather Rhodes",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:03:19",
     "superchat_value": 0.0
   },
@@ -3705,7 +3705,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:08:29",
     "superchat_value": 0.0
   },
@@ -4515,7 +4515,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:24:10",
     "superchat_value": 0.0
   },
@@ -4545,7 +4545,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Fluffer Squirrel UK",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:24:30",
     "superchat_value": 0.0
   },
@@ -4565,7 +4565,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Diana Johnson",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:24:46",
     "superchat_value": 0.0
   },
@@ -4665,7 +4665,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:26:01",
     "superchat_value": 0.0
   },
@@ -4755,7 +4755,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:27:13",
     "superchat_value": 0.0
   },
@@ -5065,7 +5065,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "The Spicy Idaho Queen Bee",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:31:38",
     "superchat_value": 0.0
   },
@@ -5385,7 +5385,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Menna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:33:29",
     "superchat_value": 0.0
   },
@@ -5475,7 +5475,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Miss Mauz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:34:30",
     "superchat_value": 0.0
   },
@@ -5625,7 +5625,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Heather in the Library ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:39:06",
     "superchat_value": 0.0
   },
@@ -5745,7 +5745,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:40:43",
     "superchat_value": 0.0
   },
@@ -5795,7 +5795,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Miss Mauz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:41:14",
     "superchat_value": 0.0
   },
@@ -5885,7 +5885,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:42:33",
     "superchat_value": 0.0
   },
@@ -6125,7 +6125,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:44:20",
     "superchat_value": 0.0
   },
@@ -6235,7 +6235,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:45:02",
     "superchat_value": 0.0
   },
@@ -6325,7 +6325,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:46:25",
     "superchat_value": 0.0
   },
@@ -6365,7 +6365,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:46:48",
     "superchat_value": 0.0
   },
@@ -6525,7 +6525,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:47:55",
     "superchat_value": 0.0
   },
@@ -6885,7 +6885,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Cuddly Floof",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:52:39",
     "superchat_value": 0.0
   },
@@ -6995,7 +6995,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Cuddly Floof",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:55:07",
     "superchat_value": 0.0
   },
@@ -7065,7 +7065,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Stephanie Slaughters",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:55:55",
     "superchat_value": 0.0
   },
@@ -7105,7 +7105,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Cuddly Floof",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:56:11",
     "superchat_value": 0.0
   },
@@ -7135,7 +7135,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": " Nance Drew",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:56:37",
     "superchat_value": 0.0
   },
@@ -7295,7 +7295,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Ingrid K",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-02 23:57:59",
     "superchat_value": 0.0
   },
@@ -7905,7 +7905,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Sharon I",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-03 00:04:11",
     "superchat_value": 0.0
   },
@@ -8315,7 +8315,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "WestCoastFancyNancy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-03 00:08:46",
     "superchat_value": 0.0
   },
@@ -9185,7 +9185,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-03 00:15:31",
     "superchat_value": 0.0
   },
@@ -9345,7 +9345,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Minion52",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-03 00:19:23",
     "superchat_value": 0.0
   },
@@ -9455,7 +9455,7 @@
     "upload_date": "2024-04-02",
     "channel": "Oh No Nora",
     "author": "Menna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-03 00:20:11",
     "superchat_value": 0.0
   },
@@ -9645,7 +9645,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "pippi longstocking4ever",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:03:40",
     "superchat_value": 0.0
   },
@@ -9865,7 +9865,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Anna Belle",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:07:16",
     "superchat_value": 0.0
   },
@@ -9885,7 +9885,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Heather Rhodes",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:07:27",
     "superchat_value": 0.0
   },
@@ -10095,7 +10095,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Psych On The Rocks",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:17:21",
     "superchat_value": 0.0
   },
@@ -10175,7 +10175,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Psych On The Rocks",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:18:38",
     "superchat_value": 0.0
   },
@@ -10965,7 +10965,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "lanakin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:29:31",
     "superchat_value": 0.0
   },
@@ -11395,7 +11395,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:36:58",
     "superchat_value": 0.0
   },
@@ -11635,7 +11635,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Merrilee H",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:40:33",
     "superchat_value": 0.0
   },
@@ -12075,7 +12075,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "NatKat180",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:47:45",
     "superchat_value": 0.0
   },
@@ -12405,7 +12405,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "No One",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:53:34",
     "superchat_value": 0.0
   },
@@ -12805,7 +12805,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Karen Mezzacapo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 00:59:36",
     "superchat_value": 0.0
   },
@@ -13935,7 +13935,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "NatKat180",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 01:14:25",
     "superchat_value": 0.0
   },
@@ -14165,7 +14165,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 01:18:01",
     "superchat_value": 0.0
   },
@@ -14205,7 +14205,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Princess Prerogative ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 01:19:30",
     "superchat_value": 0.0
   },
@@ -14315,7 +14315,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 01:21:53",
     "superchat_value": 0.0
   },
@@ -14525,7 +14525,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Merrilee H",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 01:26:03",
     "superchat_value": 0.0
   },
@@ -15945,7 +15945,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Xal Storm",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 01:58:57",
     "superchat_value": 0.0
   },
@@ -16115,7 +16115,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "PipsMom",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:02:15",
     "superchat_value": 0.0
   },
@@ -17355,7 +17355,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "91Mliii",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:40:31",
     "superchat_value": 0.0
   },
@@ -17795,7 +17795,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "XeNews",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:53:54",
     "superchat_value": 0.0
   },
@@ -17805,7 +17805,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "jennchi",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:54:34",
     "superchat_value": 0.0
   },
@@ -17835,7 +17835,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Be Kind ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:54:59",
     "superchat_value": 0.0
   },
@@ -17875,7 +17875,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "XeNews",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:55:16",
     "superchat_value": 0.0
   },
@@ -17905,7 +17905,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Merrilee H",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:55:26",
     "superchat_value": 0.0
   },
@@ -17945,7 +17945,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:55:34",
     "superchat_value": 0.0
   },
@@ -17955,7 +17955,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Emily Owens",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:55:38",
     "superchat_value": 0.0
   },
@@ -17975,7 +17975,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Tazzie D",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:56:00",
     "superchat_value": 0.0
   },
@@ -17985,7 +17985,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "krystal primeaux",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:56:14",
     "superchat_value": 0.0
   },
@@ -18045,7 +18045,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "91Mliii",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 02:57:13",
     "superchat_value": 0.0
   },
@@ -18415,7 +18415,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "NatKat180",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 03:06:08",
     "superchat_value": 0.0
   },
@@ -18655,7 +18655,7 @@
     "upload_date": "2024-01-25",
     "channel": "Oh No Nora",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-25 03:22:44",
     "superchat_value": 0.0
   },
@@ -18935,7 +18935,7 @@
     "upload_date": "2024-01-25",
     "channel": "Oh No Nora",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-25 03:42:31",
     "superchat_value": 0.0
   },
@@ -19025,7 +19025,7 @@
     "upload_date": "2024-01-25",
     "channel": "Oh No Nora",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-25 03:51:29",
     "superchat_value": 0.0
   },
@@ -19105,7 +19105,7 @@
     "upload_date": "2024-01-25",
     "channel": "Oh No Nora",
     "author": "Yadira",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-25 03:57:10",
     "superchat_value": 0.0
   },
@@ -19595,7 +19595,7 @@
     "upload_date": "2024-01-25",
     "channel": "Oh No Nora",
     "author": "PurpleGroovy69",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-01-25 04:24:39",
     "superchat_value": 0.0
   },
@@ -20645,7 +20645,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "beMERRYforlife",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 02:39:48",
     "superchat_value": 0.0
   },
@@ -20765,7 +20765,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "Jeanette Hrischuk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 02:41:41",
     "superchat_value": 0.0
   },
@@ -21005,7 +21005,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "theBellIsTolling",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 02:47:11",
     "superchat_value": 0.0
   },
@@ -21195,7 +21195,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "Noble_Savage_92",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 02:49:03",
     "superchat_value": 0.0
   },
@@ -21435,7 +21435,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "maggot1227",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 02:52:26",
     "superchat_value": 0.0
   },
@@ -21785,7 +21785,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "maggot1227",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 02:58:11",
     "superchat_value": 0.0
   },
@@ -22085,7 +22085,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "Apostate Alex",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 03:01:37",
     "superchat_value": 0.0
   },
@@ -22595,7 +22595,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "Stephanie East",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 03:09:06",
     "superchat_value": 0.0
   },
@@ -23625,7 +23625,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "Apostate Alex",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 03:22:17",
     "superchat_value": 0.0
   },
@@ -23995,7 +23995,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "FreeXenuProject (of Farsec)",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 03:28:38",
     "superchat_value": 0.0
   },
@@ -24035,7 +24035,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "Hollie Everett",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 03:29:55",
     "superchat_value": 0.0
   },
@@ -24075,7 +24075,7 @@
     "upload_date": "2023-12-02",
     "channel": "Oh No Nora",
     "author": "Sandi Rhodes",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-12-02 03:31:02",
     "superchat_value": 0.0
   },
@@ -24835,7 +24835,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "SandieLee",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 21:59:39",
     "superchat_value": 0.0
   },
@@ -24895,7 +24895,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "SPTV Keyboard Warrior",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:00:31",
     "superchat_value": 0.0
   },
@@ -24995,7 +24995,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "GenX Les",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:01:28",
     "superchat_value": 0.0
   },
@@ -25235,7 +25235,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Kimberly Ritter",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:02:23",
     "superchat_value": 0.0
   },
@@ -25245,7 +25245,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:02:29",
     "superchat_value": 0.0
   },
@@ -25505,7 +25505,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "lanakin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:03:04",
     "superchat_value": 0.0
   },
@@ -25555,7 +25555,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "LoveMaddie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:03:19",
     "superchat_value": 0.0
   },
@@ -25575,7 +25575,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Nanabanana9",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:03:21",
     "superchat_value": 0.0
   },
@@ -25665,7 +25665,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "NicoYEG",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:03:45",
     "superchat_value": 0.0
   },
@@ -25685,7 +25685,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "JEN",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:03:54",
     "superchat_value": 0.0
   },
@@ -25915,7 +25915,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Annette Jeannotte ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:04:53",
     "superchat_value": 0.0
   },
@@ -26265,7 +26265,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Joy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:05:49",
     "superchat_value": 0.0
   },
@@ -27075,7 +27075,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Annette Jeannotte ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:08:55",
     "superchat_value": 0.0
   },
@@ -27535,7 +27535,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Una the great!",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:10:22",
     "superchat_value": 0.0
   },
@@ -27725,7 +27725,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Beach Comber BA Econ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:10:49",
     "superchat_value": 0.0
   },
@@ -28855,7 +28855,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Clearwater CHAD",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:13:47",
     "superchat_value": 0.0
   },
@@ -29535,7 +29535,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "J D",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:15:49",
     "superchat_value": 0.0
   },
@@ -29705,7 +29705,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Lori B ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:16:18",
     "superchat_value": 0.0
   },
@@ -30375,7 +30375,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:17:43",
     "superchat_value": 0.0
   },
@@ -30455,7 +30455,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:17:54",
     "superchat_value": 0.0
   },
@@ -30485,7 +30485,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Lori B ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:18:03",
     "superchat_value": 0.0
   },
@@ -30535,7 +30535,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Joy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:18:15",
     "superchat_value": 0.0
   },
@@ -32355,7 +32355,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Kings Kid",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:24:27",
     "superchat_value": 0.0
   },
@@ -33155,7 +33155,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Lori B ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:27:15",
     "superchat_value": 0.0
   },
@@ -33315,7 +33315,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Pink ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:27:52",
     "superchat_value": 0.0
   },
@@ -33475,7 +33475,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Lori B ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:28:09",
     "superchat_value": 0.0
   },
@@ -33575,7 +33575,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Lori B ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:28:18",
     "superchat_value": 0.0
   },
@@ -33675,7 +33675,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Lori B ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:28:27",
     "superchat_value": 0.0
   },
@@ -33755,7 +33755,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "E Moore",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:28:44",
     "superchat_value": 0.0
   },
@@ -33785,7 +33785,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "parallel jen",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:28:48",
     "superchat_value": 0.0
   },
@@ -33925,7 +33925,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Mommers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:29:12",
     "superchat_value": 0.0
   },
@@ -34735,7 +34735,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:32:34",
     "superchat_value": 0.0
   },
@@ -34825,7 +34825,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:33:01",
     "superchat_value": 0.0
   },
@@ -34885,7 +34885,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:33:08",
     "superchat_value": 0.0
   },
@@ -34915,7 +34915,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Martha Simons",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:33:13",
     "superchat_value": 0.0
   },
@@ -35465,7 +35465,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Kencole19",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:34:59",
     "superchat_value": 0.0
   },
@@ -35605,7 +35605,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "BeakerBop",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:35:19",
     "superchat_value": 0.0
   },
@@ -36245,7 +36245,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:36:58",
     "superchat_value": 0.0
   },
@@ -36315,7 +36315,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Mommers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:37:07",
     "superchat_value": 0.0
   },
@@ -36765,7 +36765,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "GenX Les",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:38:48",
     "superchat_value": 0.0
   },
@@ -36965,7 +36965,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Mommers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:39:16",
     "superchat_value": 0.0
   },
@@ -37105,7 +37105,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:39:34",
     "superchat_value": 0.0
   },
@@ -37175,7 +37175,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:39:47",
     "superchat_value": 0.0
   },
@@ -37225,7 +37225,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:40:01",
     "superchat_value": 0.0
   },
@@ -37545,7 +37545,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:41:03",
     "superchat_value": 0.0
   },
@@ -37655,7 +37655,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:41:18",
     "superchat_value": 0.0
   },
@@ -38285,7 +38285,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "kyle vanderwalker",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:42:26",
     "superchat_value": 0.0
   },
@@ -38815,7 +38815,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Anh tran",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:43:51",
     "superchat_value": 0.0
   },
@@ -39085,7 +39085,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "@SISSACATGIRL ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:44:32",
     "superchat_value": 0.0
   },
@@ -39245,7 +39245,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "E Moore",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:44:55",
     "superchat_value": 0.0
   },
@@ -41835,7 +41835,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Susanne 🩷",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:53:30",
     "superchat_value": 0.0
   },
@@ -41915,7 +41915,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Joy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:53:44",
     "superchat_value": 0.0
   },
@@ -41985,7 +41985,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Sharon I",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:54:01",
     "superchat_value": 0.0
   },
@@ -42045,7 +42045,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "AcuPunk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:54:25",
     "superchat_value": 0.0
   },
@@ -42575,7 +42575,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Groomspups315",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 22:56:19",
     "superchat_value": 0.0
   },
@@ -43355,7 +43355,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Joy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:00:18",
     "superchat_value": 0.0
   },
@@ -43515,7 +43515,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "AcuPunk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:00:41",
     "superchat_value": 0.0
   },
@@ -43775,7 +43775,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "@SISSACATGIRL ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:01:51",
     "superchat_value": 0.0
   },
@@ -43845,7 +43845,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "OHaleNo ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:02:02",
     "superchat_value": 0.0
   },
@@ -44635,7 +44635,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "E Moore",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:05:06",
     "superchat_value": 0.0
   },
@@ -44695,7 +44695,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Christina Lembo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:05:18",
     "superchat_value": 0.0
   },
@@ -44715,7 +44715,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Joy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:05:23",
     "superchat_value": 0.0
   },
@@ -44785,7 +44785,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "OHaleNo ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:05:33",
     "superchat_value": 0.0
   },
@@ -44895,7 +44895,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Christian B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:05:50",
     "superchat_value": 0.0
   },
@@ -44955,7 +44955,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Mommers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:05:57",
     "superchat_value": 0.0
   },
@@ -45135,7 +45135,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Joy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:06:28",
     "superchat_value": 0.0
   },
@@ -45465,7 +45465,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:08:08",
     "superchat_value": 0.0
   },
@@ -45515,7 +45515,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Aneira Glyndwr",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:08:19",
     "superchat_value": 0.0
   },
@@ -45545,7 +45545,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "AcuPunk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:08:28",
     "superchat_value": 0.0
   },
@@ -45725,7 +45725,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "E Moore",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:09:33",
     "superchat_value": 0.0
   },
@@ -46375,7 +46375,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "No One",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:13:16",
     "superchat_value": 0.0
   },
@@ -46415,7 +46415,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "The Witch Sher",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:13:23",
     "superchat_value": 0.0
   },
@@ -48085,7 +48085,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "AcuPunk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:22:47",
     "superchat_value": 0.0
   },
@@ -48215,7 +48215,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "SergeDelMar",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:23:16",
     "superchat_value": 0.0
   },
@@ -48745,7 +48745,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "KrisPJ10 ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:25:38",
     "superchat_value": 0.0
   },
@@ -48925,7 +48925,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "GamerJaqi",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:26:07",
     "superchat_value": 0.0
   },
@@ -49045,7 +49045,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "iNfAmOuS TRuTh TeLLeR",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:26:21",
     "superchat_value": 0.0
   },
@@ -49375,7 +49375,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "OHaleNo ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:28:10",
     "superchat_value": 0.0
   },
@@ -49425,7 +49425,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "kyle vanderwalker",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:28:28",
     "superchat_value": 0.0
   },
@@ -49575,7 +49575,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "AcuPunk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:29:22",
     "superchat_value": 0.0
   },
@@ -49715,7 +49715,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "AcuPunk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:30:12",
     "superchat_value": 0.0
   },
@@ -49785,7 +49785,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Steffi Bauer",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:30:38",
     "superchat_value": 0.0
   },
@@ -49875,7 +49875,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:31:19",
     "superchat_value": 0.0
   },
@@ -50665,7 +50665,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "AbusesOfScientology",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:36:13",
     "superchat_value": 0.0
   },
@@ -50725,7 +50725,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Jewelzb Tully",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:36:33",
     "superchat_value": 0.0
   },
@@ -51045,7 +51045,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "KornFreakDBSC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:39:02",
     "superchat_value": 0.0
   },
@@ -51995,7 +51995,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Joy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:46:29",
     "superchat_value": 0.0
   },
@@ -52535,7 +52535,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "Destonie Salazar",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:50:54",
     "superchat_value": 0.0
   },
@@ -52635,7 +52635,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "lori Lorilori",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:51:15",
     "superchat_value": 0.0
   },
@@ -52665,7 +52665,7 @@
     "upload_date": "2024-04-23",
     "channel": "Oh No Nora",
     "author": "E Moore",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-04-23 23:51:21",
     "superchat_value": 0.0
   },
@@ -53325,7 +53325,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "AnchoredLOVE",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:27:31",
     "superchat_value": 0.0
   },
@@ -53415,7 +53415,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Tazzie D",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:27:51",
     "superchat_value": 0.0
   },
@@ -53425,7 +53425,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "DOWN the RABBIT HOLE News",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:27:52",
     "superchat_value": 0.0
   },
@@ -53475,7 +53475,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Quirkalopagus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:28:06",
     "superchat_value": 0.0
   },
@@ -53565,7 +53565,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Nermin Odkan",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:28:34",
     "superchat_value": 0.0
   },
@@ -53665,7 +53665,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Minion52",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:29:18",
     "superchat_value": 0.0
   },
@@ -53785,7 +53785,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Cheshire Cat",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:31:02",
     "superchat_value": 0.0
   },
@@ -53835,7 +53835,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Happy Healing Train",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:31:37",
     "superchat_value": 0.0
   },
@@ -53925,7 +53925,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Heather Rhodes",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:33:14",
     "superchat_value": 0.0
   },
@@ -54095,7 +54095,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Marina 🦋",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:34:32",
     "superchat_value": 0.0
   },
@@ -54215,7 +54215,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Kinood",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:35:50",
     "superchat_value": 0.0
   },
@@ -54235,7 +54235,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Kinood",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:36:10",
     "superchat_value": 0.0
   },
@@ -54295,7 +54295,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Feral Cheryl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:37:52",
     "superchat_value": 0.0
   },
@@ -54525,7 +54525,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "LoveMaddie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:40:38",
     "superchat_value": 0.0
   },
@@ -54635,7 +54635,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Leah.",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:42:44",
     "superchat_value": 0.0
   },
@@ -54905,7 +54905,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Marina 🦋",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:47:25",
     "superchat_value": 0.0
   },
@@ -54925,7 +54925,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Menna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:47:33",
     "superchat_value": 0.0
   },
@@ -54965,7 +54965,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:48:10",
     "superchat_value": 0.0
   },
@@ -54995,7 +54995,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:48:22",
     "superchat_value": 0.0
   },
@@ -55185,7 +55185,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Angie Politz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:50:21",
     "superchat_value": 0.0
   },
@@ -55205,7 +55205,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Sic Vic",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:50:39",
     "superchat_value": 0.0
   },
@@ -55435,7 +55435,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:52:55",
     "superchat_value": 0.0
   },
@@ -55475,7 +55475,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:53:06",
     "superchat_value": 0.0
   },
@@ -55575,7 +55575,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Stasia Flonase",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:53:46",
     "superchat_value": 0.0
   },
@@ -55595,7 +55595,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Mommers",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:53:50",
     "superchat_value": 0.0
   },
@@ -55645,7 +55645,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Nancy Alley",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:53:59",
     "superchat_value": 0.0
   },
@@ -55665,7 +55665,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Marina 🦋",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:54:07",
     "superchat_value": 0.0
   },
@@ -55715,7 +55715,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Chrschrs7514",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:54:29",
     "superchat_value": 0.0
   },
@@ -55945,7 +55945,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:55:38",
     "superchat_value": 0.0
   },
@@ -55995,7 +55995,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Angie Politz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:56:39",
     "superchat_value": 0.0
   },
@@ -56005,7 +56005,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Marina 🦋",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:56:46",
     "superchat_value": 0.0
   },
@@ -56335,7 +56335,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Cheshire Cat",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 22:59:40",
     "superchat_value": 0.0
   },
@@ -56515,7 +56515,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "JulieMaguire708",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:01:09",
     "superchat_value": 0.0
   },
@@ -57115,7 +57115,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Panko ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:05:53",
     "superchat_value": 0.0
   },
@@ -57535,7 +57535,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Menna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:08:47",
     "superchat_value": 0.0
   },
@@ -57565,7 +57565,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:08:50",
     "superchat_value": 0.0
   },
@@ -57575,7 +57575,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Marina 🦋",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:08:53",
     "superchat_value": 0.0
   },
@@ -57585,7 +57585,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:08:54",
     "superchat_value": 0.0
   },
@@ -57645,7 +57645,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:09:10",
     "superchat_value": 0.0
   },
@@ -57765,7 +57765,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:09:58",
     "superchat_value": 0.0
   },
@@ -57845,7 +57845,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:10:29",
     "superchat_value": 0.0
   },
@@ -57975,7 +57975,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Panko ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:11:30",
     "superchat_value": 0.0
   },
@@ -58245,7 +58245,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Panko ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:13:04",
     "superchat_value": 0.0
   },
@@ -58295,7 +58295,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:13:13",
     "superchat_value": 0.0
   },
@@ -58315,7 +58315,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Dragonmad",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:13:21",
     "superchat_value": 0.0
   },
@@ -58325,7 +58325,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:13:22",
     "superchat_value": 0.0
   },
@@ -58345,7 +58345,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Janette Rexford",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:13:28",
     "superchat_value": 0.0
   },
@@ -58445,7 +58445,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Toronto's Next Top Model Citizen",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:14:14",
     "superchat_value": 0.0
   },
@@ -60095,7 +60095,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Menna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:27:13",
     "superchat_value": 0.0
   },
@@ -60485,7 +60485,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:30:26",
     "superchat_value": 0.0
   },
@@ -61105,7 +61105,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Angie Politz",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:37:24",
     "superchat_value": 0.0
   },
@@ -61315,7 +61315,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:38:50",
     "superchat_value": 0.0
   },
@@ -61915,7 +61915,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "AcuPunk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:46:23",
     "superchat_value": 0.0
   },
@@ -62015,7 +62015,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "HippieChick69",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:46:44",
     "superchat_value": 0.0
   },
@@ -62025,7 +62025,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Deborah",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:46:47",
     "superchat_value": 0.0
   },
@@ -62045,7 +62045,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Quirkalopagus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:46:55",
     "superchat_value": 0.0
   },
@@ -62085,7 +62085,7 @@
     "upload_date": "2024-05-03",
     "channel": "Oh No Nora",
     "author": "Tazzie D",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-03 23:46:57",
     "superchat_value": 0.0
   },
@@ -62595,7 +62595,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Lisa Read",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:02:23",
     "superchat_value": 0.0
   },
@@ -62685,7 +62685,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Psych On The Rocks",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:02:51",
     "superchat_value": 0.0
   },
@@ -63125,7 +63125,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "McRambleOn",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:06:36",
     "superchat_value": 0.0
   },
@@ -63345,7 +63345,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "No One",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:10:47",
     "superchat_value": 0.0
   },
@@ -64775,7 +64775,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:34:25",
     "superchat_value": 0.0
   },
@@ -66195,7 +66195,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:53:25",
     "superchat_value": 0.0
   },
@@ -66205,7 +66205,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "NatKat180",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:53:25",
     "superchat_value": 0.0
   },
@@ -66225,7 +66225,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "M0ther0fCats",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:53:35",
     "superchat_value": 0.0
   },
@@ -66235,7 +66235,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Youtology",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:53:48",
     "superchat_value": 0.0
   },
@@ -66575,7 +66575,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:57:17",
     "superchat_value": 0.0
   },
@@ -66635,7 +66635,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Jodie Q",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 22:57:38",
     "superchat_value": 0.0
   },
@@ -67265,7 +67265,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "KornFreakDBSC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:03:55",
     "superchat_value": 0.0
   },
@@ -67485,7 +67485,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Emma Robson",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:07:42",
     "superchat_value": 0.0
   },
@@ -67525,7 +67525,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Pup Groomer 20",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:08:06",
     "superchat_value": 0.0
   },
@@ -68075,7 +68075,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "KornFreakDBSC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:17:49",
     "superchat_value": 0.0
   },
@@ -68175,7 +68175,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Heather Rhodes",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:20:17",
     "superchat_value": 0.0
   },
@@ -69105,7 +69105,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "KornFreakDBSC",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:41:02",
     "superchat_value": 0.0
   },
@@ -69295,7 +69295,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:42:50",
     "superchat_value": 0.0
   },
@@ -69325,7 +69325,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:43:01",
     "superchat_value": 0.0
   },
@@ -69335,7 +69335,7 @@
     "upload_date": "2024-05-15",
     "channel": "Oh No Nora",
     "author": "Cuddly Floof",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-05-15 23:43:13",
     "superchat_value": 0.0
   },
@@ -69775,7 +69775,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "LoveMaddie",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 21:24:17",
     "superchat_value": 0.0
   },
@@ -69785,7 +69785,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Suishiful",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 21:24:37",
     "superchat_value": 0.0
   },
@@ -69805,7 +69805,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 21:24:40",
     "superchat_value": 0.0
   },
@@ -69925,7 +69925,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "lanakin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 21:29:45",
     "superchat_value": 0.0
   },
@@ -70195,7 +70195,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Merrilee H",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 21:39:25",
     "superchat_value": 0.0
   },
@@ -70775,7 +70775,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Atkins in Texas",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 21:56:13",
     "superchat_value": 0.0
   },
@@ -70875,7 +70875,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Bonnie L Bailey",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 21:59:22",
     "superchat_value": 0.0
   },
@@ -72475,7 +72475,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "Caroline T-G",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 22:38:33",
     "superchat_value": 0.0
   },
@@ -72965,7 +72965,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "lori Lorilori",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 22:47:22",
     "superchat_value": 0.0
   },
@@ -73555,7 +73555,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "lori Lorilori",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 22:55:37",
     "superchat_value": 0.0
   },
@@ -73695,7 +73695,7 @@
     "upload_date": "2024-06-04",
     "channel": "Oh No Nora",
     "author": "lori Lorilori",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-04 22:59:23",
     "superchat_value": 0.0
   },
@@ -74195,7 +74195,7 @@
     "upload_date": "2023-06-05",
     "channel": "Oh No Nora",
     "author": "FancyFace",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-06-05 00:17:25",
     "superchat_value": 0.0
   },
@@ -74655,7 +74655,7 @@
     "upload_date": "2023-06-05",
     "channel": "Oh No Nora",
     "author": "Siobhan T",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-06-05 00:27:16",
     "superchat_value": 0.0
   },
@@ -74805,7 +74805,7 @@
     "upload_date": "2023-06-05",
     "channel": "Oh No Nora",
     "author": "Siobhan T",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-06-05 00:29:16",
     "superchat_value": 0.0
   },
@@ -75175,7 +75175,7 @@
     "upload_date": "2023-06-05",
     "channel": "Oh No Nora",
     "author": "Little Grandma “D” ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-06-05 00:35:12",
     "superchat_value": 0.0
   },
@@ -76265,7 +76265,7 @@
     "upload_date": "2023-06-05",
     "channel": "Oh No Nora",
     "author": "whitness",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-06-05 01:07:39",
     "superchat_value": 0.0
   },
@@ -76275,7 +76275,7 @@
     "upload_date": "2023-06-05",
     "channel": "Oh No Nora",
     "author": "Jess J",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-06-05 01:07:49",
     "superchat_value": 0.0
   },
@@ -76425,7 +76425,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Heather Rhodes",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:13:04",
     "superchat_value": 0.0
   },
@@ -76545,7 +76545,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Maytheforce Bewithyou",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:13:39",
     "superchat_value": 0.0
   },
@@ -76615,7 +76615,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Sue B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:13:44",
     "superchat_value": 0.0
   },
@@ -76885,7 +76885,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "VTV •<VelenoPuddin>•",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:15:23",
     "superchat_value": 0.0
   },
@@ -77005,7 +77005,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Snotface",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:16:23",
     "superchat_value": 0.0
   },
@@ -77145,7 +77145,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Medit8ng with Love",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:17:38",
     "superchat_value": 0.0
   },
@@ -77335,7 +77335,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Anna Belle",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:19:12",
     "superchat_value": 0.0
   },
@@ -77805,7 +77805,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Frouk H",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:23:27",
     "superchat_value": 0.0
   },
@@ -78585,7 +78585,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Menna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:28:41",
     "superchat_value": 0.0
   },
@@ -80295,7 +80295,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Christina Lembo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:43:39",
     "superchat_value": 0.0
   },
@@ -81355,7 +81355,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Christina Lembo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 21:51:56",
     "superchat_value": 0.0
   },
@@ -82865,7 +82865,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Dreamscape",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 22:02:07",
     "superchat_value": 0.0
   },
@@ -83455,7 +83455,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "FancyFace",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 22:06:52",
     "superchat_value": 0.0
   },
@@ -84245,7 +84245,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Abraham Aurich ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 22:13:18",
     "superchat_value": 0.0
   },
@@ -84505,7 +84505,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Carol Stewart",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 22:17:21",
     "superchat_value": 0.0
   },
@@ -84585,7 +84585,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Suzy Q ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 22:18:02",
     "superchat_value": 0.0
   },
@@ -84865,7 +84865,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Cindy Anglin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 22:20:20",
     "superchat_value": 9.99
   },
@@ -85175,7 +85175,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Quirkalopagus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 22:23:39",
     "superchat_value": 0.0
   },
@@ -85315,7 +85315,7 @@
     "upload_date": "2024-06-24",
     "channel": "Oh No Nora",
     "author": "Quirkalopagus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-24 22:24:45",
     "superchat_value": 0.0
   },
@@ -85445,7 +85445,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "beMERRYforlife",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:15:15",
     "superchat_value": 0.0
   },
@@ -85455,7 +85455,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Leanna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:15:17",
     "superchat_value": 0.0
   },
@@ -85465,7 +85465,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Lynne Garvie ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:15:23",
     "superchat_value": 0.0
   },
@@ -85485,7 +85485,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Summer Savage",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:15:31",
     "superchat_value": 0.0
   },
@@ -85565,7 +85565,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:16:18",
     "superchat_value": 0.0
   },
@@ -85865,7 +85865,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Imsooutofspoonsimforked",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:19:00",
     "superchat_value": 0.0
   },
@@ -85925,7 +85925,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "FancyFace",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:19:20",
     "superchat_value": 0.0
   },
@@ -86075,7 +86075,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Fluffer Squirrel UK",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:19:53",
     "superchat_value": 0.0
   },
@@ -86215,7 +86215,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Fluffer Squirrel UK",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:22:49",
     "superchat_value": 0.0
   },
@@ -86445,7 +86445,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Sarah Lane",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:25:33",
     "superchat_value": 0.0
   },
@@ -86485,7 +86485,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Jeanette Hrischuk",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:26:23",
     "superchat_value": 0.0
   },
@@ -86855,7 +86855,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Quirkalopagus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:30:44",
     "superchat_value": 0.0
   },
@@ -86865,7 +86865,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Kyla L",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:30:46",
     "superchat_value": 0.0
   },
@@ -86935,7 +86935,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "MT Buildings",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:31:23",
     "superchat_value": 0.0
   },
@@ -87265,7 +87265,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "beMERRYforlife",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:34:46",
     "superchat_value": 0.0
   },
@@ -87505,7 +87505,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "GenX Les",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:35:36",
     "superchat_value": 0.0
   },
@@ -87665,7 +87665,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Lynne Garvie ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:36:42",
     "superchat_value": 0.0
   },
@@ -87695,7 +87695,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Shannon Lee",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:36:56",
     "superchat_value": 0.0
   },
@@ -87755,7 +87755,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Julie B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:37:45",
     "superchat_value": 0.0
   },
@@ -88005,7 +88005,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "ValentineCareBear",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:38:54",
     "superchat_value": 0.0
   },
@@ -88445,7 +88445,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "DrWhoHeather",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:40:58",
     "superchat_value": 0.0
   },
@@ -88535,7 +88535,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Nancy Alley",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:41:17",
     "superchat_value": 0.0
   },
@@ -88545,7 +88545,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Lynne Garvie ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:41:17",
     "superchat_value": 0.0
   },
@@ -88555,7 +88555,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Quirkalopagus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:41:20",
     "superchat_value": 0.0
   },
@@ -88595,7 +88595,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Still Amy",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:41:30",
     "superchat_value": 0.0
   },
@@ -88615,7 +88615,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "E Moore",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:41:31",
     "superchat_value": 0.0
   },
@@ -88645,7 +88645,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:41:40",
     "superchat_value": 0.0
   },
@@ -88685,7 +88685,7 @@
     "upload_date": "2024-03-04",
     "channel": "Oh No Nora",
     "author": "Julie B",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-03-04 23:41:47",
     "superchat_value": 0.0
   },
@@ -89475,7 +89475,7 @@
     "upload_date": "2023-05-22",
     "channel": "Oh No Nora",
     "author": "Petsitter Tails",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-05-22 03:33:22",
     "superchat_value": 0.0
   },
@@ -89995,7 +89995,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:12:39",
     "superchat_value": 0.0
   },
@@ -90405,7 +90405,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:27:02",
     "superchat_value": 0.0
   },
@@ -90425,7 +90425,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "totallyjersey",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:27:33",
     "superchat_value": 0.0
   },
@@ -90495,7 +90495,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:28:44",
     "superchat_value": 0.0
   },
@@ -90515,7 +90515,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:29:28",
     "superchat_value": 0.0
   },
@@ -90665,7 +90665,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:34:35",
     "superchat_value": 0.0
   },
@@ -90675,7 +90675,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "Menna",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:35:00",
     "superchat_value": 0.0
   },
@@ -90885,7 +90885,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:43:57",
     "superchat_value": 0.0
   },
@@ -90955,7 +90955,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:49:21",
     "superchat_value": 0.0
   },
@@ -91005,7 +91005,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 00:51:35",
     "superchat_value": 0.0
   },
@@ -91595,7 +91595,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:11:40",
     "superchat_value": 0.0
   },
@@ -91605,7 +91605,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "Southern Momma",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:12:00",
     "superchat_value": 0.0
   },
@@ -91615,7 +91615,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "Southern Momma",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:12:06",
     "superchat_value": 0.0
   },
@@ -91815,7 +91815,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:20:41",
     "superchat_value": 0.0
   },
@@ -91975,7 +91975,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:24:52",
     "superchat_value": 0.0
   },
@@ -92015,7 +92015,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:26:32",
     "superchat_value": 0.0
   },
@@ -92025,7 +92025,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:26:40",
     "superchat_value": 0.0
   },
@@ -92055,7 +92055,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:26:47",
     "superchat_value": 0.0
   },
@@ -92105,7 +92105,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:27:00",
     "superchat_value": 0.0
   },
@@ -92145,7 +92145,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:27:05",
     "superchat_value": 0.0
   },
@@ -92165,7 +92165,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:27:10",
     "superchat_value": 0.0
   },
@@ -92175,7 +92175,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:27:23",
     "superchat_value": 0.0
   },
@@ -92195,7 +92195,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:27:29",
     "superchat_value": 0.0
   },
@@ -92215,7 +92215,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:27:39",
     "superchat_value": 0.0
   },
@@ -92235,7 +92235,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "vjburke70",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:27:48",
     "superchat_value": 0.0
   },
@@ -92295,7 +92295,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:28:43",
     "superchat_value": 0.0
   },
@@ -92325,7 +92325,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "toyranch",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:28:49",
     "superchat_value": 0.0
   },
@@ -92745,7 +92745,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:38:04",
     "superchat_value": 0.0
   },
@@ -92855,7 +92855,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "whitness",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:40:12",
     "superchat_value": 0.0
   },
@@ -93085,7 +93085,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "totallyjersey",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:46:58",
     "superchat_value": 0.0
   },
@@ -93475,7 +93475,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:54:43",
     "superchat_value": 0.0
   },
@@ -93615,7 +93615,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "Southern Momma",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 01:57:27",
     "superchat_value": 0.0
   },
@@ -93905,7 +93905,7 @@
     "upload_date": "2023-07-18",
     "channel": "Oh No Nora",
     "author": "geekdivaherself",
-    "message": NaN,
+    "message": null,
     "timestamp": "2023-07-18 02:05:37",
     "superchat_value": 0.0
   },
@@ -94385,7 +94385,7 @@
     "upload_date": "2024-06-05",
     "channel": "Oh No Nora",
     "author": "beMERRYforlife",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-05 03:42:08",
     "superchat_value": 0.0
   },
@@ -94415,7 +94415,7 @@
     "upload_date": "2024-06-05",
     "channel": "Oh No Nora",
     "author": "GIRLYGHOST1",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-05 03:42:31",
     "superchat_value": 0.0
   },
@@ -94465,7 +94465,7 @@
     "upload_date": "2024-06-05",
     "channel": "Oh No Nora",
     "author": "Karen Mezzacapo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-05 03:42:45",
     "superchat_value": 0.0
   },
@@ -94525,7 +94525,7 @@
     "upload_date": "2024-06-05",
     "channel": "Oh No Nora",
     "author": "Sandra Dee",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-05 03:43:14",
     "superchat_value": 0.0
   },
@@ -95435,7 +95435,7 @@
     "upload_date": "2024-06-05",
     "channel": "Oh No Nora",
     "author": "Feral Cheryl",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-05 04:19:10",
     "superchat_value": 0.0
   },
@@ -96235,7 +96235,7 @@
     "upload_date": "2024-06-05",
     "channel": "Oh No Nora",
     "author": "lanakin",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-05 04:38:56",
     "superchat_value": 0.0
   },
@@ -96695,7 +96695,7 @@
     "upload_date": "2024-06-05",
     "channel": "Oh No Nora",
     "author": "Anon",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-05 04:48:21",
     "superchat_value": 0.0
   },
@@ -96725,7 +96725,7 @@
     "upload_date": "2024-06-12",
     "channel": "Oh No Nora",
     "author": "ToryMagoo44",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-11 22:29:16",
     "superchat_value": 0.0
   },
@@ -97105,7 +97105,7 @@
     "upload_date": "2024-06-12",
     "channel": "Oh No Nora",
     "author": "Lucy Raelynn",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-12 00:02:23",
     "superchat_value": 0.0
   },
@@ -97145,7 +97145,7 @@
     "upload_date": "2024-06-12",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-12 00:02:45",
     "superchat_value": 0.0
   },
@@ -97165,7 +97165,7 @@
     "upload_date": "2024-06-12",
     "channel": "Oh No Nora",
     "author": "Degraded Daughter ",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-12 00:02:59",
     "superchat_value": 0.0
   },
@@ -97365,7 +97365,7 @@
     "upload_date": "2024-06-12",
     "channel": "Oh No Nora",
     "author": "Quirkalopagus",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-12 00:05:45",
     "superchat_value": 0.0
   },
@@ -98145,7 +98145,7 @@
     "upload_date": "2024-06-12",
     "channel": "Oh No Nora",
     "author": "91Mliii",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-12 00:16:46",
     "superchat_value": 0.0
   },
@@ -98785,7 +98785,7 @@
     "upload_date": "2024-06-12",
     "channel": "Oh No Nora",
     "author": "Karen Mezzacapo",
-    "message": NaN,
+    "message": null,
     "timestamp": "2024-06-12 00:25:24",
     "superchat_value": 0.0
   },
