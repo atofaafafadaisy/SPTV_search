@@ -92,12 +92,12 @@
         let allData = [];
         let isLoading = false;
         let channels = new Set();
-
+    
         async function loadAllData() {
             if (isLoading) return;
             isLoading = true;
             document.getElementById('results').innerHTML = 'Loading data...';
-
+    
             for (let i = 1; i <= totalChunks; i++) {
                 try {
                     const response = await fetch(`processed_chunks/processed_data_chunk_${i}.json`);
@@ -106,17 +106,20 @@
                     }
                     const data = await response.json();
                     allData = allData.concat(data);
-                    data.forEach(item => channels.add(item.channel));
+                    data.forEach(item => {
+                        if (item.channel) channels.add(item.channel);
+                    });
+                    console.log(`Loaded ${data.length} items from chunk ${i}`);
                 } catch (error) {
                     console.error(`Error loading chunk ${i}:`, error);
                 }
             }
-
+    
             populateChannelSelect();
             isLoading = false;
-            document.getElementById('results').innerHTML = 'Data loaded. Ready to search.';
+            document.getElementById('results').innerHTML = `Data loaded. ${allData.length} total items. Ready to search.`;
         }
-
+    
         function populateChannelSelect() {
             const select = document.getElementById('channelSelect');
             channels.forEach(channel => {
@@ -126,38 +129,40 @@
                 select.appendChild(option);
             });
         }
-
+    
         function search() {
             if (isLoading) {
                 alert('Data is still loading. Please wait.');
                 return;
             }
-
+    
             const authorTerm = document.getElementById('authorInput').value.toLowerCase();
             const messageTerm = document.getElementById('messageInput').value.toLowerCase();
             const channelTerm = document.getElementById('channelSelect').value;
             const fromDate = document.getElementById('fromDate').value;
             const toDate = document.getElementById('toDate').value;
-
+    
+            console.log(`Filtering ${allData.length} total items`);
+    
             const results = allData.filter(item => {
-                const itemDate = item.upload_date;
                 return (authorTerm === '' || item.author.toLowerCase().includes(authorTerm)) &&
                        (messageTerm === '' || item.message.toLowerCase().includes(messageTerm)) &&
                        (channelTerm === '' || item.channel === channelTerm) &&
-                       (fromDate === '' || itemDate >= fromDate) &&
-                       (toDate === '' || itemDate <= toDate);
+                       (fromDate === '' || item.upload_date >= fromDate) &&
+                       (toDate === '' || item.upload_date <= toDate);
             });
-
+    
+            console.log(`Found ${results.length} results`);
             displayResults(results);
         }
-
+    
         function displayResults(results) {
             const resultsDiv = document.getElementById('results');
             if (results.length === 0) {
                 resultsDiv.innerHTML = 'No results found.';
                 return;
             }
-
+    
             let html = `<h3>Search Results (${results.length} found):</h3>`;
             results.forEach(item => {
                 html += `
@@ -169,10 +174,10 @@
                     </div>
                 `;
             });
-
+    
             resultsDiv.innerHTML = html;
         }
-
+    
         function clearResults() {
             document.getElementById('authorInput').value = '';
             document.getElementById('messageInput').value = '';
@@ -181,7 +186,7 @@
             document.getElementById('toDate').value = '';
             document.getElementById('results').innerHTML = '';
         }
-
+    
         function escapeHtml(unsafe) {
             return unsafe
                  .replace(/&/g, "&amp;")
@@ -190,7 +195,7 @@
                  .replace(/"/g, "&quot;")
                  .replace(/'/g, "&#039;");
         }
-
+    
         // Load data when the page loads
         window.onload = loadAllData;
     </script>
