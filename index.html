@@ -104,7 +104,8 @@
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
-                    const data = await response.json();
+                    const text = await response.text();
+                    const data = JSON.parse(text.replace(/:\s*Infinity/g, ': null'));
                     allData = allData.concat(data);
                     data.forEach(item => {
                         if (item.channel) channels.add(item.channel);
@@ -112,6 +113,7 @@
                     console.log(`Loaded ${data.length} items from chunk ${i}`);
                 } catch (error) {
                     console.error(`Error loading chunk ${i}:`, error);
+                    // Continue to the next chunk
                 }
             }
     
@@ -145,11 +147,11 @@
             console.log(`Filtering ${allData.length} total items`);
     
             const results = allData.filter(item => {
-                return (authorTerm === '' || item.author.toLowerCase().includes(authorTerm)) &&
-                       (messageTerm === '' || item.message.toLowerCase().includes(messageTerm)) &&
+                return (authorTerm === '' || (item.author && item.author.toLowerCase().includes(authorTerm))) &&
+                       (messageTerm === '' || (item.message && item.message.toLowerCase().includes(messageTerm))) &&
                        (channelTerm === '' || item.channel === channelTerm) &&
-                       (fromDate === '' || item.upload_date >= fromDate) &&
-                       (toDate === '' || item.upload_date <= toDate);
+                       (fromDate === '' || (item.upload_date && item.upload_date >= fromDate)) &&
+                       (toDate === '' || (item.upload_date && item.upload_date <= toDate));
             });
     
             console.log(`Found ${results.length} results`);
@@ -167,10 +169,10 @@
             results.forEach(item => {
                 html += `
                     <div class="result-item">
-                        <p><strong>${escapeHtml(item.author)}</strong> (${escapeHtml(item.timestamp)})</p>
-                        <p>Channel: ${escapeHtml(item.channel)}</p>
-                        <p>Message: ${escapeHtml(item.message)}</p>
-                        <p>Superchat Value: $${item.superchat_value.toFixed(2)}</p>
+                        <p><strong>${escapeHtml(item.author || '')}</strong> (${escapeHtml(item.timestamp || '')})</p>
+                        <p>Channel: ${escapeHtml(item.channel || '')}</p>
+                        <p>Message: ${escapeHtml(item.message || '')}</p>
+                        <p>Superchat Value: $${(item.superchat_value || 0).toFixed(2)}</p>
                     </div>
                 `;
             });
@@ -188,6 +190,7 @@
         }
     
         function escapeHtml(unsafe) {
+            if (typeof unsafe !== 'string') return '';
             return unsafe
                  .replace(/&/g, "&amp;")
                  .replace(/</g, "&lt;")
@@ -199,5 +202,6 @@
         // Load data when the page loads
         window.onload = loadAllData;
     </script>
+    
 </body>
 </html>
