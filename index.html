@@ -192,6 +192,7 @@
                     <div class="result-item">
                         <p><strong>${escapeHtml(safeString(item.author))}</strong> (${escapeHtml(safeString(item.timestamp))})</p>
                         <p>Channel: ${escapeHtml(safeString(item.channel))}</p>
+                        <p><strong>Video Title:</strong> ${escapeHtml(safeString(item.video_title))}</p>
                         <p>Message: ${escapeHtml(safeString(item.message))}</p>
                         <p>Superchat Value: $${(parseFloat(item.superchat_value) || 0).toFixed(2)}</p>
                     </div>
