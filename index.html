@@ -10,8 +10,9 @@
             margin: 0;
             padding: 20px;
             background-color: #f0f0f0;
-            position: relative;
             min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         .container {
             max-width: 800px;
@@ -20,6 +21,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex-grow: 1;
         }
         #monkeyImage {
             max-width: 100%;
@@ -64,18 +66,39 @@
             margin-bottom: 10px;
             border-radius: 4px;
         }
+
+        /* Footer CSS */
         footer {
             background-color: #333;
             color: white;
             padding: 20px;
             text-align: center;
-            position: absolute;
-            bottom: 0;
+            margin-top: 20px;
             width: 100%;
+            box-sizing: border-box;
+            padding-right: 20px;
+            padding-left: 20px;
         }
+
         footer p {
             margin: 0;
             font-size: 12px;
+        }
+
+        /* Additional media queries for responsiveness */
+
+        @media (max-width: 768px) {
+            footer {
+                padding: 15px;
+                font-size: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            footer {
+                padding: 10px;
+                font-size: 9px;
+            }
         }
     </style>
 </head>
@@ -123,18 +146,19 @@
         let allData = [];
         let isLoading = false;
         let channels = new Set();
-    
+
         function safeString(value) {
             if (typeof value === 'string') return value;
             if (value === null || value === undefined) return '';
             return String(value);
         }
-    
+
         async function loadAllData() {
             if (isLoading) return;
             isLoading = true;
             document.getElementById('results').innerHTML = 'Loading data...';
-    
+            let loadedChunks = 0;
+
             for (let i = 1; i <= totalChunks; i++) {
                 try {
                     const response = await fetch(`processed_chunks/processed_data_chunk_${i}.json`);
@@ -144,29 +168,34 @@
                     const text = await response.text();
                     const sanitizedText = text.replace(/:\s*(Infinity|-Infinity|NaN)/g, ': null');
                     const data = JSON.parse(sanitizedText);
-                    
+
                     const validData = data.filter(item => {
                         return item && typeof item === 'object' &&
                                item.hasOwnProperty('author') &&
                                item.hasOwnProperty('message') &&
                                item.hasOwnProperty('channel');
                     });
-    
+
                     allData = allData.concat(validData);
                     validData.forEach(item => {
                         if (item.channel) channels.add(safeString(item.channel));
                     });
+                    loadedChunks++;
                     console.log(`Loaded ${validData.length} valid items from chunk ${i}`);
                 } catch (error) {
                     console.error(`Error loading chunk ${i}:`, error);
                 }
             }
-    
-            populateChannelSelect();
+
+            if (loadedChunks === 0) {
+                document.getElementById('results').innerHTML = `No data could be loaded. Please check the server or chunk files.`;
+            } else {
+                populateChannelSelect();
+                document.getElementById('results').innerHTML = `Data loaded. ${allData.length} total items. Ready to search.`;
+            }
             isLoading = false;
-            document.getElementById('results').innerHTML = `Data loaded. ${allData.length} total items. Ready to search.`;
         }
-    
+
         function populateChannelSelect() {
             const select = document.getElementById('channelSelect');
             channels.forEach(channel => {
@@ -176,45 +205,42 @@
                 select.appendChild(option);
             });
         }
-    
+
         function search() {
             if (isLoading) {
                 alert('Data is still loading. Please wait.');
                 return;
             }
-    
+
             const authorTerm = document.getElementById('authorInput').value.toLowerCase();
             const messageTerm = document.getElementById('messageInput').value.toLowerCase();
             const channelTerm = document.getElementById('channelSelect').value;
             const fromDate = document.getElementById('fromDate').value;
             const toDate = document.getElementById('toDate').value;
-    
-            console.log(`Filtering ${allData.length} total items`);
-    
+
             const results = allData.filter(item => {
                 const itemAuthor = safeString(item.author).toLowerCase();
                 const itemMessage = safeString(item.message).toLowerCase();
                 const itemChannel = safeString(item.channel);
                 const itemDate = safeString(item.upload_date);
-    
+
                 return (authorTerm === '' || itemAuthor.includes(authorTerm)) &&
                        (messageTerm === '' || itemMessage.includes(messageTerm)) &&
                        (channelTerm === '' || itemChannel === channelTerm) &&
                        (fromDate === '' || itemDate >= fromDate) &&
                        (toDate === '' || itemDate <= toDate);
             });
-    
-            console.log(`Found ${results.length} results`);
+
             displayResults(results);
         }
-    
+
         function displayResults(results) {
             const resultsDiv = document.getElementById('results');
             if (results.length === 0) {
                 resultsDiv.innerHTML = 'No results found.';
                 return;
             }
-    
+
             let html = `<h3>Search Results (${results.length} found):</h3>`;
             results.forEach(item => {
                 html += `
@@ -227,10 +253,10 @@
                     </div>
                 `;
             });
-    
+
             resultsDiv.innerHTML = html;
         }
-    
+
         function clearResults() {
             document.getElementById('authorInput').value = '';
             document.getElementById('messageInput').value = '';
@@ -241,48 +267,44 @@
         }
 
         function exportResults() {
-    const resultsDiv = document.getElementById('results');
-    
-    if (!resultsDiv || resultsDiv.innerHTML.trim() === '') {
-        alert('No results to export.');
-        return;
-    }
+            const resultsDiv = document.getElementById('results');
 
-    // Convert results to plain text
-    let resultsText = '';
-    const resultItems = resultsDiv.querySelectorAll('.result-item');
-    resultItems.forEach(item => {
-        const authorElement = item.querySelector('p strong');
-        const timestampElement = item.querySelector('p');
-        const channelElement = item.querySelector('p:nth-child(3)');
-        const videoTitleElement = item.querySelector('p:nth-child(4)');
-        const messageElement = item.querySelector('p:nth-child(5)');
-        const superchatValueElement = item.querySelector('p:nth-child(6)');
+            if (!resultsDiv || resultsDiv.innerHTML.trim() === '' || !resultsDiv.querySelectorAll('.result-item').length) {
+                alert('No results to export.');
+                return;
+            }
 
-        const author = authorElement ? authorElement.textContent : 'Unknown Author';
-        const timestamp = timestampElement ? timestampElement.textContent.match(/\(([^)]+)\)/)?.[1] : 'Unknown Timestamp';
-        const channel = channelElement ? channelElement.textContent.replace('Channel: ', '') : 'Unknown Channel';
-        const videoTitle = videoTitleElement ? videoTitleElement.textContent.replace('Video Title: ', '') : 'Unknown Video Title';
-        const message = messageElement ? messageElement.textContent.replace('Message: ', '') : 'No Message';
-        const superchatValue = superchatValueElement ? superchatValueElement.textContent.replace('Superchat Value: $', '0.00') : '0.00';
+            let resultsText = '';
+            const resultItems = resultsDiv.querySelectorAll('.result-item');
+            resultItems.forEach(item => {
+                const authorElement = item.querySelector('p strong');
+                const timestampElement = item.querySelector('p');
+                const channelElement = item.querySelector('p:nth-child(3)');
+                const videoTitleElement = item.querySelector('p:nth-child(4)');
+                const messageElement = item.querySelector('p:nth-child(5)');
+                const superchatValueElement = item.querySelector('p:nth-child(6)');
 
-        resultsText += `Author: ${author}\nTimestamp: ${timestamp}\nChannel: ${channel}\n`;
-        resultsText += `Video Title: ${videoTitle}\nMessage: ${message}\nSuperchat Value: $${superchatValue}\n\n`;
-    });
+                const author = authorElement ? authorElement.textContent : 'Unknown Author';
+                const timestamp = timestampElement ? timestampElement.textContent.match(/\(([^)]+)\)/)?.[1] : 'Unknown Timestamp';
+                const channel = channelElement ? channelElement.textContent.replace('Channel: ', '') : 'Unknown Channel';
+                const videoTitle = videoTitleElement ? videoTitleElement.textContent.replace('Video Title: ', '') : 'Unknown Video Title';
+                const message = messageElement ? messageElement.textContent.replace('Message: ', '') : 'No Message';
+                const superchatValue = superchatValueElement ? superchatValueElement.textContent.replace('Superchat Value: $', '0.00') : '0.00';
 
-    // Create a Blob from the text
-    const blob = new Blob([resultsText], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
+                resultsText += `Author: ${author}\nTimestamp: ${timestamp}\nChannel: ${channel}\n`;
+                resultsText += `Video Title: ${videoTitle}\nMessage: ${message}\nSuperchat Value: $${superchatValue}\n\n`;
+            });
 
-    // Create a link and trigger download
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'search_results.txt';
-    link.click();
+            const blob = new Blob([resultsText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
 
-    // Clean up the URL object
-    URL.revokeObjectURL(url);
-}
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'search_results.txt';
+            link.click();
+
+            URL.revokeObjectURL(url);
+        }
 
         function escapeHtml(unsafe) {
             return safeString(unsafe)
@@ -292,9 +314,8 @@
                  .replace(/"/g, "&quot;")
                  .replace(/'/g, "&#039;");
         }
-    
+
         window.onload = loadAllData;
     </script>
-    
 </body>
 </html>
