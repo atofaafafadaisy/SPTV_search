@@ -10,9 +10,8 @@
             margin: 0;
             padding: 20px;
             background-color: #f0f0f0;
+            position: relative;
             min-height: 100vh;
-            display: flex;
-            flex-direction: column;
         }
         .container {
             max-width: 800px;
@@ -21,7 +20,6 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            flex-grow: 1;
         }
         #monkeyImage {
             max-width: 100%;
@@ -67,17 +65,19 @@
             border-radius: 4px;
         }
 
-        /* Footer CSS */
+        /* Footer Styles */
         footer {
             background-color: #333;
             color: white;
             padding: 20px;
             text-align: center;
-            margin-top: 20px;
             width: 100%;
             box-sizing: border-box;
             padding-right: 20px;
             padding-left: 20px;
+            position: relative;  /* Ensure footer stays in place */
+            bottom: 0;
+            margin-top: 20px;
         }
 
         footer p {
@@ -85,8 +85,7 @@
             font-size: 12px;
         }
 
-        /* Additional media queries for responsiveness */
-
+        /* Responsive Footer for Smaller Screens */
         @media (max-width: 768px) {
             footer {
                 padding: 15px;
@@ -157,7 +156,6 @@
             if (isLoading) return;
             isLoading = true;
             document.getElementById('results').innerHTML = 'Loading data...';
-            let loadedChunks = 0;
 
             for (let i = 1; i <= totalChunks; i++) {
                 try {
@@ -180,20 +178,15 @@
                     validData.forEach(item => {
                         if (item.channel) channels.add(safeString(item.channel));
                     });
-                    loadedChunks++;
                     console.log(`Loaded ${validData.length} valid items from chunk ${i}`);
                 } catch (error) {
                     console.error(`Error loading chunk ${i}:`, error);
                 }
             }
 
-            if (loadedChunks === 0) {
-                document.getElementById('results').innerHTML = `No data could be loaded. Please check the server or chunk files.`;
-            } else {
-                populateChannelSelect();
-                document.getElementById('results').innerHTML = `Data loaded. ${allData.length} total items. Ready to search.`;
-            }
+            populateChannelSelect();
             isLoading = false;
+            document.getElementById('results').innerHTML = `Data loaded. ${allData.length} total items. Ready to search.`;
         }
 
         function populateChannelSelect() {
@@ -269,7 +262,7 @@
         function exportResults() {
             const resultsDiv = document.getElementById('results');
 
-            if (!resultsDiv || resultsDiv.innerHTML.trim() === '' || !resultsDiv.querySelectorAll('.result-item').length) {
+            if (!resultsDiv || resultsDiv.innerHTML.trim() === '') {
                 alert('No results to export.');
                 return;
             }
@@ -277,19 +270,12 @@
             let resultsText = '';
             const resultItems = resultsDiv.querySelectorAll('.result-item');
             resultItems.forEach(item => {
-                const authorElement = item.querySelector('p strong');
-                const timestampElement = item.querySelector('p');
-                const channelElement = item.querySelector('p:nth-child(3)');
-                const videoTitleElement = item.querySelector('p:nth-child(4)');
-                const messageElement = item.querySelector('p:nth-child(5)');
-                const superchatValueElement = item.querySelector('p:nth-child(6)');
-
-                const author = authorElement ? authorElement.textContent : 'Unknown Author';
-                const timestamp = timestampElement ? timestampElement.textContent.match(/\(([^)]+)\)/)?.[1] : 'Unknown Timestamp';
-                const channel = channelElement ? channelElement.textContent.replace('Channel: ', '') : 'Unknown Channel';
-                const videoTitle = videoTitleElement ? videoTitleElement.textContent.replace('Video Title: ', '') : 'Unknown Video Title';
-                const message = messageElement ? messageElement.textContent.replace('Message: ', '') : 'No Message';
-                const superchatValue = superchatValueElement ? superchatValueElement.textContent.replace('Superchat Value: $', '0.00') : '0.00';
+                const author = item.querySelector('p strong').textContent;
+                const timestamp = item.querySelector('p').textContent.match(/\(([^)]+)\)/)[1];
+                const channel = item.querySelector('p:nth-child(3)').textContent.replace('Channel: ', '');
+                const videoTitle = item.querySelector('p:nth-child(4)').textContent.replace('Video Title: ', '');
+                const message = item.querySelector('p:nth-child(5)').textContent.replace('Message: ', '');
+                const superchatValue = item.querySelector('p:nth-child(6)').textContent.replace('Superchat Value: $', '0.00');
 
                 resultsText += `Author: ${author}\nTimestamp: ${timestamp}\nChannel: ${channel}\n`;
                 resultsText += `Video Title: ${videoTitle}\nMessage: ${message}\nSuperchat Value: $${superchatValue}\n\n`;
