@@ -211,41 +211,48 @@
         }
 
         function exportResults() {
-            const resultsDiv = document.getElementById('results');
-            
-            if (!resultsDiv || resultsDiv.innerHTML.trim() === '') {
-                alert('No results to export.');
-                return;
-            }
+    const resultsDiv = document.getElementById('results');
+    
+    if (!resultsDiv || resultsDiv.innerHTML.trim() === '') {
+        alert('No results to export.');
+        return;
+    }
 
-            // Convert results to plain text
-            let resultsText = '';
-            const resultItems = resultsDiv.querySelectorAll('.result-item');
-            resultItems.forEach(item => {
-                const author = item.querySelector('p strong').textContent;
-                const timestamp = item.querySelector('p').textContent.match(/\(([^)]+)\)/)[1];
-                const channel = item.querySelector('p:nth-child(3)').textContent.replace('Channel: ', '');
-                const videoTitle = item.querySelector('p:nth-child(4)').textContent.replace('Video Title: ', '');
-                const message = item.querySelector('p:nth-child(5)').textContent.replace('Message: ', '');
-                const superchatValue = item.querySelector('p:nth-child(6)').textContent.replace('Superchat Value: $', '');
+    // Convert results to plain text
+    let resultsText = '';
+    const resultItems = resultsDiv.querySelectorAll('.result-item');
+    resultItems.forEach(item => {
+        const authorElement = item.querySelector('p strong');
+        const timestampElement = item.querySelector('p');
+        const channelElement = item.querySelector('p:nth-child(3)');
+        const videoTitleElement = item.querySelector('p:nth-child(4)');
+        const messageElement = item.querySelector('p:nth-child(5)');
+        const superchatValueElement = item.querySelector('p:nth-child(6)');
 
-                resultsText += `Author: ${author}\nTimestamp: ${timestamp}\nChannel: ${channel}\n`;
-                resultsText += `Video Title: ${videoTitle}\nMessage: ${message}\nSuperchat Value: $${superchatValue}\n\n`;
-            });
+        const author = authorElement ? authorElement.textContent : 'Unknown Author';
+        const timestamp = timestampElement ? timestampElement.textContent.match(/\(([^)]+)\)/)?.[1] : 'Unknown Timestamp';
+        const channel = channelElement ? channelElement.textContent.replace('Channel: ', '') : 'Unknown Channel';
+        const videoTitle = videoTitleElement ? videoTitleElement.textContent.replace('Video Title: ', '') : 'Unknown Video Title';
+        const message = messageElement ? messageElement.textContent.replace('Message: ', '') : 'No Message';
+        const superchatValue = superchatValueElement ? superchatValueElement.textContent.replace('Superchat Value: $', '0.00') : '0.00';
 
-            // Create a Blob from the text
-            const blob = new Blob([resultsText], { type: 'text/plain' });
-            const url = URL.createObjectURL(blob);
+        resultsText += `Author: ${author}\nTimestamp: ${timestamp}\nChannel: ${channel}\n`;
+        resultsText += `Video Title: ${videoTitle}\nMessage: ${message}\nSuperchat Value: $${superchatValue}\n\n`;
+    });
 
-            // Create a link and trigger download
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = 'search_results.txt';
-            link.click();
+    // Create a Blob from the text
+    const blob = new Blob([resultsText], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
 
-            // Clean up the URL object
-            URL.revokeObjectURL(url);
-        }
+    // Create a link and trigger download
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'search_results.txt';
+    link.click();
+
+    // Clean up the URL object
+    URL.revokeObjectURL(url);
+}
 
         function escapeHtml(unsafe) {
             return safeString(unsafe)
