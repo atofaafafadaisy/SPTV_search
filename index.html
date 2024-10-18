@@ -10,6 +10,8 @@
             margin: 0;
             padding: 20px;
             background-color: #f0f0f0;
+            position: relative;
+            min-height: 100vh;
         }
         .container {
             max-width: 800px;
@@ -62,8 +64,67 @@
             margin-bottom: 10px;
             border-radius: 4px;
         }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 12px;
+        }
     </style>
 </head>
+<body>
+    <div class="container">
+        <img src="monkey.png" alt="Monkey" id="monkeyImage">
+        <h1>Keyboard Warriors</h1>
+        <h2>Are you one? Search and find out!</h2>
+        <div class="input-row">
+            <input type="text" id="authorInput" placeholder="Search by author">
+            <input type="text" id="messageInput" placeholder="Search in messages">
+        </div>
+        <div class="input-row">
+            <select id="channelSelect">
+                <option value="">All Channels</option>
+            </select>
+            <input type="date" id="fromDate">
+            <input type="date" id="toDate">
+        </div>
+        <div class="input-row">
+            <button onclick="search()">Search</button>
+            <button onclick="clearResults()">Clear</button>
+            <button onclick="exportResults()">Export Results as TXT</button>
+        </div>
+        <div id="results"></div>
+    </div>
+
+    <footer>
+        <p>
+            Disclaimer: This study analyzes publicly available information from live chats on YouTube channels, including users' comments and screen names. 
+            All data collected is public and accessible to anyone during the live streams. The purpose of this study is academic, focusing on patterns and 
+            behaviors in public discourse. While screen names are used to identify comments, no attempt will be made to link these names to real-world identities. 
+            All findings will be reported in aggregate, and no personally identifiable information beyond the screen names will be disclosed.
+        </p>
+        <p>
+            This research is conducted independently and is not affiliated with, endorsed by, or associated with the Church of Scientology, the Aftermath Foundation, 
+            PTS, any Discord servers, or any Reddit channels related to Scientology content. Participation in these live chats is not influenced by this study, 
+            and users retain all rights to their content as per YouTube's terms of service.
+        </p>
+        <p>&copy; 2024 atofaafafa daisy. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Your existing JavaScript code
+        // For loading data, searching, and exporting results goes here...
+    </script>
+</body>
+</html>
+
 <body>
     <div class="container">
         <img src="monkey.png" alt="Monkey" id="monkeyImage">
