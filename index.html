@@ -83,6 +83,7 @@
         <div class="input-row">
             <button onclick="search()">Search</button>
             <button onclick="clearResults()">Clear</button>
+            <button onclick="exportResults()">Export Results as TXT</button>
         </div>
         <div id="results"></div>
     </div>
@@ -111,7 +112,6 @@
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
                     const text = await response.text();
-                    // Replace Infinity, -Infinity, and NaN with null
                     const sanitizedText = text.replace(/:\s*(Infinity|-Infinity|NaN)/g, ': null');
                     const data = JSON.parse(sanitizedText);
                     
@@ -129,7 +129,6 @@
                     console.log(`Loaded ${validData.length} valid items from chunk ${i}`);
                 } catch (error) {
                     console.error(`Error loading chunk ${i}:`, error);
-                    // Continue to the next chunk
                 }
             }
     
@@ -210,7 +209,44 @@
             document.getElementById('toDate').value = '';
             document.getElementById('results').innerHTML = '';
         }
-    
+
+        function exportResults() {
+            const resultsDiv = document.getElementById('results');
+            
+            if (!resultsDiv || resultsDiv.innerHTML.trim() === '') {
+                alert('No results to export.');
+                return;
+            }
+
+            // Convert results to plain text
+            let resultsText = '';
+            const resultItems = resultsDiv.querySelectorAll('.result-item');
+            resultItems.forEach(item => {
+                const author = item.querySelector('p strong').textContent;
+                const timestamp = item.querySelector('p').textContent.match(/\(([^)]+)\)/)[1];
+                const channel = item.querySelector('p:nth-child(3)').textContent.replace('Channel: ', '');
+                const videoTitle = item.querySelector('p:nth-child(4)').textContent.replace('Video Title: ', '');
+                const message = item.querySelector('p:nth-child(5)').textContent.replace('Message: ', '');
+                const superchatValue = item.querySelector('p:nth-child(6)').textContent.replace('Superchat Value: $', '');
+
+                resultsText += `Author: ${author}\nTimestamp: ${timestamp}\nChannel: ${channel}\n`;
+                resultsText += `Video Title: ${videoTitle}\nMessage: ${message}\nSuperchat Value: $${superchatValue}\n\n`;
+            });
+
+            // Create a Blob from the text
+            const blob = new Blob([resultsText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+
+            // Create a link and trigger download
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'search_results.txt';
+            link.click();
+
+            // Clean up the URL object
+            URL.revokeObjectURL(url);
+        }
+
         function escapeHtml(unsafe) {
             return safeString(unsafe)
                  .replace(/&/g, "&amp;")
@@ -220,7 +256,6 @@
                  .replace(/'/g, "&#039;");
         }
     
-        // Load data when the page loads
         window.onload = loadAllData;
     </script>
     
