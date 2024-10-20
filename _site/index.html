@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Keyboard Warriors Search</title>
+        <style>
+            /* Your existing styles remain unchanged */
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #f0f0f0;
+                position: relative;
+                min-height: 100vh;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            #monkeyImage {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto;
+            }
+            h1, h2 {
+                text-align: center;
+                color: #333;
+            }
+            .input-row {
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+            input, select {
+                width: 100%;
+                padding: 8px;
+                margin-right: 10px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+            button {
+                padding: 8px 16px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #45a049;
+            }
+            #results {
+                margin-top: 20px;
+            }
+            .result-item {
+                background-color: #f9f9f9;
+                border: 1px solid #ddd;
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 4px;
+            }
+            .modal {
+                display: none;
+                position: fixed;
+                z-index: 1;
+                padding-top: 100px;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                overflow: auto;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0,0.4);
+            }
+            .modal-content {
+                background-color: white;
+                margin: auto;
+                padding: 20px;
+                border: 1px solid #888;
+                width: 80%;
+                max-width: 600px;
+                border-radius: 8px;
+                max-height: 80vh;
+                overflow-y: auto;
+            }
+            .close {
+                color: #aaa;
+                float: right;
+                font-size: 28px;
+                font-weight: bold;
+            }
+            .close:hover,
+            .close:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            footer {
+                background-color: #333;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                width: 100%;
+                box-sizing: border-box;
+                padding-right: 20px;
+                padding-left: 20px;
+                position: relative;
+                bottom: 0;
+                margin-top: 20px;
+            }
+            footer p {
+                margin: 0;
+                font-size: 12px;
+            }
+            @media (max-width: 768px) {
+                footer {
+                    padding: 15px;
+                    font-size: 10px;
+                }
+            }
+            @media (max-width: 480px) {
+                footer {
+                    padding: 10px;
+                    font-size: 9px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="monkey.png" alt="Monkey" id="monkeyImage">
+            <h1>Keyboard Warriors</h1>
+            <h2>Are you one? Search and find out!</h2>
+            <p style="font-family: Arial, sans-serif; text-align: center;">
+                <strong>Please be patient!</strong><br>
+                We're currently loading <strong>1,917,079 messages</strong> between 2024-10-18 and 2023-11-19. Once complete, the search functionality will be much faster.<br>
+                Just wait a minute or two—it'll be worth it! Use a desktop computer.<br>
+                <span id="timestamp-info" style="color: green; font-size: smaller; cursor: pointer;" onclick="openModal()">What are these timestamps? Click Here!</span><br>
+                <span id="tutorial-link" style="color: blue; font-size: smaller; font-weight: bold; cursor: pointer;" onclick="openTutorialModal()">Tutorial</span>
+            </p>       
+            <div class="input-row">
+                <input type="text" id="authorInput" placeholder="Search by author">
+                <input type="text" id="messageInput" placeholder="Search in messages">
+            </div>
+            <div class="input-row">
+                <select id="channelSelect">
+                    <option value="">All Channels</option>
+                </select>
+                <input type="date" id="fromDate">
+                <input type="date" id="toDate">
+            </div>
+            <div class="input-row">
+                <button onclick="search()">Search</button>
+                <button onclick="clearResults()">Clear</button>
+                <button onclick="exportResults()">Export Results as TXT</button>
+                <button onclick="exportResultsToExcel()">Export Results as Excel</button>
+            </div>
+            <div id="results"></div>
+        </div>
+    
+        <!-- Modal for Timestamps Information -->
+        <div id="timestampModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h3>What are these timestamps?</h3>
+                <p>
+                    The timestamps in the chat logs are in <strong>UTC (Coordinated Universal Time)</strong>. UTC is the primary time standard by which the world regulates clocks and time. It does not change with daylight saving time and is the same across all locations.
+                </p>
+                <p>
+                    For example, the timestamp <strong>2024-02-28 22:23:20 UTC</strong> means 10:23 PM on February 28th, 2024 in UTC.
+                </p>
+                <p>
+                    <strong>Converting to Eastern Time (ET):</strong><br>
+                    The most popular time zone in the United States is Eastern Time (ET), which switches between Eastern Standard Time (EST) and Eastern Daylight Time (EDT) based on the season:
+                </p>
+                <ul>
+                    <li>Eastern Standard Time (EST) is UTC - 5 hours.</li>
+                    <li>Eastern Daylight Time (EDT) is UTC - 4 hours.</li>
+                </ul>
+                <p>
+                    To convert <strong>2024-02-28 22:23:20 UTC</strong> to Eastern Standard Time (EST):<br>
+                    Subtract 5 hours: <strong>2024-02-28 17:23:20 EST</strong> (5:23 PM).<br>
+                    If daylight saving time is active and it's Eastern Daylight Time (EDT):<br>
+                    Subtract 4 hours: <strong>2024-02-28 18:23:20 EDT</strong> (6:23 PM).
+                </p>
+            </div>
+        </div>
+    
+        <!-- Modal for Tutorial -->
+        <div id="tutorialModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeTutorialModal()">&times;</span>
+                <h3>Tutorial</h3>
+                <p><strong>Since we aren't OSA and don't have big money behind us, the database of 1,917,079 messages can take a bit to load.</strong> Expect anywhere from 1 to 3 minutes, depending on your computer. After the initial load, the searches are quite fast. We recommend using a desktop for the best experience—on mobile, it's too slow.</p>
+                <h4>Steps for Searching:</h4>
+                <ul>
+                    <li><strong>Search by Author (optional):</strong> Type part or the full name of an author as they appear in the YouTube live chats.</li>
+                    <li><strong>Search in Messages (optional):</strong> Type any keyword or term you're looking for in the messages.</li>
+                    <li><strong>Filter by Channel (optional):</strong> Select a specific channel to search within.</li>
+                    <li><strong>Filter by Date (optional):</strong> Use the date fields to define a time range.</li>
+                </ul>
+                <h4>Important Tips:</h4>
+                <ul>
+                    <li>You can use any combination of filters: fill just one, or all fields.</li>
+                    <li>The search is <strong>not case-sensitive</strong>.</li>
+                    <li>If you only fill the <strong>author</strong> field, you'll see everything that author has said.</li>
+                    <li>Results will filter based on <strong>all</strong> criteria you enter.</li>
+                </ul>
+                <h4>Buttons:</h4>
+                <ul>
+                    <li><strong>Search:</strong> Click after filling the fields to see results.</li>
+                    <li><strong>Clear:</strong> Resets all fields for a new search.</li>
+                    <li><strong>Export Results:</strong> Export your search results as TXT or Excel.</li>
+                </ul>
+            </div>
+        </div>
+    
+        <footer>
+            <p>
+                Disclaimer: This study analyzes publicly available information from live chats on YouTube channels, including users' comments and screen names. 
+                All data collected is public and accessible to anyone during the live streams. The purpose of this study is academic, focusing on patterns and 
+                behaviors in public discourse. While screen names are used to identify comments, no attempt will be made to link these names to real-world identities. 
+                All findings will be reported in aggregate, and no personally identifiable information beyond the screen names will be disclosed.
+            </p>
+            <p>
+                This research is conducted independently and is not affiliated with, endorsed by, or associated with the Church of Scientology, the Aftermath Foundation, 
+                PTS, any Discord servers, or any Reddit channels related to Scientology content. Participation in these live chats is not influenced by this study, 
+                and users retain all rights to their content as per YouTube's terms of service.
+            </p>
+            <p>&copy; 2024 atofaafafa daisy. All rights reserved.</p>
+        </footer>
+    
+        <script>
+            // Function to open the modal for timestamps
+            function openModal() {
+                document.getElementById('timestampModal').style.display = "block";
+            }
+
+            // Function to close the modal for timestamps
+            function closeModal() {
+                document.getElementById('timestampModal').style.display = "none";
+            }
+
+            // Function to open the tutorial modal
+            function openTutorialModal() {
+                document.getElementById('tutorialModal').style.display = "block";
+            }
+
+            // Function to close the tutorial modal
+            function closeTutorialModal() {
+                document.getElementById('tutorialModal').style.display = "none";
+            }
+
+            // Close the modal when clicking outside of the modal content
+            window.onclick = function(event) {
+                const timestampModal = document.getElementById('timestampModal');
+                const tutorialModal = document.getElementById('tutorialModal');
+                if (event.target == timestampModal) {
+                    timestampModal.style.display = "none";
+                } else if (event.target == tutorialModal) {
+                    tutorialModal.style.display = "none";
+                }
+            }
+        </script>
+    
+    </body>
+</html>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
+
+    <script>
+        const totalChunks = 192;
+        let allData = [];
+        let isLoading = false;
+        let channels = new Set();
+        const maxErrorsToLog = 10; // Set a threshold for error logging
+        let errorCount = 0;
+        
+        async function loadAllData() {
+            if (isLoading) return;
+            isLoading = true;
+            const loadingMessage = document.querySelector('p strong');
+            const resultsDiv = document.getElementById('results');
+            if (loadingMessage) loadingMessage.textContent = 'Please be patient! (0% loaded)';
+            if (resultsDiv) resultsDiv.innerHTML = 'Loading data...';
+        
+            for (let i = 1; i <= totalChunks; i++) {
+                try {
+                    console.log(`Attempting to load chunk ${i}`);
+                    const response = await fetch(`processed_chunks/processed_data_chunk_${i}.json`);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const textResponse = await response.text();
+                    
+                    // Check if the response is a Git LFS pointer
+                    if (textResponse.startsWith('version https://git-lfs.github.com/spec/v1')) {
+                        console.error(`Chunk ${i} appears to be a Git LFS pointer. Make sure LFS files are properly downloaded.`);
+                        continue; // Skip this chunk and move to the next
+                    }
+        
+                    console.log(`Chunk ${i} raw data:`, textResponse.substring(0, 100) + '...'); // Log the first 100 characters
+        
+                    const data = JSON.parse(textResponse);
+                    console.log(`Chunk ${i} loaded successfully, length: ${data.length}`);
+        
+                    const validData = data.filter(item => {
+                        return item && typeof item === 'object' &&
+                            'author' in item && 'message' in item && 'channel' in item;
+                    });
+        
+                    allData = allData.concat(validData);
+                    validData.forEach(item => {
+                        if (item.channel) channels.add(safeString(item.channel));
+                    });
+                    console.log(`Processed ${validData.length} valid items from chunk ${i}`);
+                    
+                    const percentage = Math.round((i / totalChunks) * 100);
+                    if (loadingMessage) loadingMessage.textContent = `Please be patient! (${percentage}% loaded)`;
+                } catch (error) {
+                    console.error(`Error loading or parsing chunk ${i}:`, error);
+                    console.error('Error details:', error.message, error.stack);
+                }
+            }
+        
+            populateChannelSelect();
+            isLoading = false;
+            if (loadingMessage) loadingMessage.textContent = 'Data loaded successfully!';
+            playSound();
+            if (resultsDiv) resultsDiv.innerHTML = `Data loaded. ${allData.length} total items. Ready to search.`;
+            console.log('All data loaded successfully');
+        }
+        
+        function safeString(value) {
+            if (typeof value === 'string') return value;
+            if (value == null) return '';
+            return String(value);
+        }
+        
+        function search() {
+            if (isLoading) {
+                alert('Data is still loading. Please wait.');
+                return;
+            }
+        
+            const authorTerm = document.getElementById('authorInput')?.value.toLowerCase() || '';
+            const messageTerm = document.getElementById('messageInput')?.value.toLowerCase() || '';
+            const channelTerm = document.getElementById('channelSelect')?.value || '';
+            const fromDate = document.getElementById('fromDate')?.value || '';
+            const toDate = document.getElementById('toDate')?.value || '';
+        
+            const results = allData.filter(item => {
+                const itemAuthor = safeString(item.author).toLowerCase();
+                const itemMessage = safeString(item.message).toLowerCase();
+                const itemChannel = safeString(item.channel);
+                const itemDate = safeString(item.upload_date);
+        
+                return (!authorTerm || itemAuthor.includes(authorTerm)) &&
+                       (!messageTerm || itemMessage.includes(messageTerm)) &&
+                       (!channelTerm || itemChannel === channelTerm) &&
+                       (!fromDate || itemDate >= fromDate) &&
+                       (!toDate || itemDate <= toDate);
+            });
+        
+            displayResults(results);
+        }
+        
+        function displayResults(results) {
+            const resultsDiv = document.getElementById('results');
+            if (!resultsDiv) return;
+        
+            if (results.length === 0) {
+                resultsDiv.innerHTML = 'No results found.';
+                return;
+            }
+        
+            let html = `<h3>Search Results (${results.length} found):</h3>`;
+            results.forEach(item => {
+                html += `
+                    <div class="result-item">
+                        <p><strong>${escapeHtml(safeString(item.author))}</strong> (${escapeHtml(safeString(item.timestamp))})</p>
+                        <p>Channel: ${escapeHtml(safeString(item.channel))}</p>
+                        <p><strong>Video Title:</strong> ${escapeHtml(safeString(item.video_title))}</p>
+                        <p>Message: ${escapeHtml(safeString(item.message))}</p>
+                        <p>Superchat Value: $${(parseFloat(item.superchat_value) || 0).toFixed(2)}</p>
+                    </div>
+                `;
+            });
+        
+            resultsDiv.innerHTML = html;
+        }
+        
+        function clearResults() {
+            ['authorInput', 'messageInput', 'channelSelect', 'fromDate', 'toDate'].forEach(id => {
+                const element = document.getElementById(id);
+                if (element) element.value = '';
+            });
+            const resultsDiv = document.getElementById('results');
+            if (resultsDiv) resultsDiv.innerHTML = '';
+        }
+        
+        function exportResults() {
+            const resultsDiv = document.getElementById('results');
+        
+            if (!resultsDiv || resultsDiv.innerHTML.trim() === '') {
+                alert('No results to export.');
+                return;
+            }
+        
+            let resultsText = '';
+            const resultItems = resultsDiv.querySelectorAll('.result-item');
+            resultItems.forEach(item => {
+                const author = item.querySelector('p strong').textContent;
+                const timestamp = item.querySelector('p').textContent.match(/\(([^)]+)\)/)[1];
+                const channel = item.querySelector('p:nth-child(2)').textContent.replace('Channel: ', '');
+                const videoTitle = item.querySelector('p:nth-child(3)').textContent.replace('Video Title: ', '');
+                const message = item.querySelector('p:nth-child(4)').textContent.replace('Message: ', '');
+                const superchatValue = item.querySelector('p:nth-child(5)').textContent.replace('Superchat Value: $', '');
+        
+                resultsText += `Author: ${author}\nTimestamp: ${timestamp}\nChannel: ${channel}\n`;
+                resultsText += `Video Title: ${videoTitle}\nMessage: ${message}\nSuperchat Value: $${superchatValue}\n\n`;
+            });
+        
+            const blob = new Blob([resultsText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+        
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'search_results.txt';
+            link.click();
+        
+            URL.revokeObjectURL(url);
+        }
+        
+        function exportResultsToExcel() {
+            const resultsDiv = document.getElementById('results');
+        
+            if (!resultsDiv || resultsDiv.innerHTML.trim() === '') {
+                alert('No results to export.');
+                return;
+            }
+        
+            const data = [["Author", "Timestamp", "Channel", "Video Title", "Message", "Superchat Value"]];
+        
+            const resultItems = resultsDiv.querySelectorAll('.result-item');
+            resultItems.forEach(item => {
+                const author = item.querySelector('p strong').textContent;
+                const timestamp = item.querySelector('p').textContent.match(/\(([^)]+)\)/)[1];
+                const channel = item.querySelector('p:nth-child(2)').textContent.replace('Channel: ', '');
+                const videoTitle = item.querySelector('p:nth-child(3)').textContent.replace('Video Title: ', '');
+                const message = item.querySelector('p:nth-child(4)').textContent.replace('Message: ', '');
+                const superchatValue = item.querySelector('p:nth-child(5)').textContent.replace('Superchat Value: $', '');
+        
+                data.push([author, timestamp, channel, videoTitle, message, superchatValue]);
+            });
+        
+            const ws = XLSX.utils.aoa_to_sheet(data);
+            const wb = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(wb, ws, 'Search Results');
+            XLSX.writeFile(wb, 'search_results.xlsx');
+        }
+        
+        function escapeHtml(unsafe) {
+            return safeString(unsafe)
+                 .replace(/&/g, "&amp;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/'/g, "&#039;");
+        }
+        
+        function playSound() {
+            const audio = new Audio('notification.mp3');
+            document.body.addEventListener('click', function() {
+                audio.play().catch(error => console.error('Error playing sound:', error));
+            }, { once: true });
+        }
+        
+        function populateChannelSelect() {
+            const channelSelect = document.getElementById('channelSelect');
+            if (!channelSelect) return;
+        
+            channels.forEach(channel => {
+                const option = document.createElement('option');
+                option.value = channel;
+                option.textContent = channel;
+                channelSelect.appendChild(option);
+            });
+        }
+        
+        window.onload = loadAllData;
+        
+        // Add event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchButton = document.querySelector('button[onclick="search()"]');
+            if (searchButton) {
+                searchButton.addEventListener('click', search);
+            } else {
+                console.warn("Search button not found");
+            }
+        
+            const clearButton = document.querySelector('button[onclick="clearResults()"]');
+            if (clearButton) {
+                clearButton.addEventListener('click', clearResults);
+            } else {
+                console.warn("Clear button not found");
+            }
+        
+            const exportTxtButton = document.querySelector('button[onclick="exportResults()"]');
+            if (exportTxtButton) {
+                exportTxtButton.addEventListener('click', exportResults);
+            } else {
+                console.warn("Export TXT button not found");
+            }
+        
+            const exportExcelButton = document.querySelector('button[onclick="exportResultsToExcel()"]');
+            if (exportExcelButton) {
+                exportExcelButton.addEventListener('click', exportResultsToExcel);
+            } else {
+                console.warn("Export Excel button not found");
+            }
+        });
+        </script>
+       
+</body>
+</html>
