@@ -280,7 +280,7 @@
         let allData = [];
         let isLoading = false;
         let channels = new Set();
-        const maxErrorsToLog = 10; // Set a threshold for error logging
+        const maxErrorsToLog = 10;
         let errorCount = 0;
         
         async function loadAllData() {
@@ -300,13 +300,14 @@
                     }
                     const textResponse = await response.text();
                     
-                    // Check if the response is a Git LFS pointer
                     if (textResponse.startsWith('version https://git-lfs.github.com/spec/v1')) {
-                        console.error(`Chunk ${i} appears to be a Git LFS pointer. Make sure LFS files are properly downloaded.`);
-                        continue; // Skip this chunk and move to the next
+                        console.error(`Chunk ${i} appears to be a Git LFS pointer. Attempting to load actual content...`);
+                        // Here you might need to implement a way to fetch the actual content
+                        // This depends on how your server is set up to handle LFS objects
+                        continue;
                     }
         
-                    console.log(`Chunk ${i} raw data:`, textResponse.substring(0, 100) + '...'); // Log the first 100 characters
+                    console.log(`Chunk ${i} raw data:`, textResponse.substring(0, 100) + '...');
         
                     const data = JSON.parse(textResponse);
                     console.log(`Chunk ${i} loaded successfully, length: ${data.length}`);
@@ -326,7 +327,9 @@
                     if (loadingMessage) loadingMessage.textContent = `Please be patient! (${percentage}% loaded)`;
                 } catch (error) {
                     console.error(`Error loading or parsing chunk ${i}:`, error);
-                    console.error('Error details:', error.message, error.stack);
+                    if (errorCount++ < maxErrorsToLog) {
+                        console.error('Error details:', error.message, error.stack);
+                    }
                 }
             }
         
@@ -342,6 +345,22 @@
             if (typeof value === 'string') return value;
             if (value == null) return '';
             return String(value);
+        }
+        
+        function populateChannelSelect() {
+            const channelSelect = document.getElementById('channelSelect');
+            if (!channelSelect) return;
+        
+            // Clear existing options
+            channelSelect.innerHTML = '<option value="">All Channels</option>';
+        
+            // Add new options
+            Array.from(channels).sort().forEach(channel => {
+                const option = document.createElement('option');
+                option.value = channel;
+                option.textContent = channel;
+                channelSelect.appendChild(option);
+            });
         }
         
         function search() {
@@ -483,22 +502,10 @@
             }, { once: true });
         }
         
-        function populateChannelSelect() {
-            const channelSelect = document.getElementById('channelSelect');
-            if (!channelSelect) return;
-        
-            channels.forEach(channel => {
-                const option = document.createElement('option');
-                option.value = channel;
-                option.textContent = channel;
-                channelSelect.appendChild(option);
-            });
-        }
-        
-        window.onload = loadAllData;
-        
-        // Add event listeners
+        // Event listeners
         document.addEventListener('DOMContentLoaded', function() {
+            loadAllData();
+        
             const searchButton = document.querySelector('button[onclick="search()"]');
             if (searchButton) {
                 searchButton.addEventListener('click', search);
@@ -528,6 +535,5 @@
             }
         });
         </script>
-       
 </body>
 </html>
